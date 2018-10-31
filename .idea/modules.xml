@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/utils/Utils.iml" filepath="$PROJECT_DIR$/utils/Utils.iml" />
-      <module fileurl="file://$PROJECT_DIR$/communityassistant.iml" filepath="$PROJECT_DIR$/communityassistant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/community-assistant.iml" filepath="$PROJECT_DIR$/community-assistant.iml" />
       <module fileurl="file://$PROJECT_DIR$/wows/wows.iml" filepath="$PROJECT_DIR$/wows/wows.iml" />
     </modules>
   </component>
