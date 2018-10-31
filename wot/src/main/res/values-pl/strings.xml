@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+
+    <string name="language">pl</string> <!-- let me choose this one -->
+
+    <!-- EVERYTHING UNDER THIS IS SUBJECT TO CHANGE-->
+    <string-array name="servers">
+        <item>US</item>
+        <item>EU</item>
+        <item>SEA</item>
+        <item>RU</item>
+        <!--
+        <item>Korea</item> -->
+    </string-array>
+
+    <string-array name="clan_basic_sorting">
+        <item>Rank</item>
+        <item>Name</item>
+    </string-array>
+
+    <string-array name="advanced_sorting">
+        <item>Bitwy</item>
+        <item>Procent Zwycięstw</item>
+        <item>Mistrzostwo</item>
+        <item>WN8</item>
+        <item>Śr. Dośw.</item>
+        <item>Śr. Obrażenia</item>
+        <item>Zabici/Zgony</item>
+        <item>Nazwa</item>
+        <item>Tier 10–1</item>
+        <item>Tier 1–10</item>
+    </string-array>
+
+    <string name="recent_changes_news">Patch 3.0.2:\n\n- Bug Fixes for graphs\n\nPatch 3.0.1:\n\n- WN8 v21 -> v22 \n\n- More Graphs \n\n- Bug Fixes \n\nAktualizacja 3.0:\n\n- Przeprojektowanie aplikacji. \n\n- Nowa sekcja: Mapy. \n\n- Dodano widok domyślnego gracza. Wybranie go sprawi, że aplikacja będzie ładowała profil tego gracza przy każdym uruchomieniu. \n\n- Dodano jasną skórkę. \n\n- Eksperymentalnie dodano 7-dniowe, 30-dniowe i 60-dniowe WN8. \n\n- Nowe wykresy i funkcje na stronach graczy i klanów. \n\n- Przyspieszono prędkość pobierania klanów, nie zajmuje to już tak wiele czasu. \n\n- WN8 zaktualizowane do wersji v21. \n\n- Klanowe WN8 i statystyki są teraz obliczane i przechowywane. \n\n- Dodano wsparcie dla Android Wear. \n\n- Naprawiono kilka problemów z sortowaniem. \n\n- Aktywność bitewna teraz pokazuje obrazy map. \n\n- Zaktualizowano do najnowszej wersji Wargaming API. \n\n- Naprawiono sortowanie po Mistrzostwie. \n\n- Dodano czas ostatniej bitwy do graczy i członków klanu.</string>
+
+    <string name="wn8_cap">WN8</string>
+    <string name="overall">Ogólne</string>
+    <string name="clan_wars_cap">Wojny Klanów</string>
+    <string name="win_rate">Procent Zwycięstw</string>
+    <string name="avg_battles">Śr. Bitew</string>
+    <string name="avg_kills">Śr. Zniszczeń</string>
+    <string name="avg_damage">Śr. Obrażenia</string>
+    <string name="avg_exp">Śr. Dośw.</string>
+    <string name="last_24_wn8">WN8 24H</string>
+    <string name="last_7_wn8">WN8 7 DNI</string>
+    <string name="last_30_wn8">WN8 30 DNI</string>
+    <string name="last_60_wn8">WN8 60 DNI</string>
+    <string name="battles">Bitwy</string>
+    <string name="k_d">Zabici/Zgony</string>
+    <string name="k_d_c">Zabici/Zgony:</string>
+    <string name="hit_percentage">% trafień</string>
+    <string name="hit_percentage_c">% trafień:</string>
+    <string name="dmg_factor">Współczynnik Obrażeń</string>
+    <string name="app_name">Asysty</string>
+
+    <string name="search_text">Szukaj:</string>
+    <string name="search_fragment_wn_hint">Wpisz Nazwę lub Tier pojazdu</string>
+    <string name="search_fragment_player_hint">Wpisz nazwę gracza</string>
+    <string name="search_fragment_clan_hint">Wpisz nazwę lub skrót klanu</string>
+    <string name="search_map_hint">Wpisz nazwę mapy</string>
+
+    <string name="settings">Ustawienia</string>
+
+    <string name="drawer_about">USTAWIENIA &amp; INFO</string>
+    <string name="drawer_clan">KLANY</string>
+    <string name="drawer_player">GRACZE</string>
+    <string name="drawer_vehicle_stats">STATYSTYKI WN8 POJAZDÓW</string>
+    <string name="drawer_search">Szukaj</string>
+    <string name="drawer_gpd">Kalkulator złoto/PLN</string>
+    <string name="drawer_server">SERWER</string>
+    <string name="drawer_donate">WESPRZYJ TEN PROJEKT</string>
+    <string name="drawer_home">Strona główna</string>
+    <string name="drawer_maps">MAPY</string>
+    <string name="drawer_battle_activity">Aktywność Bitewna</string>
+
+    <string name="search_no_results">Brak Wyników</string>
+
+    <string name="info_settings">USTAWIENIA</string>
+    <string name="info_battles_title">Dlaczego moje bitwy nie są natychmiast aktualizowane?</string>
+    <string name="info_unknown_text">Bitwa jeszcze nie została zaplanowana. Dzieje się tak często podczas lądowania.</string>
+    <string name="info_unknown_title">Dlaczego czas bitwy jest nieznany?</string>
+    <string name="info_battles_text">Wargaming \u00A9 buforuje wyniki bitew. To może powodować opóźnienia w ich wyświetlaniu</string>
+    <string name="thank_you_info">vBAddict.net za dostarczenie przewidywanych wartości dla czołgów i informacji dotyczących </string>
+    <string name="info_about">O PROGRAMIE</string>
+    <string name="info_version">Wersja:</string>
+    <string name="info_write_a_review">Napisz Opinię</string>
+    <string name="info_email">Email</string>
+    <string name="info_twitter">Twitter</string>
+    <string name="info_info">INFORMACJE</string>
+    <string name="info_thank_you">Dziękuję</string>
+
+    <string name="list_clan_members">Członkowie:</string>
+    <string name="list_clan_added_message">dodany</string>
+    <string name="list_clan_removed_message">usunięty</string>
+
+    <string name="no_text_error">Musisz podać wyszukiwaną frazę</string>
+    <string name="no_internet_title">Brak Połączenia Z Internetem</string>
+    <string name="no_internet_message">Czy chciałbyś włączyć swoje połączenie internetowe?</string>
+    <string name="no_internet_neutral_text">Ustawienia</string>
+    <string name="error_no_player_found">Wygląda na to, że wystąpił problem. Spróbuj powtórzyć wyszukiwanie</string>
+    <string name="error">Wystąpił błąd</string>
+
+    <string name="battle_activity_no_clans_text">Nie zapisano żadnych klanów. Dodaj klany aby zobaczyć czasy bitew Wojen Klanów, ustaw alarm żeby przypomnieć Ci o czasie bitwy i prowincji, w której się ona odbywa.</string>
+
+    <string name="list_battle_title_activity">Aktywność Bitewna</string>
+    <string name="activity_no_results">Nie znaleziono bitew</string>
+    <string name="no_battles">Brak bitew</string>
+
+    <string name="system_cant_update_message">Nie możesz odświeżać Aktywności Bitewnej częściej niż co 5 minut</string>
+
+    <string name="battle_type_engagement">Bitwa</string>
+    <string name="battle_type_landing">Lądowanie</string>
+    <string name="battle_type_province">Prowincja</string>
+
+    <string name="clan_details_description">Opis:</string>
+
+    <string name="alarm_dialog_time_title">Na kiedy chcesz ustawić alarm?</string>
+    <string name="alarm_dialog_before">minut przed</string>
+    <string name="alarm_pos_button_text">Ustaw Alarm</string>
+    <string name="dismiss">Odrzuć</string>
+    <string name="alarm_dialog_title">Alarm Bitewny</string>
+    <string name="alarm_set">Alarm Ustawiony</string>
+    <string name="alarm_click_no_alarm_times">Bitwa już się rozpoczęła lub zaraz się rozpocznie. Nie można ustawić alarmu dla tej bitwy.</string>
+
+    <string name="scheduling">Planowanie</string>
+
+    <string name="server_change_text">Serwer zmieniony na</string>
+
+    <string name="clan_details_nothing_returned">Nie znaleziono nic dla tego klanu. Czy szukasz na właściwym serwerze?</string>
+    <string name="recent_changes_title">Changelog</string>
+    <string name="created_by">Utworzony przez</string>
+    <string name="created_by_name">HALF</string>
+
+    <string name="vehicle_stat_win">% zwycięstw:</string>
+    <string name="vehicle_stat_frag">Fragi:</string>
+    <string name="vehicle_stat_def">Obrona:</string>
+    <string name="vehicle_stat_spots">Wykrycia:</string>
+    <string name="vehicle_stat_dmg">Obrażenia:</string>
+
+    <string name="notification_text">Alarm Bitewny</string>
+
+    <string name="pager_clan_details">SZCZEGÓŁY KLANU</string>
+    <string name="pager_clan_members">CZŁONKOWIE</string>
+    <string name="pager_clan_query">PYTANIE</string>
+    <string name="details_cap">SZCZEGÓŁY</string>
+    <string name="pager_tanks">CZOŁGI</string>
+
+
+    <string name="player_details_win8">WN8:</string>
+    <string name="avg_dmg">Śr. Obr.:</string>
+    <string name="win_percentage_c">% zwycięstw:</string>
+    <string name="avg_exp_c">Śr. Dośw.:</string>
+    <string name="battles_c">Bitwy:</string>
+    <string name="player_details_player_stats">Statystyki gracza</string>
+    <string name="player_details_player_tanks">Zaawansowane informacje o graczu</string>
+    <string name="player_details_tank_name_col">Nazwa</string>
+    <string name="win_percentage">% zwycięstw</string>
+    <string name="player_details_tank_mastery_col">Mistrzostwo</string>
+    <string name="player_details_global_rating">WoT Rating:</string>
+    <string name="player_details_num_of_badges">Liczba Odznak:</string>
+    <string name="player_details_badges_m">M:</string>
+    <string name="player_details_badges_1">1sza:</string>
+    <string name="player_details_badges_2">2ga:</string>
+    <string name="player_details_badges_3">3cia:</string>
+    <string name="player_details_more_details">Więcej Statystyk Gracza</string>
+    <string name="player_details_tanking_factor">Efektywność pancerza:</string>
+    <string name="player_details_avg_spot_dmg">Średnie obrażenia po wykryciu:</string>
+    <string name="player_details_track_damge">AŚrednie obrażenia po zniszczeniu gąsienicy:</string>
+    <string name="player_details_blocked_damage">Średnie obrażenia zablokowane przez pancerz</string>
+    <string name="player_details_dmg_assist">Średnie obrażenia zadane przy pomocy gracza:</string>
+    <string name="player_details_penetration">% przebić:</string>
+    <string name="player_details_best_game">Najlepsze statystyki</string>
+    <string name="player_details_account_info">Informacje o koncie</string>
+    <string name="player_details_created_on">Utworzone:</string>
+    <string name="player_details_last_battle_on">Ostatnia bitwa:</string>
+    <string name="player_details_best_performance">Najlepszy czołg</string>
+    <string name="player_details_unknown_tank">Nieznany czołg</string>
+    <string name="player_details_joined">Dołączono</string>
+    <string name="player_details_days_ago">dni temu</string>
+    <string name="player_graphs_wn8_nation">WN8 danego kraju</string>
+    <string name="player_graphs_battles_nation">Bitwy danego kraju</string>
+    <string name="player_graphs_tanks_per_tier">Czołgi danego tieru</string>
+    <string name="player_graphs_tanks_per_class">Czołgi danej klasy</string>
+    <string name="player_graphs_tanks_per_nation">Czołgi danego kraju</string>
+    <string name="player_details_best_exp">Doświadczenie:</string>
+    <string name="player_details_best_frags">Zniszczenia:</string>
+    <string name="player_details_best_damage">Obrażenia:</string>
+    <string name="player_details_clan_wars_stats">Statystyki Wojen Klanów</string>
+    <string name="player_details_no_clan_wars_stats">Nie znaleziono statystyk Wojen Klanów</string>
+    <string name="player_details_no_stats_found">Nie znaleziono statystyk</string>
+
+    <string name="insert_all_into_db_start">Instalowanie lokalnej bazy danych czołgów</string>
+    <string name="insert_all_into_db_end">Zainstalowano lokalną bazę danych czołgów</string>
+
+    <string name="open_in_wotlabs">Otwórz w WoTLabs</string>
+    <string name="open_in_clantools">Otwórz w ClanTools</string>
+    <string name="open_in_wotstats">Orwórz w WoTStats</string>
+
+    <string name="menu_default">Ustaw domyślne</string>
+    <string name="menu_download">Pobierz Klan</string>
+
+    <string name="clan_details_best_tanker">Najlepszy czołgista:</string>
+    <string name="clan_details_avg_kills">Śr. zniszczeń:</string>
+    <string name="clan_details_avg_battles">Śr. bitew:</string>
+    <string name="clan_details_avg_damage">Śr. obrażeń:</string>
+    <string name="clan_details_avg_exp">Śr. dośw.:</string>
+    <string name="clan_details_avg_wn8">Śr. WN8:</string>
+    <string name="clan_details_clan_stats">Statystyki klanu</string>
+    <string name="clan_details_export_title">Eksporter: Wybierz datę</string>
+    <string name="clan_details_export_message">Wyeksportowany plik tekstowy zawiera:\n Podstawowe informacje o klanie, listę graczy, listę czołgów każdego gracza i WN8 w każdym czołgu.\n\nPlik jest w formacie JSON. Aby oszczędzić na rozmiarze pliku, możesz użyć następujących słów kluczowych:\naXp = średnie doświadczenie\nwins = # wygranych bitew\nhitsPC = procent trafień\nfrags = zniszczone wrogie czołgi\nsur = przetrwane bitwy\ncwn8 = WN8 Wojen Klanów\n\nTo są wszystkie informacje przechowywane na urządzeniu w celu dostarczenia danych przedstawianych przez tą aplikację.</string>
+    <string name="clan_details_export_subject">Wyeksportuj</string>
+    <string name="clan_graphs_no_graphs">Nie znaleziono wykresów. Pobierz klan ponownie.</string>
+
+    <string name="details_tanks_member_get_all_info">Pobierz klan</string>
+
+    <string name="event_map">Mapa wydarzeń</string>
+
+    <string name="info_colorblind">Tryb dla daltonistów</string>
+
+    <string name="failure">Błąd w pobieraniu informacji</string>
+
+    <string name="nation_china">Chiny</string>
+    <string name="nation_france">Francja</string>
+    <string name="nation_germany">Niemcy</string>
+    <string name="nation_japan">Japonia</string>
+    <string name="nation_uk">Wielka Brytania</string>
+    <string name="nation_ussr">ZSSR</string>
+    <string name="nation_usa">USA</string>
+
+    <string name="download_players">Pobieranie wszystkich informacji gracza. Kliknij aby anulować.</string>
+    <string name="download_calculating">Obliczanie statystyk czołgów, WN8 i innych. Kliknij aby anulować.</string>
+    <string name="download_graphs">Tworzenie danych wykresów. Kliknij aby anulować.</string>
+
+    <string name="download_notification_downloading">Pobieranie</string>
+    <string name="download_notification_information">- informacje</string>
+    <string name="download_notification_standard">Trwa pobieranie. Kliknij aby anulować.</string>
+    <string name="download_notification_done"> Pobrano</string>
+    <string name="download_notification_cancelled"> Pobieranie anulowane</string>
+
+    <string name="first_time_download_title">Pobieranie klanu</string>
+    <string name="first_time_download_text">Ten proces rozpoczyna pobieranie, które użyje dużej ilości danych i może trwać kilka minut. Dane jednego klanu można pobierać najwyżej raz na trzy dni, ponieważ dostęp do tych informacji jest ograniczony.\n\n Otrzymasz dokładne informacje na temat każdego członka klanu, kto jest najlepszy w którym czołgu, WN8 każdego gracza oraz wiele innych informacji. Te dane są przechowywane na urządzeniu i będą ponownie używane aż do następnego pobrania.\n\nSugerowane jest użycie połączenia Wi-Fi.</string>
+
+    <string name="download_dialog_pos_message">Pobierz</string>
+    <string name="download_task_running">Pobieranie klanu już trwa</string>
+    <string name="refresh">Odśwież</string>
+    <string name="player_details_trees_cut">Zamordowane Drzewa:</string>
+
+    <string name="info_clean_clan">Czyści używane przez aplikację pliki na urządzeniu. To usunie wszystkie pobrane pliki klanów.</string>
+    <string name="info_clean_clan_text">Wyczyść pobrane klany</string>
+    <string name="info_clean_clans_toast">Usunięto pliki</string>
+    <string name="tank_clan_member_next_download_time_text">Następne pobieranie dostępne:\n</string>
+    <string name="clan_details_toast_loading_up_download">Ładowanie pobranych informacji o klanie</string>
+    <string name="clan_details_waiting_for_clan">Oczekiwanie na pobranie innego klanu</string>
+    <string name="clan_details_download_starts">Pobieranie rozpoczęte</string>
+    <string name="search_choose_hint">Wybierz czołg i kliknij “submit”</string>
+    <string name="details_query_no_tank_selected">Nie wybrano czołgu</string>
+    <string name="details_query_loading">Ładowanie pobranego klanu</string>
+    <string name="details_query_clan_info_not_downloaded">Aby uzyskać dostęp do funkcji tego ekranu, musisz najpierw pobrać klan.</string>
+    <string name="details_query_description_tier">Tier</string>
+    <string name="details_query_no_players_have_that_tank">Nie znaleziono informacji</string>
+
+    <string name="tank_destroyer">Niszczyciel Czołgów</string>
+    <string name="heavy_tank">Ciężki</string>
+    <string name="medium_tank">Średni</string>
+    <string name="light_tank">Lekki</string>
+    <string name="artillery">Artyleria</string>
+
+    <string name="details_query_select_a_tank">Wybierz \nCzołg</string>
+
+    <string name="task_no_internet">Pobieranie anulowane z powodu braku połączenia z internetem.</string>
+    <string name="dialog_fail_text">Nie znaleziono pojazdu w bazie danych.</string>
+    <string name="dialog_title">Różnica graczy</string>
+    <string name="dialog_top_yours">Twoje</string>
+    <string name="dialog_top_average">Średnie</string>
+    <string name="dialog_top_delta">Delta</string>
+    <string name="dialog_row_wins">Zwycięstwa</string>
+    <string name="dialog_row_damage">Obrażenia</string>
+    <string name="dialog_row_kill_death">Zabici/Zgony</string>
+    <string name="dialog_row_spots">Wykrycia</string>
+    <string name="dialog_row_def">Punkty obrony bazy</string>
+
+    <string name="unknown">nieznane</string>
+
+    <string name="translator_text">Na język polski przetłumaczył podian &amp; unyin</string>
+
+    <string name="info_theme_mode">Jasna Skórka</string>
+    <string name="no_tier_10s_found">Nie znaleziono tierów 10</string>
+    <string name="no_tier_10s_found_games">Nie znaleziono bitew tieru 10</string>
+
+    <string name="dialog_message_bookmarking">Ustawienie zakładki sprawi, że strona tego gracza wyświetli się domyślnie przy włączeniu aplikacji.</string>
+    <string name="dialog_title_bookmarking">Czy chcesz ustawić zakładkę dla tego gracza?</string>
+
+    <string name="wn8_per_tier">WN8 dla Tieru</string>
+    <string name="wn8_per_class">WN8 dla Klasy</string>
+    <string name="battles_per_tier">Bitwy na Tier</string>
+    <string name="battles_per_class">Bitwy na Klasę</string>
+    <string name="wn8_per_top_tier">WN8 dla Tieru 10</string>
+    <string name="clan_graphs_tanks_top_tier">Liczba czołgów tieru 10</string>
+    <string name="battles_per_top_tier">Liczba bitew tieru 10</string>
+    <string name="wn8_per_tier_6">WN8 dla Tieru 6</string>
+    <string name="wn8_per_tier_8">WN8 dla Tieru 8</string>
+    <string name="no_tier_6s_found">Nie znaleziono tierów 6</string>
+    <string name="no_tier_8s_found">Nie znaleziono tierów 8</string>
+    <string name="no_tier_6s_found_games">Nie znaleziono bitew tieru 6</string>
+    <string name="no_tier_8s_found_games">Nie znaleziono bitew tieru 8</string>
+    <string name="clan_graphs_tanks_tier_6">Liczba czołgów tieru 6</string>
+    <string name="clan_graphs_tanks_tier_8">Liczba czołgów tieru 8</string>
+    <string name="battles_per_tier_6">Liczba bitew tieru 6</string>
+    <string name="battles_per_tier_8">Liczba bitew tieru 8</string>
+    <string name="settings_info_clear_players">Wyczyść Informacje Gracza</string>
+    <string name="settings_info_clear_players_text">Czyści wszystkie zapisane informacje o graczu. Zalecane gdy twoje urządzenie ma małą pamięć.</string>
+    <string name="dialog_review_title">Czy oceniłeś już tę aplikację?</string>
+    <string name="dialog_donation_title">Wspomóż aplikację Assist.</string>
+    <string name="player_details_stronghold_stats">Statystyki Twierdzy</string>
+    <string name="search_text_compare">Przytrzymaj aby porównać graczy</string>
+    <string name="search_text_compare_button">Porównaj</string>
+    <string name="search_compare_not_enough_players">Za mało graczy by porównać</string>
+    <string name="search_compare_clear">Wyczyść</string>
+    <string name="compare_player_added">Gracz dodany</string>
+    <string name="compare_player_message">Czy chciałbyś dodać zaznaczonego gracza do listy porównań?</string>
+    <string name="compare_player_add">Dodaj</string>
+    <string name="compare_maxed_out">Można porównać do trzech graczy, wciśnij przycisk porównaj albo przytrzymaj nazwę gracza aby usunąć go z listy</string>
+    <string name="avg_dmg_per_tier">Średnie obrażenia na Tier</string>
+    <string name="avg_exp_per_tier">Średnie doświadczenie na Tier</string>
+    <string name="avg_tier">Średni Tier</string>
+    <string name="survival_rate">Przetrwał</string>
+    <string name="caps_per_game">Zdobycia bazy / Grę</string>
+    <string name="def_reset_per_game">Reset zajęcia bazy / Grę</string>
+    <string name="stronghold_wn8">WN8 Twierdz</string>
+    <string name="stronghold_cap">TWIERDZ</string>
+    <string name="nation_cz">CZ</string>
+    <string name="battles_per_tier_5">Liczba bitew tieru 5</string>
+    <string name="battles_per_tier_7">Liczba bitew tieru 7</string>
+    <string name="battles_per_tier_9">Liczba bitew tieru 9</string>
+    <string name="wn8_per_tier_5">WN8 dla Tieru 5</string>
+    <string name="wn8_per_tier_7">WN8 dla Tieru 7</string>
+    <string name="wn8_per_tier_9">WN8 dla Tieru 9</string>
+    <string name="no_tier_5s_found">Nie znaleziono tierów 5</string>
+    <string name="no_tier_5s_found_games">Nie znaleziono bitew tieru 5</string>
+    <string name="no_tier_7s_found">Nie znaleziono tierów 7</string>
+    <string name="no_tier_7s_found_games">Nie znaleziono bitew tieru 7</string>
+    <string name="no_tier_9s_found">Nie znaleziono tierów 9</string>
+    <string name="no_tier_9s_found_games">Nie znaleziono bitew tieru 9</string>
+
+    <string-array name="clan_sorting">
+        <item>Ranga</item>
+        <item>Nazwa</item>
+        <item>Bitwy</item>
+        <item>Procent Zwycięstw</item>
+        <item>WN8</item>
+        <item>Klanowe WN8</item>
+        <item>Twierdzowe WN8</item>
+        <item>Czas Ostatniej Bitwy</item>
+        <item>Dzisiejsze WN8</item>
+        <item>WN8 z Ostatnich 7 Dni</item>
+        <item>WN8 z Ostatnich 30 Dni</item>
+        <item>WN8 z Ostatnich 60 Dni</item>
+    </string-array>
+    <!-- optional -->
+    <string name="patch_notes">Aktualizacja 3.2:\n\n- Zaktualizowano backend - wywołania mogą dłużej zająć, ale wszystkie dane się pojawią naraz. \n\n- Dodano ekran powitalny, który aktualizuje nazwy czołgów i osiągnięć. \n\n- Dodano Ekran Osiągnięć. \n\n- Dodano wykresy i dane dla poziomów 5, 7 i 9. \n\n- Zmieniono tekst na ikony. \n\n- Zaktualizowano ekran Ustawień z Językiem Serwera oraz nowymi opcjami. \n\n- Dodano stronę Informacje o Serwerze. \n\n- Zmieniono Statystyki WN8 Pojazdów w Encyklopedii. \n\n- Dodano dobrowolne reklamy do strony dotacji. \n\n- Dodano Ostatnie WN8 do pobrań klanowych. </string>
+    <string name="drawer_encyclopedia">CZOŁGOPEDIA</string>
+    <string name="donate_title">Czy chcesz pomóc wesprzeć ten projekt?</string>
+    <string name="donate_message"> Jesteśmy już w POŁOWIE! Mam nadzieję, że WoT Community Assistant pomaga Ci w grze World of Tanks. Chciałbym dla Ciebie stworzyć najlepszy pomocnik do gry World of Tanks. Nieustannie pracuję nad tą aplikacją i staram się, żeby była ona dla Ciebie coraz lepsza i przy tym zawsze darmowa. Jeśli chcesz się dorzucić finansowo albo obejrzeć reklamę będzie to naprawdę wielką pomocą dla tej aplikacji! </string>
+    <string name="dialog_donation_message"> Jeśli podoba Ci się ta aplikacja to rozważ obejrzenie reklamy albo wysłanie dotacji żeby wesprzeć rozwój tej appki! Możesz mi nawet podrzucić kilka pomysłów, możliwe że zostaną wcielone w przyszłe wersje aplikacji! </string>
+    <string name="fragment_donate_view_ad">Obejrzyj Reklamę</string>
+    <string name="settings_info_refresh_msg">Wyczyszcza i odświeża dane o Osiągnięciach i Statkach. Użyj tego, gdy nie pojawia się statek albo osiągnięcie. Te dane są automatycznie aktualizowane co 3 dni. </string>
+    <string name="settings_info_refresh_title">Odśwież Zachowane Dane</string>
+    <string name="refresh_finished">Odświeżanie Zakończone</string>
+    <string name="settings_server_language">Język Serwera:</string>
+    <string name="settings_server">Serwer:</string>
+    <!-- Choose one of these for the string below. This will be the base language returned for tank names from the server. --> <!-- "English", "Русский", "Polski", "Deutsch", "Français", "Español", "简体中文", "Türkçe", "Čeština", "ไทย", "Tiếng Việt", "한국어"--> <!-- "en", "ru", "pl", "de", "fr", "es", "zh-cn", "tr", "cs", "th", "vi", "ko"-->
+    <string name="base_server_language">pl</string>
+    <string name="resources_wot_numbers">World of Tanks\n zalogowani gracze</string>
+    <string name="resources_wows_numbers">World of Warships\n zalogowani gracze</string>
+    <string name="resources_wows_total_c">Suma w WoWs:\n</string>
+    <string name="resources_wot_total_c">Suma w WoT:\n</string>
+    <string name="drawer_server_info">INFO O SERWERZE</string>
+    <string name="encyclopedia_wn8_stats">Staty WN8</string>
+    <string name="donation_dialog_paypal">Paypal</string>
+    <string name="day_wn8">24 GODZINY</string>
+    <string name="week_wn8">7 DNI</string>
+    <string name="month_wn8">30 DNI</string>
+    <string name="two_month_wn8">60 DNI</string>
+    <string name="recent_wn8s">Ostatnie WN8</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="drawer_twitch_youtube">GRACZE NA TWITCH\’U I YOUTUBIE</string>
+    <string name="drawer_websites">PRZYDATNE STRONY</string>
+    <string name="app_language">App Język</string>
+    <string name="app_langauge_base">pl</string>
+    <string name="nation_sweden">Szwecja</string>
+</resources>

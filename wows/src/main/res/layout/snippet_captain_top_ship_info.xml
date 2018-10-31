@@ -1,0 +1,1125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout xmlns:grid="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    grid:alignmentMode="alignBounds"
+    grid:columnCount="@integer/top_info_cols"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    grid:rowOrderPreserved="false"
+    grid:useDefaultMargins="true"
+    tools:showIn="@layout/fragment_captain_top_ship_info">
+
+    <!-- top kills-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/captain_details_top_kills_area"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_ship_size"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/captain_details_top_kills_icon"
+                android:scaleType="fitCenter"
+                android:layout_below="@+id/captain_details_top_kills_top_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/top_kills"
+                android:id="@+id/captain_details_top_kills_top_text"
+                android:layout_alignParentTop="true"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/captain_details_top_kills_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:id="@+id/captain_details_top_kills_name_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <!-- top damage-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/captain_details_top_damage_area"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_ship_size"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/captain_details_top_damage_icon"
+                android:scaleType="fitCenter"
+                android:layout_below="@+id/captain_details_top_damage_top_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/top_damage"
+                android:id="@+id/captain_details_top_damage_top_text"
+                android:layout_alignParentTop="true"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/captain_details_top_damage_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:id="@+id/captain_details_top_damage_name_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <!-- top exp-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/captain_details_top_exp_area"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_ship_size"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/captain_details_top_xp_icon"
+                android:scaleType="fitCenter"
+                android:layout_below="@+id/captain_details_top_xp_top_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/top_exp"
+                android:id="@+id/captain_details_top_xp_top_text"
+                android:layout_alignParentTop="true"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/captain_details_top_xp_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:id="@+id/captain_details_top_xp_name_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <!-- top planes-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/captain_details_top_planes_area"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_ship_size"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/captain_details_top_planes_icon"
+                android:scaleType="fitCenter"
+                android:layout_below="@+id/captain_details_top_planes_top_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/most_planes_destroyed"
+                android:id="@+id/captain_details_top_planes_top_text"
+                android:layout_alignParentTop="true"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/captain_details_top_planes_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:id="@+id/captain_details_top_planes_name_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <!-- top total kills-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/captain_details_top_total_kill_area"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_ship_size"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/captain_details_top_total_kill_icon"
+                android:scaleType="fitCenter"
+                android:layout_below="@+id/captain_details_top_total_kill_top_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/top_most_kills"
+                android:id="@+id/captain_details_top_total_kill_top_text"
+                android:layout_alignParentTop="true"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/captain_details_top_total_kill_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:id="@+id/captain_details_top_total_kill_name_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <!-- top total exp-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/captain_details_top_total_exp_area"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_ship_size"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/captain_details_top_total_exp_icon"
+                android:scaleType="fitCenter"
+                android:layout_below="@+id/captain_details_top_total_exp_top_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/top_total_exp"
+                android:id="@+id/captain_details_top_total_exp_top_text"
+                android:layout_alignParentTop="true"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/captain_details_top_total_exp_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:id="@+id/captain_details_top_total_exp_name_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <!-- top total damage-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/captain_details_top_total_damage_area"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_ship_size"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/captain_details_top_total_damage_icon"
+                android:scaleType="fitCenter"
+                android:layout_below="@+id/captain_details_top_total_damage_top_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/top_total_damage"
+                android:id="@+id/captain_details_top_total_damage_top_text"
+                android:layout_alignParentTop="true"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/captain_details_top_total_damage_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:id="@+id/captain_details_top_total_damage_name_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <!-- top total planes-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/captain_details_top_total_planes_area"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_ship_size"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/captain_details_top_total_planes_icon"
+                android:scaleType="fitCenter"
+                android:layout_below="@+id/captain_details_top_total_planes_top_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/top_total_planes"
+                android:id="@+id/captain_details_top_total_planes_top_text"
+                android:layout_alignParentTop="true"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/captain_details_top_total_planes_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:id="@+id/captain_details_top_total_planes_name_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <!-- top average damage-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/captain_details_top_average_dmg_area"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_ship_size"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/captain_details_top_average_dmg_icon"
+                android:scaleType="fitCenter"
+                android:layout_below="@+id/captain_details_top_average_dmg_top_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/top_average_damage"
+                android:id="@+id/captain_details_top_average_dmg_top_text"
+                android:layout_alignParentTop="true"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/captain_details_top_average_dmg_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:id="@+id/captain_details_top_average_dmg_name_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <!-- top win rate-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/captain_details_top_win_rate_area"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_ship_size"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/captain_details_top_win_rate_icon"
+                android:scaleType="fitCenter"
+                android:layout_below="@+id/captain_details_top_win_rate_top_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/top_win_rate"
+                android:id="@+id/captain_details_top_win_rate_top_text"
+                android:layout_alignParentTop="true"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/captain_details_top_win_rate_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:id="@+id/captain_details_top_win_rate_name_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <!-- top survival rate-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/captain_details_top_survival_rate_area"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_ship_size"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/captain_details_top_survival_rate_icon"
+                android:scaleType="fitCenter"
+                android:layout_below="@+id/captain_details_top_survival_rate_top_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/top_survival_rate"
+                android:id="@+id/captain_details_top_survival_rate_top_text"
+                android:layout_alignParentTop="true"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/captain_details_top_survival_rate_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:id="@+id/captain_details_top_survival_rate_name_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <!-- Max Spotted-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/captain_details_top_spotted_area"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_ship_size"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/captain_details_top_spotted_icon"
+                android:scaleType="fitCenter"
+                android:layout_below="@+id/captain_details_top_spotted_top_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/most_spotted_in_a_match"
+                android:id="@+id/captain_details_top_spotted_top_text"
+                android:layout_alignParentTop="true"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/captain_details_top_spotted_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:id="@+id/captain_details_top_spotted_name_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <!-- Max Spotting damage-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/captain_details_top_spotting_damage_area"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_ship_size"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/captain_details_top_spotting_damage_icon"
+                android:scaleType="fitCenter"
+                android:layout_below="@+id/captain_details_top_spotting_damage_top_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/most_scouting_damage_in_a_match"
+                android:id="@+id/captain_details_top_spotting_damage_top_text"
+                android:layout_alignParentTop="true"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/captain_details_top_spotting_damage_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:id="@+id/captain_details_top_spotting_damage_name_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <!-- Max Tanking-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/captain_details_top_tanking_area"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_ship_size"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/captain_details_top_tanking_icon"
+                android:scaleType="fitCenter"
+                android:layout_below="@+id/captain_details_top_tanking_top_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/top_tanking_damage"
+                android:id="@+id/captain_details_top_tanking_top_text"
+                android:layout_alignParentTop="true"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/captain_details_top_tanking_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:id="@+id/captain_details_top_tanking_name_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <!-- Max Torp Tanking-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/captain_details_top_torp_tanking_area"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_ship_size"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/captain_details_top_torp_tanking_icon"
+                android:scaleType="fitCenter"
+                android:layout_below="@+id/captain_details_top_torp_tanking_top_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/top_torpedo_tanking_damage"
+                android:id="@+id/captain_details_top_torp_tanking_top_text"
+                android:layout_alignParentTop="true"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/captain_details_top_torp_tanking_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:id="@+id/captain_details_top_torp_tanking_name_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <!-- top survived Wins-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/captain_details_top_survived_wins_area"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_ship_size"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/captain_details_top_survived_wins_icon"
+                android:scaleType="fitCenter"
+                android:layout_below="@+id/captain_details_top_survived_wins_top_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/top_survival_wins"
+                android:id="@+id/captain_details_top_survived_wins_top_text"
+                android:layout_alignParentTop="true"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/captain_details_top_survived_wins_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:id="@+id/captain_details_top_survived_wins_name_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <!-- top played-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/captain_details_top_played_area"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_ship_size"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/captain_details_top_played_icon"
+                android:scaleType="fitCenter"
+                android:layout_below="@+id/captain_details_top_played_top_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/top_played_ship"
+                android:id="@+id/captain_details_top_played_top_text"
+                android:layout_alignParentTop="true"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/captain_details_top_played_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:id="@+id/captain_details_top_played_name_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <!-- top distance-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/captain_details_top_distance_traveled_area"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_ship_size"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/captain_details_top_distance_traveled_icon"
+                android:scaleType="fitCenter"
+                android:layout_below="@+id/captain_details_top_distance_traveled_top_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/top_distance_traveled"
+                android:id="@+id/captain_details_top_distance_traveled_top_text"
+                android:layout_alignParentTop="true"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/captain_details_top_distance_traveled_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:id="@+id/captain_details_top_distance_traveled_name_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <!-- top distance-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/captain_details_top_ca_rating_area"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_ship_size"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/captain_details_top_ca_rating_icon"
+                android:scaleType="fitCenter"
+                android:layout_below="@+id/captain_details_top_ca_rating_top_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/best_ca_rating"
+                android:id="@+id/captain_details_top_ca_rating_top_text"
+                android:layout_alignParentTop="true"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/captain_details_top_ca_rating_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:id="@+id/captain_details_top_ca_rating_name_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <!-- MB acc-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/captain_details_top_mb_acc_area"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_ship_size"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/captain_details_top_mb_acc_icon"
+                android:scaleType="fitCenter"
+                android:layout_below="@+id/captain_details_top_mb_acc_top_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/most_accuracy_gun_shipg"
+                android:id="@+id/captain_details_top_mb_acc_top_text"
+                android:layout_alignParentTop="true"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/captain_details_top_mb_acc_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:id="@+id/captain_details_top_mb_acc_name_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <!-- TB acc-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/captain_details_top_tb_acc_area"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_ship_size"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/captain_details_top_tb_acc_icon"
+                android:scaleType="fitCenter"
+                android:layout_below="@+id/captain_details_top_tb_acc_top_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/most_accuracy_torp_ship"
+                android:id="@+id/captain_details_top_tb_acc_top_text"
+                android:layout_alignParentTop="true"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/captain_details_top_tb_acc_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:id="@+id/captain_details_top_tb_acc_name_text"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</android.support.v7.widget.GridLayout>

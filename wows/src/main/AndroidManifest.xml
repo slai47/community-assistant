@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.half.wowsca">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".CAApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.CA.Material.Ocean">
+        <activity
+            android:name=".ui.SplashActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
+        <activity android:name=".ui.MainActivity" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="61e6dbdd0c46a2250f5c8c388246cdd1b5866ca0" />
+
+        <activity
+            android:name=".ui.SettingActivity"
+            android:parentActivityName=".ui.MainActivity" />
+        <activity android:name=".ui.viewcaptain.ViewCaptainActivity" />
+        <activity android:name=".ui.SearchActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.half.wowsca.ui.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ui.compare.CompareActivity"
+            android:label="@string/title_compare">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.half.wowsca.ui.SearchActivity" />
+        </activity>
+        <activity
+            android:name=".ui.encyclopedia.EncyclopediaTabbedActivity"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name=".ui.encyclopedia.ShipProfileActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.encyclopedia.EncyclopediaTabbedActivity" />
+        </activity>
+        <activity android:name=".ui.ResourcesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.half.wowsca.ui.MainActivity" />
+        </activity>
+        <activity android:name=".ui.AuthenticationActivity" />
+        <activity android:name=".ui.compare.ShipCompareActivity"/>
+
+        <!-- This meta-data tag is required to use Google Play Services. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- Include the AdActivity configChanges and theme. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".ui.InformationActivity"
+            android:label="@string/title_activity_information"
+            android:parentActivityName=".ui.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.half.wowsca.ui.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

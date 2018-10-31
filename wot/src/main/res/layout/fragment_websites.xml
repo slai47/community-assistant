@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- websites area-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/resources_website_area"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/resources_website_ap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:id="@+id/resources_website_ap_icon"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="10dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/resources_website_drmb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                android:layout_below="@+id/resources_website_ap">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/resources_website_drmb_icon"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="10dp" />
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal"
+                android:weightSum="1.0"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="10dp"
+                android:layout_below="@+id/resources_website_drmb">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.49"
+                    android:id="@+id/resources_website_wot"
+                    android:clickable="true">
+
+                    <ImageView
+                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:id="@+id/resources_website_website_icon"
+                        android:scaleType="fitCenter"
+                        android:padding="5dp" />
+                </android.support.v7.widget.CardView>
+
+                <View
+                    android:layout_width="0dip"
+                    android:layout_height="1dp"
+                    android:layout_weight="0.02" />
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.49"
+                    android:id="@+id/resources_website_reddit"
+                    android:clickable="true">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:id="@+id/resources_website_reddit_icon"
+                        android:scaleType="fitCenter"
+                        android:padding="5dp" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

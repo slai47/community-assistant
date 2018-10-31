@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:layout_margin="10dp"
+    android:id="@+id/list_ship_area"
+    android:elevation="4dp">
+
+    <include layout="@layout/snippet_ship_stat" />
+
+</android.support.v7.widget.CardView>

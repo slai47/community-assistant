@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="shipopedia"
+        android:enabled="true"
+        android:icon="@drawable/ic_encyclopedia_dark"
+        android:shortcutShortLabel="@string/action_shipopedia"
+        android:shortcutLongLabel="@string/action_shipopedia"
+        android:shortcutDisabledMessage="@string/action_shipopedia">
+        <intent
+            android:action="com.half.wowsca.VIEW_SHIPOPEDIA"
+            android:targetPackage="com.half.wowsca"
+            android:targetClass="com.half.wowsca.ui.SplashActivity" />
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+    <shortcut
+        android:shortcutId="twitchyoutube"
+        android:enabled="true"
+        android:icon="@drawable/ic_star_dark"
+        android:shortcutShortLabel="@string/action_twitch"
+        android:shortcutLongLabel="@string/action_twitch"
+        android:shortcutDisabledMessage="@string/action_twitch">
+        <intent
+            android:action="com.half.wowsca.VIEW_TWITCH"
+            android:targetPackage="com.half.wowsca"
+            android:targetClass="com.half.wowsca.ui.SplashActivity" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="searchplayers"
+        android:enabled="true"
+        android:icon="@drawable/ic_search_dark"
+        android:shortcutShortLabel="@string/drawer_search"
+        android:shortcutLongLabel="@string/drawer_search"
+        android:shortcutDisabledMessage="@string/drawer_search">
+        <intent
+            android:action="com.half.wowsca.VIEW_SEARCH"
+            android:targetPackage="com.half.wowsca"
+            android:targetClass="com.half.wowsca.ui.SplashActivity" />
+    </shortcut>
+
+</shortcuts>

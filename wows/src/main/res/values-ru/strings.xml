@@ -1,0 +1,543 @@
+<resources>
+    <!-- optional for translation-->
+    <string name="app_name">Assist</string>
+
+
+    <!-- base language for wargaming to send back data with the right language attached -->
+    <!-- "English", "Р СѓСЃСЃРєРёР№", "Polski", "Deutsch", "FranГ§ais", "EspaГ±ol", "з®ЂдЅ“дё­ж–‡", "TГјrkГ§e", "ДЊeЕЎtina", "а№„аё—аёў", "Tiбєїng Viб»‡t", "н•њкµ­м–ґ"-->
+    <!-- "en",      "ru",       "pl",       "de",   "fr",       "es",       "zh-cn",   "tr",       "cs",    "th", "vi",         "ko"-->
+    <string name="base_server_language">ru</string>
+
+    <string name="action_settings">Настройки</string>
+
+    <string name="action_search">Поиск</string>
+    <string name="action_captains">Капитаны</string>
+    <string name="action_refresh">Обновить</string>
+    <string name="welcome">Добро пожаловать</string>
+
+    <string name="search_et_hint">Введите имя</string>
+    <string name="search_no_results">Не найдено</string>
+
+    <string name="no_internet_title">Нет подключения к интернету</string>
+    <string name="no_internet_message">Хотите включить интернет?</string>
+    <string name="no_internet_neutral_text">Настройки</string>
+    <string name="no_text_error">Вы должны ввести параметр поиска</string>
+
+    <string name="list_clan_added_message">добавлено</string>
+    <string name="list_clan_removed_message">удалено</string>
+
+    <string name="captain_average_exp">Средний опыт</string>
+    <string name="captain_average_damage">Средний урон</string>
+    <string name="captain_kills_deaths">Отношение уничтожил/убит</string>
+    <string name="captain_battles">Выжил в боях</string>
+    <string name="captain_winrate">Победы</string>
+
+    <string name="menu_favorite">В избранное</string>
+    <string name="menu_unfavorite">Удалить из избранного</string>
+    <string name="ships_hint">Название или ранг</string>
+
+    <string name="donate_title">Хотите поддержать проект?</string>
+    <string name="donate_message">Привет, я HALF. Надеюсь, что WoWS Community Assistant смог помочь вам лучше понять игру World of Warships. Я очень хочу, чтобы моё пиложение былом аксимально удобно и информативно для вас. Я постоянно работаю над улучшениями, абсолютно бесплатно. Если бы вы хотели помочь проекту, совершите небольшое пожертвование или посмотрите короткую рекламу внизу. Любая помощь поможет мне продолжить работу и порадовать вас бесплатными раздачами в знак благодарности.</string>
+    <string name="search_compare_default_text">Нажмите и удерживайте на капитане, чтобы добавить его в список сравнения</string>
+    <string name="title_compare">Сравнить</string>
+    <string name="action_shipopedia">Кораблепедия</string>
+    <string name="action_websites">Полезные вебсайты</string>
+    <string name="action_twitch">Стимеры Твича и Ётуба</string>
+    <string name="action_youtubers">Полезные Ётуберы</string>
+    <string name="action_donate">Поддержать приложение</string>
+    <string name="drawer_search">Поиск и сравнение</string>
+    <string name="drawer_captains">Капитаны</string>
+    <string name="encyclopedia_average_damage">Средний урон</string>
+    <string name="encyclopedia_winrate">Победы</string>
+    <string name="encyclopedia_kills">Среднее количество фрагов</string>
+    <string name="encyclopedia_survival_rate">Выжил в боях</string>
+    <string name="encyclopedia_tier_start">Уровень </string>
+    <string name="encyclopedia_tier_end"> данные</string>
+    <string name="encyclopedia_survived_wins">Выживание при победах</string>
+    <string name="encyclopedia_average_xp">Средний опыт</string>
+    <string name="encyclopedia_games_count">Игр проведено</string>
+    <string name="encyclopedia_survivability">Выживаемость</string>
+    <string name="encyclopedia_artillery">Главный калибр</string>
+    <string name="encyclopedia_torps">Торпеды</string>
+    <string name="encyclopedia_aa_def">ПВО</string>
+    <string name="encyclopedia_aircraft">Самолёты</string>
+    <string name="encyclopedia_mobility">Манёвренность</string>
+    <string name="encyclopedia_concealment">Скрытность</string>
+    <string name="encyclopedia_ship_stats">Данные корабля</string>
+    <string name="encyclopedia_health">Прочность</string>
+    <string name="encyclopedia_gun_range">Дальность стрельбы главных орудий</string>
+    <string name="encyclopedia_torp_range">Дистанция хода торпед</string>
+    <string name="encyclopedia_torp_speed">Скорость торпед</string>
+    <string name="encyclopedia_secondary_range">Дальность стрельбы вспомогательных орудий</string>
+    <string name="encyclopedia_aa_range">Дальность стрельбы ПВО</string>
+    <string name="encyclopedia_spotted_range">Макс дистанция обнаружения кораблей</string>
+    <string name="encyclopedia_aircraft_spotted_range">Макс дистанция обнаружения самолётов</string>
+    <string name="encyclopedia_shell_damage">Урон снарядом</string>
+    <string name="encyclopedia_speed">Скорость</string>
+    <string name="encyclopedia_arty_fr">Скорострельность орудий</string>
+    <string name="encyclopedia_torp_fr">Скорострельность торпед</string>
+    <string name="encyclopedia_torp_damage">Урон торпеды</string>
+    <string name="encyclopedia_num_guns">Кол-во орудий</string>
+    <string name="encyclopedia_num_torps">Кол-во торпед</string>
+    <string name="encyclopedia_num_planes">Кол-во самолётов</string>
+    <string name="encyclopedia_rudder_time">Время перекладки руля</string>
+    <string name="encyclopedia_turning_radius">Радиус поворота</string>
+    <string name="encyclopedia_top_configuration">Статистика конфигурации по умолчанию (скоро будет перенастройка)</string>
+    <string name="encyclopedia_average_stats">Средняя боевая статистика</string>
+    <string name="damage">Урон</string>
+    <string name="win_rate">Победы</string>
+    <string name="kills">Фрагов</string>
+    <string name="planes_downed_game">Самолётов за бой</string>
+    <string name="captures_game">Захватов за бой</string>
+    <string name="def_reset_game">Сбитий за бой</string>
+    <string name="xp">XP</string>
+    <string name="survival_rate">Выжил в боях</string>
+    <string name="powered_by_warshipstats">Источник - Warshipstats.com</string>
+    <string name="encyclopedia_upgrades">Доступные улучшения</string>
+    <string name="encyclopedia_next_ship">Следующий корабль</string>
+    <string name="price_not_known">Цена неизвестна</string>
+    <string name="gold">" золота"</string>
+    <string name="credits">" серебра"</string>
+    <string name="encyclopedia_tb_torp_speed">Скорость торпед торпедоносцев</string>
+    <string name="encyclopedia_tb_prep_time">Время подготовки торпедоносцев</string>
+    <string name="encyclopedia_tb_torp_dam">Урон торпед торпедоносцев</string>
+    <string name="encyclopedia_tb_torp">Радиус поражения торпед торпедоносцев</string>
+    <string name="encyclopedia_num_squadrons">Кол-во групп</string>
+    <string name="encyclopedia_db_prep_time">Время подготовки пикировщиков</string>
+    <string name="encyclopedia_db_damage">Урон пикировщиков</string>
+    <string name="encyclopedia_ship_not_found">Ошибка на странице. Корабль не найден.</string>
+    <string name="dismiss">Закрыть</string>
+    <string name="encyclopedia_upgrade_cost">"\n\Разрабочики: "</string>
+    <string name="failed_to_grab_data">Ошибка получения данных</string>
+    <string name="russia">Россия</string>
+    <string name="germany">Германия</string>
+    <string name="usa">США</string>
+    <string name="poland">Польша</string>
+    <string name="japan">Япония</string>
+    <string name="uk">Великобритания</string>
+    <string name="encyclopedia_nation_tier">\nУровень </string>
+    <string name="resources_view_add">Посмотреть рекламу</string>
+    <string name="settings">Настройка</string>
+    <string name="colorblind_mode">Режим цветовой слепоты</string>
+    <string name="settings_show_average">Сравнить со средними данными</string>
+    <string name="settings_clean_player">Очистить информацию игрока</string>
+    <string name="settings_clear_player_info">Очистить всю информацию игрока. Сделайте это только если на вашем устройстве осталось совсем мало памяти.</string>
+    <string name="settings_refresh_stored_data">Обновить локальные данные</string>
+    <string name="settings_refresh_stored_data_info">Очищает и обновляет сохранённую информацию по кораблям и достижениям через Варгейминг. Используйте в случае, если что-то не отображается. Обновление происходит автоматически каждые три дня.</string>
+    <string name="about">О ПРОГРАММЕ</string>
+    <string name="version">Версия:</string>
+    <string name="settings_write_a_review">Написать отзыв</string>
+    <string name="settings_contact_me">Написать на эл.почту</string>
+    <string name="settings_twitter">Написать в твиттере</string>
+    <string name="settings_glossary">ГЛОССАРИЙ</string>
+    <string name="settings_avg_dmg">Средний\nУрон</string>
+    <string name="battles">Боёв</string>
+    <string name="settings_avg_exp">Средний\nопыт</string>
+    <string name="settings_k_d">Уничтожил/\nубит</string>
+    <string name="settings_saved_captains">Сохраненные\nкапитаны</string>
+    <string name="refresh">Обновить</string>
+    <string name="shipopedia">Кораблепедия</string>
+    <string name="achievements">Достижения</string>
+    <string name="settings_stats_graphs"><![CDATA[Стата и графики]]></string>
+    <string name="shipsHolder">Корабли</string>
+    <string name="settings_att">Атрибуция</string>
+    <string name="captain_save_captain">Сохранить\nкапитана</string>
+    <string name="average_experience">Средний опыт</string>
+    <string name="captain_first_details">Чем больше вы играете, тем точнее будет график.</string>
+    <string name="games_by_tier">Боёв по уровням кораблей</string>
+    <string name="average_tier_c">Средний уровень кораблей:</string>
+    <string name="games_per_ship_type">Битв по классу кораблей</string>
+    <string name="games_per_nation">Битв по нациям</string>
+    <string name="times_around_the_earth_c">Кол-во кругосветных путеществий:</string>
+    <string name="general_stats">Общие данные</string>
+    <string name="profile_level">Уровень профиля</string>
+    <string name="total_xp">Общий опыт</string>
+    <string name="total_damage">Нанёс урона</string>
+    <string name="last_battle_on">Последний вход</string>
+    <string name="account_created_on">Аккаут создан</string>
+    <string name="kills_by_armament_type">Применение вооружения</string>
+    <string name="average_experience_per_tier">Средний опыт по уровням</string>
+    <string name="average_damage_per_tier">Средний урон по уровням</string>
+    <string name="main_battery">Основной калибр</string>
+    <string name="destroyed_c">Уничтожено:</string>
+    <string name="hit_percentage_c">Меткость:</string>
+    <string name="shots_fired_c">Выстрелов:</string>
+    <string name="best_ship_c">Лучший корабль:</string>
+    <string name="torpedoes">Торпеды</string>
+    <string name="secondary_battery">Вспомогательный калибр</string>
+    <string name="ramming">Таран</string>
+    <string name="delete">Удалить</string>
+    <string name="armament_use">Применение вооружения</string>
+    <string name="list_ship_average_title">Отношение данных по кораблю к средним</string>
+    <string name="max_kills">Макс. кораблей уничтожено</string>
+    <string name="max_damage">Максимальный урон</string>
+    <string name="max_planes_killed">Макс. самолётов сбито</string>
+    <string name="max_xp">Максимальный опыт</string>
+    <string name="traveled">Пройдено</string>
+    <string name="kills_game">Уничтожено за бой</string>
+    <string name="caps_game">Защиты за бой</string>
+    <string name="survived_wins">Жив при победе</string>
+    <string name="average_xp">Средний опыт</string>
+    <string name="short_kills_game">Уичтожено за бой</string>
+    <string name="short_win_rate">Победы</string>
+    <string name="short_cap_points">Захвата за бой</string>
+    <string name="short_def_reset">Чбитий захвата за бой</string>
+    <string name="short_planes_game">Сбито самолётов за бой</string>
+    <string name="baseline">100 — идеал</string>
+    <string name="save_captain">Сохранить\nкапитана</string>
+    <string name="delete_captain">Удалить\nкапитана</string>
+    <string name="resources_websites">Сайты и интсрументы</string>
+    <string name="resources_support">Поддержка</string>
+    <string name="resources_server_info">Данные о серверах</string>
+    <string name="resources_wot_numbers">Игроков в игре\n World of Tanks</string>
+    <string name="resources_wows_numbers">Игроков в игре\n World of Warships</string>
+    <string name="resources_error">Ничего не найдено</string>
+    <string name="resources_wows_total_c">Всего игроков в WoWs:\n</string>
+    <string name="resources_wot_total_c">Всего игроков в WoT:\n</string>
+    <string name="ranked">Ранговые бои</string>
+    <string name="encyclopedia">Энциклопедия</string>
+    <string name="live">В СЕТИ</string>
+    <string name="offline">ОФФЛАЙН</string>
+    <string name="action_server_info">Данные о серверах</string>
+    <string name="resources_powered_by">Источник — Warshipstats.com</string>
+    <string name="premium_ship_stats">Данные по премам</string>
+    <string name="dialog_assist_title">Помочь с разработкой приложения</string>
+    <string name="dialog_review_app">Вы уже оставили отзыв?</string>
+    <string name="dialog_review_message">Всего 15 секунд вашего времени могут помочь сделать это приложение лучше. Вы можете оставить отзыв нажав на кнопку ниже.</string>
+    <string name="dialog_review_positive">Написать отзыв</string>
+    <string name="no">Нет</string>
+    <string name="dialog_view_ad">Посмотреть рекламу</string>
+    <string name="dialog_follow_title">Хотите быть в курсе дела?</string>
+    <string name="dialog_follow_message">Подпишитесь на мой твиттер, где я рассказываю о новых фичах и оставляю скриншоты новых версий.</string>
+    <string name="dialog_bookmark_title">Хотите добавить этого капитана в закладки?</string>
+    <string name="dialog_bookmark_message">Добавление капитана в закладки будет автоматически загружать его данные при запуске приложения, чтобы вам не пришлось искать его заново</string>
+    <string name="yes">Yes</string>
+    <string name="dialog_assist_message">Хотите помочь этому бесплатному приложению? Пожертвуйте немного денег или напишите отзыв. Просмотр рекламы совершается только по вашему желанию и никогда не будет появляться на других страницах приложения. Эта помощь необходима для стабильного развития приложения и проведения розыгрышей и раздач на Твиттере, Твиче и Ётубе.</string>
+    <string name="avg_dmg_c">Средний урон:</string>
+    <string name="k_d_c">У/С:</string>
+    <string name="avg_caps_c">Сред. захватов:</string>
+    <string name="avg_resets_c">Сред. сбитий:</string>
+    <string name="avg_planes_c">Сред. самолётов:</string>
+    <string name="avg_xp_c">Сред. опыт:</string>
+    <string name="ranked_season">Сезон</string>
+    <string name="avg_kills_c">Сред. уничтожено</string>
+    <string name="ship">Корабль</string>
+    <string name="top_damage_c">Максимальный урон:</string>
+    <string name="top_exp_c">Максимальный опыт:</string>
+    <string name="unknown">Неизвестно</string>
+    <string name="compareArmament">Данные вооружения</string>
+    <string name="compare_stats_average">Отношение ваших данных к средним</string>
+    <string name="main_battery_kills">Уничтожено главным калибром</string>
+    <string name="capture_pts">Очков захвата</string>
+    <string name="def_reset_pts">Очков сбития</string>
+    <string name="planes_downed">Сбито самолётов</string>
+    <string name="torpedoes_kills">Уничтожено торпедами</string>
+    <string name="aircraft_kills">Уничтожено самолётами</string>
+    <string name="other_kills">Уничтожено другими способами</string>
+    <string name="main_battery_hit_per">Точность орудий главного калибра</string>
+    <string name="torpedoes_hit_per">Точность торпед</string>
+    <string name="average_damage">Средний урон</string>
+    <string name="captain">Капитан</string>
+    <string name="average_tier">Средний уровень</string>
+    <string name="not_enough_captains">Недостаточно капитанов для сравнения</string>
+    <string name="compare">Сравнить</string>
+    <string name="clear_list">очистить список</string>
+    <string name="compare_list">Сравнить список</string>
+    <string name="compare_add_title">Капитан добавлен в список</string>
+    <string name="compare_dialog_message">Хотите добавить в список сравнения и капитана из закладок?</string>
+    <string name="compare_max_message">Одновременно можно сравнивать не более трёх капитанов, нажмите на кнопку Сравнить, которая находится ниже, чтобы убрать игроков из сравнения или нажмите и удерживайте еще раз на капитане.</string>
+    <string name="compare_bottom_text_max">" в списке. 3/3"</string>
+    <string name="compare_bottom_text_middle">" в списке. 2/3"</string>
+    <string name="compare_bottom_text_single">" в списке. 1/3"</string>
+    <string name="update_notes_title">Обновить записи</string>
+    <string name="player_stored_data_deleted">Соранённые данные игрока удалены</string>
+    <string name="purging_refresh">Происходит удаление данных и обновление</string>
+    <string name="purge_refresh_done">Удаление данных и обновление завершено</string>
+    <string name="paypal">Пэйпэл</string>
+    <string name="average_win_rate_per_tier">Сред. побед по рангам</string>
+    <string name="average_survival_per_tier">Сред. выживание по рангам</string>
+    <string name="average_damage_per_class">Средний урон по классам</string>
+    <string name="average_win_rate_per_class">Сред. побед по классам</string>
+    <string name="no_data_for_season">"Нет данных по Сезону "</string>
+    <string name="ranked_stats">Ранговые данные</string>
+    <string name="crap_contact_me">Что-то пошло не так и сломалось, прошу сообщить мне как воспроизвести эту ошибку.</string>
+    <string name="player_private">Профиль игрока скрыт</string>
+    <string name="failure_in_loading">Не удалось загрузить данные</string>
+
+    <string name="top_kills">Макс. уничтожено за бой</string>
+    <string name="top_damage">Макс. урона за бой</string>
+    <string name="top_exp">Макс. опыта за бой</string>
+    <string name="most_planes_destroyed">Макс. самолётов сбито за бой</string>
+    <string name="top_survival_rate">Наивысшая живучесть</string>
+    <string name="top_average_damage">Наивысший средний урон</string>
+    <string name="top_win_rate">Наивысший процент побед</string>
+    <string name="top_distance_traveled">Корабль, прошедший наибольшее расстояние</string>
+    <string name="top_played_ship">Самый часто используемый корабль</string>
+    <string name="top_most_kills">Больше всего уничтожений</string>
+    <string name="top_total_exp">Больше всего общего опыта</string>
+    <string name="top_total_planes">Больше всего сбито самолётов</string>
+    <string name="top_total_damage">Наибольший общий урон</string>
+    <string name="top_survival_wins">Больше всего выжил при победах</string>
+    <string name="top_battleship">Лучший линков</string>
+    <string name="top_cruiser">Лучший крейсер</string>
+    <string name="top_destroyer">Лучший эсминец</string>
+    <string name="top_carrier">Лучший авианосец</string>
+
+    <string name="captain_yours_vs_average">Сравнение даных со средним игроком</string>
+
+    <string name="wargaming_server_language">Язык приложения</string>
+    <string name="wins">Побед</string>
+    <string name="losses">Поражений</string>
+    <string name="draws">Ничьих</string>
+    <string name="total_capture_points">Общее число очков захвата</string>
+    <string name="total_defense_points">Общее число очков защиты</string>
+    <string name="total_planes_downed">Общее число сбитых самолётов</string>
+    <string name="top_ship_info">Лучший\nрезультат</string>
+    <string name="settings_update_to_new_language">Обновляем сервер под новый язык</string>
+    <string name="settings_dev_blog">Дневник разработки</string>
+    <string name="compare_needs_two">Для сравнения нужно как минимум двое</string>
+
+    <string name="average_experience_per_class">Средний опыт по классам</string>
+    <string name="average_survival_rate_per_class">Средняя выживаемость по классам</string>
+    <string name="top_ten_played_ships">Топ 10 самых часто используемых кораблей</string>
+    <string name="top_ten_average_exp">Топ 10 по среднему опыту</string>
+    <string name="top_ten_avg_dmg">Топ 10 по среднему урону</string>
+    <string name="top_ten_win_rate">Топ 10 по проценту побед</string>
+    <string name="top_ten_k_d">Топ 10 кораблей по У/С</string>
+    <string name="pan_asia">Азия</string>
+
+    <string name="translated_by">Перевёл </string>
+
+    <string-array name="ship_sorting">
+        <item>Бои</item>
+        <item>Назв.</item>
+        <item>Сред. опыт</item>
+        <item>Сред. урон</item>
+        <item>Побед</item>
+        <item>У:С</item>
+        <item>Общий урон</item>
+        <item>Всего фрагов</item>
+        <item>Самолётов сбито</item>
+        <item>Уровни 10-1</item>
+        <item>Уровни 1-10</item>
+        <!-- only these are new-->
+        <item>CA рейтинг</item>
+        <item>Точность ГК</item>
+        <item>Точность торпед</item>
+    </string-array>
+
+    <string name="encyclopedia_hint">Поиск по назв.</string>
+    <string-array name="search_nation">
+        <item>США</item>
+        <item>Англия</item>
+        <item>СССР</item>
+        <item>Япония</item>
+        <item>Германия</item>
+        <item>Азия</item>
+        <item>Польша</item>
+        <item>Франция</item>
+        <item>содружество</item>
+    </string-array>
+
+    <string name="settings_theme_text">Выбор темы</string>
+    <string name="encyclopedia_all">Всё</string>
+    <string name="settings_remove_arp_text">Убрать иконки Арпеджио</string>
+    <string name="average_accuracy_per_tier">Средняя точность ГК по уровням</string>
+    <string name="top_ten_accuracy">Топ 10 по точности ГК</string>
+    <string name="torp_accuracy">Точность торпед</string>
+    <string name="main_battery_accuracy">Точность ГК</string>
+    <string name="enemy_accuracy">Точность противника</string>
+    <string name="detection_range">Дист. обнаружения</string>
+    <string name="experience">Опыт</string>
+    <string name="repair_cost">Цена ремонта</string>
+    <string name="detontaion_chance">Шанс детонации</string>
+    <string name="reload_time">Перезарядка</string>
+    <string name="secondary_guns_accuracy">Точность доп. орудий</string>
+    <string name="secondary_guns_range">Радиус доп. орудий</string>
+    <string name="burning_time">Время горения</string>
+    <string name="health_regen_speed">Скорость восстановления хп</string>
+    <string name="ramming_damage_caused">Нанесённый тараном урон</string>
+    <string name="ramming_damage_received">Полученный тараном урон</string>
+    <string name="ship_speed">Скорость</string>
+    <string name="flooding_time">Время затопления</string>
+    <string name="search_stats_server"><![CDATA[Поиск и статистика]]></string>
+    <string name="karma">Карма</string>
+    <string name="login_primary_user">Логин на выбранном пользователе</string>
+    <string name="account_information">Данные аккаунта</string>
+    <string name="pi_gold">Золото</string>
+    <string name="free_experience">Свободный опыт</string>
+    <string name="pi_credits">Авторы</string>
+    <string name="slot_info">Кораблей / Всего слотов</string>
+    <string name="battle_time">Время в бою</string>
+    <string name="premium_expires_on"> Премиум закончится </string>
+    <string name="settings_saved_captain_points">Общие данные</string>
+    <string name="settings_saved_ships_points">Данные по кораблю</string>
+    <string name="settings_stats_number_dialog_title">Снизить кол-во точек сохранения?</string>
+    <string name="settings_stats_number_dialog_message">Если вы понизите это значение, приложению придётся полностью очистить всю информацию для применения новых настроек. Вы согласны?</string>
+    <string name="settings_stats_number_dialog_positive">Понизить кол-во</string>
+    <string name="settings_stats_area_warning">Изменение последующих настроек напрямую влияет на распределение памяти в приложении. Будьте внимательны.</string>
+    <string name="memory_settings">Настройки памяти</string>
+    <string name="settings_data_points">Количество точек сохранения</string>
+    <string name="planes_downed_encyclo">Самолётов сбито</string>
+    <string name="capture_points_encyclo">Очков захвата</string>
+    <string name="defense_points">Очков защиты</string>
+    <string name="provided_by_warships_today">Данные предоставлены Warships.Today</string>
+    <string name="community_assistant_rating_overall">Общий Community Assistant рейтинг</string>
+    <string name="community_assistant_rating">Community Assistant рейтинг</string>
+    <string name="community_assistant_rating_shorter">CA рейтинг</string>
+    <string name="remove_ca_rating">Убрать CA рейтинг</string>
+    <string name="breakdown_of_rating">Анализ</string>
+    <string name="best_ca_rating">Лучший CA рейтинг</string>
+    <string name="total_kills">Всего фрагов</string>
+    <string name="team_battles_title">Данные командных боёв</string>
+    <string name="two_div_title">Данные капитанов 2 дивизиона</string>
+    <string name="three_div_title">Данные капитанов 3 дивизиона</string>
+    <string name="pve_title">Данные ПвЕ</string>
+    <string name="games_per_gamemode">Игр по режимам</string>
+    <string name="million">" мил."</string>
+    <string name="game_mode_statistics">Данные режима</string>
+    <string name="win_rate_per_mode">Побед по режимам</string>
+    <string name="solo_pvp">Соло ПВП</string>
+    <string name="pve">ПвЕ</string>
+    <string name="pvp_2_div">ПвП 2 див.</string>
+    <string name="pvp_3_div">ПвП 3 див.</string>
+    <string name="team_battles">Командные бои</string>
+    <string name="survival_rate_per_mode">Выживаний по режимам</string>
+    <string name="most_accuracy_gun_shipg">Корабль с точнейшим ГК</string>
+    <string name="most_accuracy_torp_ship">Корабль с точнейшими торп.</string>
+    <string name="click_module_to_update_view">Выберите модуль</string>
+    <string name="module_list">Модули</string>
+    <string name="ship_characteristics">Данные корабля</string>
+    <string name="disable_login">Отключить логин</string>
+    <string name="fire_control">Сист. упр. огнём</string>
+    <string name="flight_control">Сист. упр. полётом</string>
+    <string name="torpedo_bomber">Торпедонос.</string>
+    <string name="dive_bomber">Бомбардир.</string>
+    <string name="captain_ca_per_tier">CA рейтинг по уровням</string>
+    <string name="captain_ca_contrabution">Влияние на рейт по уровням</string>
+
+    <!--These are optional-->
+    <string name="ca_rating_explanation">Community Assistant рейтинг корабля — %1$s урона, %2$s фрагов и %3$s побед. Базовая линия равна 1000.</string>
+    <string name="ca_rating_overall_explanation">Общий Community Assistant рейтинг высчитывается путём нахождения среднего CA рейтинга для каждого уровня и последующего умножения полученных данных на процент побед этого уровня. Сложив все полученные данные, получается общий CA рейтинг.</string>
+<string name="ca_rating_reason">Аргументы для формулы: %1$s урона, %2$s фрагов и %3$s побед — значения, используемые для вычисления CA рейтинга корабля.
+   Стандартные (показатели корабля / ожидаемые показатели корабля) * коэф. формулы. К примеру: (22000 урона / 20000 ожидаемого) * %1$s. Собирается урон, количество фрагов и процент побед, затем умножается на 1000.\n\n
+   Урон и фраги обладают большим весом, что позволяет снизить влияние слабой команды и заниженного количества побед.
+   Нанесение урона и уничтожение кораблей противника крайне важны для победы, так что пока мы не получим более подробной информации от ВГ по очкам захвати/защиты, придётся довольствоваться тем что мы имеем.
+   Формула для общего CA рейтинга высчитывается путём умножения общего рейтинга каждого уровня на процент присутствия этого уровня в вашем общем количестве боёв. Это помогает снизить влияние кораблей начальных уровней на вашу статистику и позволяет вашим любимым кораблям максимально точно отражать ваш уровень игры.
+   Изначально такая система задумывалась как средство для борьбы с опытными игроками, набивающими рейтинг на новичках низких уровней, но, в то же время, система должна была учитывать и игроков, которым просто нравится игрока на кораблях низких уровней.
+   Итоговый вариант расчёта не позволит недобросовестным игрокам набивать рейтинг, т.к.  обычно каждый новый уровень развития требует большего количества игр, чем прошлый. При этом вы сможете играть на любимых кораблях низких уровней.</string>
+    <!--end of optional area-->
+
+    <!--This one would be nice to have done.-->
+    <string name="ca_rating_tl_dr" >Вкратце:\n\nИндивидуальный Community Assistant рейтинг корабля — %1$s урона, %2$s фрагов и %3$s побед. Общий Community Assistant рейтинг высчитывается по формуле (средний CA рейтинг по уровню) * (количество битв на уровне/ общее количество битв). Базовая линия равна 1000.</string>
+
+    <string name="ship_compared_to_others">Сравнить корабль с другими</string>
+
+    <string name="recommended_setups">Рекомендуемые настр.</string>
+
+    <string-array name="themes">
+        <item>Океан</item>
+        <item>Темнота</item>
+    </string-array>
+    <string name="title_activity_information">Community Assistant (CA) рейтинг </string>
+    <string name="per_ship_rating">Рейтинг корабля</string>
+    <string name="overall_ca_rating">Общий CA рейтинг</string>
+    <string name="ca_rating_dialog_title">Community Assistant (CA) рейтинг</string>
+    <string name="learn_more">Узнать больше</string>
+    <string name="gun_dispersion">Разброс</string>
+    <string name="gun_rotation_speed">Поворот на 180°</string>
+    <string name="armor_values">Индекс брони</string>
+    <string name="aa_info">ПВО инфо</string>
+    <string name="deck_armor">Палуба:</string>
+    <string name="range_armor">Общее:</string>
+    <string name="bow_stern_armor"><![CDATA[Нос и корма:]]></string>
+    <string name="gun_casemate_armor">Каземат:</string>
+    <string name="citadel_armor">Цитадель:</string>
+    <string name="millimeters">мм</string>
+    <string name="damage_per_second">дпс</string>
+    <string name="kilometers">км</string>
+    <string name="kilometers_per_second">км/ч</string>
+    <string name="seconds">с</string>
+    <string name="meters">м</string>
+    <string name="warship_today_nprofile_page">Профиль на Warship.Today</string>
+    <string name="login">Войти</string>
+    <string name="app_language">App Язык</string>
+    <string name="app_langauge_base">ru</string>
+    <string name="nation_france">Франция</string>
+    <string name="nation_commonwealth">содружество</string>
+
+    <!-- THESE NEED TO BE FIXED -->
+    <string name="view_an_ad_on_launch">Посмотреть рекламу при запуске</string>
+
+    <string name="total_spotting_damage">Урон по обнаружению</string>
+
+    <string name="total_tanking_damage">Вытанковано урона</string>
+
+    <string name="total_torp_tanking_damage">Максимум вытановано</string>
+
+    <string name="total_damage_to_buildings">Урон по строениям</string>
+
+    <string name="total_suppressions">Подавлений</string>
+
+    <string name="total_spots">Всего обнаружений</string>
+
+    <string name="max_spots">Макс. обнаружений</string>
+
+    <string name="most_spotted_in_a_match">Макс. обнаружений за бой</string>
+
+    <string name="most_scouting_damage_in_a_match">Макс. урона по обнаружению за бой</string>
+
+    <string name="top_tanking_damage">Макс. вытанковано</string>
+
+    <string name="top_torpedo_tanking_damage">Макс. вытанковано торпедного урона</string>
+
+    <string name="modules">Модули</string>
+
+    <string name="graphs">Графики</string>
+
+    <string name="toast_not_enough_ships_to_compare">Нужно добавить минимум два корабля, чтоб сравнить</string>
+
+    <string name="long_click_to_add_ship_to_compare_list">Нажмите и удерживайте, чтобы добавить к сравнению</string>
+
+    <string name="ship_compare_title">Сравнить корабли</string>
+
+    <string name="ap_damage">Урон ББ</string>
+
+    <string name="he_damage">Урон фугасом</string>
+
+    <string name="he_burn_chance">Шанс возгорания фугасом</string>
+
+    <string name="num_of_turrets">Кол-во башен</string>
+
+    <string name="num_of_torp_turret">Кол-во торп. аппаратов</string>
+
+    <string name="fighter_squadrons">Эск. истребителей</string>
+
+    <string name="bomber_squadron">Эск. бомбардировщиков</string>
+
+    <string name="torpedo_squadrons">Эск. торпедоносцев</string>
+
+    <string name="db_burn_chance">Шанс поджога бомбардировщиком</string>
+
+    <string name="minimum_armor">Мин. толщина брони</string>
+
+    <string name="maximum_armor">Макс. толщина брони</string>
+
+    <string name="deck_minimum_armor">Мин. толщина брони палубы</string>
+
+    <string name="deck_maximum_armor">Макс. толщина брони палубы</string>
+
+    <string name="extremities_min_armor">Мин. толщина брони оконечностей</string>
+
+    <string name="extremities_max_armor">Макс. толщина брони оконечностей</string>
+
+    <string name="casemate_min_armor">Мин. толщина брони каземата</string>
+
+    <string name="casemate_max_armor">Макс. толщина брони каземата</string>
+
+    <string name="citadel_min_armor">Мин. толщина брони цитадели</string>
+
+    <string name="citadel_max_armor">Макс. толщина брони цитадели</string>
+
+
+</resources>

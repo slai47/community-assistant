@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+
+    <string name="language">en</string> <!-- let me choose this one -->
+
+    <!-- EVERYTHING UNDER THIS IS SUBJECT TO CHANGE-->
+    <string-array name="servers">
+        <item>US</item>
+        <item>EU</item>
+        <item>SEA</item>
+        <item>RU</item>
+        <!--
+        <item>Korea</item> -->
+    </string-array>
+
+    <string-array name="clan_basic_sorting">
+        <item>Arvo</item>
+        <item>Nimi</item>
+    </string-array>
+
+    <string-array name="advanced_sorting">
+        <item>Taistelut</item>
+        <item>Voittoprosentti</item>
+        <item>Arvomerkki</item>
+        <item>WN8</item>
+        <item>Keskimääräinen kokemus</item>
+        <item>Keskimääräinen vahinko</item>
+        <item>Tapot/kuolemat</item>
+        <item>Nimi</item>
+        <item>Taso 10–1</item>
+        <item>Taso 1–10</item>
+    </string-array>
+
+    <string name="recent_changes_news">Patch 3.0.2:\n\n- Bug Fixes for graphs\n\nPatch 3.0.1:\n\n- WN8 v21 -> v22 \n\n- More Graphs \n\n- Bug Fixes \n\n3.0 päivitys:/n/n- Ohjelman uudelleensuunnittelu. /n/n- Uudet kartat osio./n/n- Uusi pelaajanäkymän vakio. Valitsemalla tämän ohjelma lataa pelaajaprofiilin ensin./n/n- Kevyt teema lisätty./n/n- 7/30/60 päivän xWN8 (experimental) lisätty./n/n- Uusia diagrammeja ja toimintoja pelaaja- ja klaanisivuilla./n/n- Klaanin latausaikaa vähennetty. Ei kestä enää niin kauaa./n/n- WN8 päivitetty v21:een./n/n- Klaanin WN8 ja tilastot ovat nyt laskettu ja tallennettu./n/n- Android Wear tuki lisätty./n/n- Muutamia listojen järjestelyongelmia korjattu/n/n- Taisteluaktiivisuus näyttää nyt karttojen kuvat./n/n- Päivitetty Wargaming:n viimeisimpään API-syötteeseen./n/n- Arvomerkit jotenkuten korjattu./n/n- Viimeisimmän taistelun ajankohta nyt tallennettu pelaajille ja klaanin jäsenille.</string>
+
+    <string name="wn8_cap">WN8</string>
+    <string name="overall">Yhteensä</string>
+    <string name="clan_wars_cap">Klaanisota</string>
+    <string name="win_rate">Voittoprosentti</string>
+    <string name="avg_battles">Keskimääräiset taistelut</string>
+    <string name="avg_kills">Keskimääräiset tapot</string>
+    <string name="avg_damage">Keskimääräinen vahinko</string>
+    <string name="avg_exp">Keskimääräinen kokemus</string>
+    <string name="last_24_wn8">Viimeisten 24 tunnin WN8</string>
+    <string name="last_7_wn8">7 päivän WN8</string>
+    <string name="last_30_wn8">30 päivän WN8</string>
+    <string name="last_60_wn8">60 päivän NW8</string>
+    <string name="battles">Taistelut</string>
+    <string name="k_d">Tapot/Kuolemat</string>
+    <string name="k_d_c">Tapot/Kuolemat:</string>
+    <string name="hit_percentage">Osumaprosentti</string>
+    <string name="hit_percentage_c">Osumaprosentti:</string>
+    <string name="dmg_factor">Tehty vahinko </string>
+    <string name="app_name">Avustus</string>
+
+    <string name="search_text">Haku:</string>
+    <string name="search_fragment_wn_hint">Syötä vaunun nimi tai taso:</string>
+    <string name="search_fragment_player_hint">Syötä käyttäjänimi</string>
+    <string name="search_fragment_clan_hint">Syötä klaanin nimi tai lyhenne</string>
+    <string name="search_map_hint">Syötä kartan nimi</string>
+
+    <string name="settings">Asetuksen</string>
+
+    <string name="drawer_about">ASETUKSET &amp; INFO</string>
+    <string name="drawer_clan">KLAANIT</string>
+    <string name="drawer_player">PELAAJAT</string>
+    <string name="drawer_vehicle_stats">VAUNUN WN8 TILASTOT</string>
+    <string name="drawer_search">Haku</string>
+    <string name="drawer_gpd">G/D Calculator</string>
+    <string name="drawer_server">SERVERI</string>
+    <string name="drawer_donate">TUE TÄTÄ HANKETTA</string>
+    <string name="drawer_home">Koti</string>
+    <string name="drawer_maps">KARTAT</string>
+    <string name="drawer_battle_activity">Taisteluaktiivisuus</string>
+
+    <string name="search_no_results">Ei tuloksia</string>
+
+    <string name="info_settings">ASETUKSET</string>
+    <string name="info_battles_title">Miksi taisteluni eivät lataudu ohjelmaan heti?</string>
+    <string name="info_unknown_text">Taistelulle ei vielä ole aikataulua. Tehdessä maihinnousua näin käy usein.</string>
+    <string name="info_unknown_title">Miksi taistelun ajankohtaa ei ole tiedossa?</string>
+    <string name="info_battles_text">Wargaming \u00A9 caches Clan Wars battles. This can cause a delay in when the battles are updated and removed from the screen.</string>
+    <string name="thank_you_info">vBAddict.net tarjoaa tankkien odotetut pisteet ja WN8 tiedot.</string>
+    <string name="info_about">TIETOA</string>
+    <string name="info_version">Versio:</string>
+    <string name="info_write_a_review">Kirjoita arvostelu</string>
+    <string name="info_email">Ota yhteyttä sähköpostitse</string>
+    <string name="info_twitter">Ota yhteyttä Twitterin kautta</string>
+    <string name="info_info">INFO</string>
+    <string name="info_thank_you">Kiitos</string>
+
+    <string name="list_clan_members">Jäsenet:</string>
+    <string name="list_clan_added_message">lisätty</string>
+    <string name="list_clan_removed_message">poistettu</string>
+
+    <string name="no_text_error">Sinun täytyy antaa hakusana</string>
+    <string name="no_internet_title">Ei yhteyttä internetiin</string>
+    <string name="no_internet_message"> Haluatko laittaa internet-yhteytesi päälle?</string>
+    <string name="no_internet_neutral_text">Asetukset</string>
+    <string name="error_no_player_found">Hups, nyt meni väärään. Yritähän uudelleen ja katso, toimiiko.</string>
+    <string name="error">Virhe ilmaantui</string>
+
+    <string name="battle_activity_no_clans_text">Klaaneja ei ole tallennettu. Lisää klaaneja nähdäksesi heidän klaanisotataisteluiden ajankohdat ja aseta itsellesi hälytys, million taistelu alkaa ja missä läänissä</string>
+
+    <string name="list_battle_title_activity">Taisteluaktiivisuus</string>
+    <string name="activity_no_results">Taisteluita ei löytynyt</string>
+    <string name="no_battles">Ei taisteluita</string>
+
+    <string name="system_cant_update_message">Voit päivittää taisteluaktiivisuuden vain 5 minuutin välein</string>
+
+    <string name="battle_type_engagement">Kohtaaminen</string>
+    <string name="battle_type_landing">Maihinnousu</string>
+    <string name="battle_type_province">Lääni</string>
+
+    <string name="clan_details_description">Kuvaus:</string>
+
+    <string name="alarm_dialog_time_title">Milloin haluat asettaa hälytyksen?</string>
+    <string name="alarm_dialog_before">minuuttia ennen</string>
+    <string name="alarm_pos_button_text"> Aseta hälytys</string>
+    <string name="dismiss">Hylkää</string>
+    <string name="alarm_dialog_title">Taisteluhälytys</string>
+    <string name="alarm_set">Hälytys asetettu</string>
+    <string name="alarm_click_no_alarm_times">Taistelu on alkanut tai on alkamassa. Hälytystä ei voida asettaa tälle taistelulle.</string>
+
+    <string name="scheduling">Aikataulutetaan</string>
+
+    <string name="server_change_text">serveri vaihdettu</string>
+
+    <string name="clan_details_nothing_returned">Mitään klaanin tietoja ei löydetty. Olisiko väärä serveri?</string>
+    <string name="recent_changes_title">Päivityksen tiedot</string>
+    <string name="created_by">Luonut</string>
+    <string name="created_by_name">HALF</string>
+
+    <string name="vehicle_stat_win">Voitto%:</string>
+    <string name="vehicle_stat_frag">Tapot:</string>
+    <string name="vehicle_stat_def">Puolustuspisteet:</string>
+    <string name="vehicle_stat_spots">Spottaukset:</string>
+    <string name="vehicle_stat_dmg">Vahinko:</string>
+
+    <string name="notification_text">Taisteluhälytys</string>
+
+    <string name="pager_clan_details">KLAANIN TIEDOT</string>
+    <string name="pager_clan_members">JÄSENET</string>
+    <string name="pager_clan_query">TIEDUSTELU</string>
+    <string name="details_cap">YKSITYISKOHDAT</string>
+    <string name="pager_tanks">VAUNUT</string>
+
+
+    <string name="player_details_win8">WN8:</string>
+    <string name="avg_dmg">Keskimääräinen vahinko:</string>
+    <string name="win_percentage_c">Voitto%:</string>
+    <string name="avg_exp_c">Keskimääräinen kokemus:</string>
+    <string name="battles_c">Taistelut:</string>
+    <string name="player_details_player_stats">Pelaajan tilastot</string>
+    <string name="player_details_player_tanks">Pelaajan edistyneet tiedot</string>
+    <string name="player_details_tank_name_col">Nimi</string>
+    <string name="win_percentage">Voitto%</string>
+    <string name="player_details_tank_mastery_col">Arvomerkki</string>
+    <string name="player_details_global_rating">WoT arvo:</string>
+    <string name="player_details_num_of_badges">Arvomerkkien määrä:</string>
+    <string name="player_details_badges_m">Ässät:</string>
+    <string name="player_details_badges_1">1. Luokka:</string>
+    <string name="player_details_badges_2">2. Luokka:</string>
+    <string name="player_details_badges_3">3. Luokka:</string>
+    <string name="player_details_more_details">Lisää pelaajan tilastoja</string>
+    <string name="player_details_tanking_factor">Panssarin käyttö:</string>
+    <string name="player_details_avg_spot_dmg">Spottausvahingon ka:</string>
+    <string name="player_details_track_damge">Telavahingon ka.:</string>
+    <string name="player_details_blocked_damage">Torjutun vahingon ka:</string>
+    <string name="player_details_dmg_assist">Avustetun vahingon ka.</string>
+    <string name="player_details_penetration">Läpäisy%:</string>
+    <string name="player_details_best_game">Parhaat tilastot</string>
+    <string name="player_details_account_info">Tilin tiedot</string>
+    <string name="player_details_created_on">Luotu :</string>
+    <string name="player_details_last_battle_on">Viimeisin taistelu:</string>
+    <string name="player_details_best_performance">Paras vaunu</string>
+    <string name="player_details_unknown_tank">Tuntematon vaunu</string>
+    <string name="player_details_joined">Liittynyt</string>
+    <string name="player_details_days_ago"> päivää sitten</string>
+    <string name="player_graphs_wn8_nation">Maakohtainen WN8</string>
+    <string name="player_graphs_battles_nation">Maakohtaiset taistelut</string>
+    <string name="player_graphs_tanks_per_tier">Vaunujen taso</string>
+    <string name="player_graphs_tanks_per_class">Vaunujen luokka</string>
+    <string name="player_graphs_tanks_per_nation">Vaunujen kotimaa</string>
+    <string name="player_details_best_exp">Kokemus:</string>
+    <string name="player_details_best_frags">Tapot:</string>
+    <string name="player_details_best_damage">Vahinko:</string>
+    <string name="player_details_clan_wars_stats">Klaanisodan Tilastot</string>
+    <string name="player_details_no_clan_wars_stats">Klaanisotatilastoja ei löytynyt</string>
+    <string name="player_details_no_stats_found">Tilastoja ei löytynyt</string>
+
+    <string name="insert_all_into_db_start">Asennetaan paikallista vaunutietopankkia</string>
+    <string name="insert_all_into_db_end">Vaunutietopankki asennettu</string>
+
+    <string name="open_in_wotlabs">Avaa WoTLabsissa</string>
+    <string name="open_in_clantools">Avaa ClanToolsissa</string>
+    <string name="open_in_wotstats">Avaa WoTStats:ssa</string>
+
+    <string name="menu_default"> Aseta Oletus</string>
+    <string name="menu_download">Lataa Klaani</string>
+
+    <string name="clan_details_best_tanker">Paras Kuski:</string>
+    <string name="clan_details_avg_kills">keskimääräiset tapot:</string>
+    <string name="clan_details_avg_battles">Keskimääräiset taiselut:</string>
+    <string name="clan_details_avg_damage">Keskimääräinen vahinko</string>
+    <string name="clan_details_avg_exp">Keskimääräinen kokemus:</string>
+    <string name="clan_details_avg_wn8">Keskimääräinen WN8:</string>
+    <string name="clan_details_clan_stats">Klaanin tilastot</string>
+    <string name="clan_details_export_title">Tuoja: Valitse päivä</string>
+    <string name="clan_details_export_message">Tuotu tekstitiedosto sisältää:\n Klaanin perustiedot, lista klaanin pelaajista, lista jokaisen pelaajan tankeista ja jokaisen tankin WN8.\n\nTämä on JSON:lla kirjoitettu. Säästääksesi tilaa tiedoston koosta, tässä on muutamia avainsanoja:\naXp P Keskimääräinen kokemus\nvoitot = voitettujen taisteluien määrä\nosumat = Osumaprosentti\ntapot = tapetut tai tuhotut vihollisvaunut\nsur = Hengissä selvityt taistelut\ncwn8 = klaanisodat WN8\n\nTämä on kaikki tieto, jotka tallennan laitteellesi, jotta voin antaa sinulle ohjelmani tarjonnan.</string>
+    <string name="clan_details_export_subject">Tuo</string>
+    <string name="clan_graphs_no_graphs">Diagrammeja ei löytynyt. Lataa klaani uudelleen</string>
+
+    <string name="details_tanks_member_get_all_info">Lataa klaani</string>
+
+    <string name="event_map">Tapahtumakartta</string>
+
+    <string name="info_colorblind">Värisokeustila</string>
+
+    <string name="failure">Virhe kerätessä tietoja</string>
+
+    <string name="nation_china">Kiina</string>
+    <string name="nation_france">Ranska</string>
+    <string name="nation_germany">Saksa</string>
+    <string name="nation_japan">Japani</string>
+    <string name="nation_uk">Yhdistyneet Kuninkaskunnat</string>
+    <string name="nation_ussr">NL</string>
+    <string name="nation_usa">USA</string>
+
+    <string name="download_players">Kerätään kaikkien pelaajien tiedot. Klikkaa peruuttaaksesi.</string>
+    <string name="download_calculating">Lasketaan tankkikohtaista WN8 arvoa ja muuta. Klikkaa peruuttaaksesi.</string>
+    <string name="download_graphs">Luodaan diagrammidataa. Klikkaa peruuttaaksesi.</string>
+
+    <string name="download_notification_downloading">Ladataan</string>
+    <string name="download_notification_information">\'s information</string>
+    <string name="download_notification_standard">Lataus käynnissä. Klikkaa peruuttaaksesi.</string>
+    <string name="download_notification_done"> Ladattu</string>
+    <string name="download_notification_cancelled"> Lataus peruutettu</string>
+
+    <string name="first_time_download_title">Ladataan klaania</string>
+    <string name="first_time_download_text">Tämä prosessi aloittaa paljon dataa käyttävän latauksen, ja voi kestää muutamia minuutteja. Suosittelen käytettäväksi ainoastaan, jos olet langattomassa verkossa (WiFi). Tätä toimintoa voi käyttää vain kerran kolmessa päivässä per klaani. Tällä toiminnolla saat klaanin jokaisen jäsenen tilastot ja paljon muuta. Tämä data säilyy laitteellasi, kunnes uusi lataus suoritetaan.</string>
+
+    <string name="download_dialog_pos_message">Lataus</string>
+    <string name="download_task_running">Klaanin lataus on jo käynnissä</string>
+    <string name="refresh">Päivitä</string>
+    <string name="player_details_trees_cut">Murhatut puut:</string>
+
+    <string name="info_clean_clan">Siivoaa ohjelman käyttämät tiedostot puhelimesta. Tämä poistaa kaikki ladatut klaanien tiedot.</string>
+    <string name="info_clean_clan_text">Tyhjennä klaanilataukset</string>
+    <string name="info_clean_clans_toast">Tyhjennetyt tiedostot</string>
+    <string name="tank_clan_member_next_download_time_text">Seuraava lataus saatavilla: \n</string>
+    <string name="clan_details_toast_loading_up_download">Tuodaan ladatun klaanin tietoja</string>
+    <string name="clan_details_waiting_for_clan">Odotetaan toisen klaanin latausta</string>
+    <string name="clan_details_download_starts">Lataus aloitettu</string>
+    <string name="search_choose_hint">Valitse vaunu ja paina Lähetä</string>
+    <string name="details_query_no_tank_selected">Vaunua ei ole valittu tiedusteltavaksi</string>
+    <string name="details_query_loading">Klaanilatausta ladataan</string>
+    <string name="details_query_clan_info_not_downloaded">Jotta pääset käsiksi tämän ruudun tietoihin, sinun on ensin ladattava klaani.</string>
+    <string name="details_query_description_tier">Taso</string>
+    <string name="details_query_no_players_have_that_tank">Tietoja ei löydetty</string>
+
+    <string name="tank_destroyer">PST-vaunu</string>
+    <string name="heavy_tank">Raskas</string>
+    <string name="medium_tank">Keskiraskas</string>
+    <string name="light_tank">Kevyt</string>
+    <string name="artillery">Tykistö</string>
+
+    <string name="details_query_select_a_tank">Valitse tankki</string>
+
+    <string name="task_no_internet">Lataustoiminto peruutettu internetin puuttumisen vuoksi</string>
+    <string name="dialog_fail_text">Vaunua ei löydetty tietokannasta.</string>
+    <string name="dialog_title">Pelaajien ero</string>
+    <string name="dialog_top_yours">Sinun</string>
+    <string name="dialog_top_average">Keskiarvo</string>
+    <string name="dialog_top_delta">Ero</string>
+    <string name="dialog_row_wins">Voitot</string>
+    <string name="dialog_row_damage">Vahinko</string>
+    <string name="dialog_row_kill_death">Tapot/kuolemat</string>
+    <string name="dialog_row_spots">Spottaukset</string>
+    <string name="dialog_row_def">Puolustuspisteet</string>
+
+    <string name="unknown">tuntematon</string>
+
+    <string name="translator_text">Kääntänyt Suomeksi: Jimi Pönniö </string>
+
+    <string name="info_theme_mode">Kevyt teema</string>
+    <string name="no_tier_10s_found">Tason 10 vaunuja ei löydetty</string>
+    <string name="no_tier_10s_found_games">Tason 10 pelejä ei löydetty</string>
+
+    <string name="dialog_message_bookmarking"> Laittamalla kirjanmerkiksi tämä pelaaja näkyy ensimäisenä, kun avaat ohjelman.</string>
+    <string name="dialog_title_bookmarking">Haluaisitko kirjanmerkata tämän pelaajan?</string>
+
+    <string name="wn8_per_tier">Tasokohtainen WN8</string>
+    <string name="wn8_per_class">Luokkakohtainen WN8</string>
+    <string name="battles_per_tier">Tasokohtainen taisteluiden määrä</string>
+    <string name="battles_per_class">Luokkakohtainen taisteluiden määrä</string>
+    <string name="wn8_per_top_tier">10-tasokohtainen WN8</string>
+    <string name="clan_graphs_tanks_top_tier">Tason 10 vaunujen lukumäärä</string>
+    <string name="battles_per_top_tier">Taisteluiden määrä tason 10 vaunuissa</string>
+    <string name="wn8_per_tier_6">6-tasokohtainen WN8</string>
+    <string name="wn8_per_tier_8">8-tasokohtainen WN8</string>
+    <string name="no_tier_6s_found">Tason 6 vaunuja ei löydetty</string>
+    <string name="no_tier_8s_found">Tason 8 vaunuja ei löydetty</string>
+    <string name="no_tier_6s_found_games">Tason 6 pelejä ei löydetty</string>
+    <string name="no_tier_8s_found_games">Tason 8 pelejä ei löydetty</string>
+    <string name="clan_graphs_tanks_tier_6">Tason 6 vaunujen lukumäärä</string>
+    <string name="clan_graphs_tanks_tier_8">Tason 8 vaunujen lukumäärä</string>
+    <string name="battles_per_tier_6">Taisteluiden määrä tason 6 vaunuissa</string>
+    <string name="battles_per_tier_8">Taisteluiden määrä tason 8 vaunuissa</string>
+    <string name="settings_info_clear_players">Poista pelaajan tiedot</string>
+    <string name="settings_info_clear_players_text">Poistaa kaiken tallennetun tiedon kaikista pelaajista. Tee tämä vain, jos laitteesi tallennustila on vähissä.</string>
+    <string name="dialog_review_title">Oletko jo arvostellut tämän sovelluksen?</string>
+    <string name="dialog_donation_title">Auta sovelluksen kehittämisessä</string>
+    <string name="player_details_stronghold_stats">Linnaketilastot</string>
+    <string name="search_text_compare">Pidä painettuna vertaillaksesi pelaajia</string>
+    <string name="search_text_compare_button">Vertaile</string>
+    <string name="search_compare_not_enough_players">Ei tarpeeksi pelaajia vertailtavaksi</string>
+    <string name="search_compare_clear">Tyhjennä</string>
+    <string name="compare_player_added">Pelaaja lisätty</string>
+    <string name="compare_player_message">Haluaisitko lisätä pelaajan kirjanmerkeistäsi vertailtavaksi?</string>
+    <string name="compare_player_add">Lisää</string>
+    <string name="compare_maxed_out">Enimmillään kolme vertailtavaa pelaajaa, Paina vertaile näppäintä alapuolella poistaaksesi pelaaja tai pidä pelaajan kohtaa painettuna poistaaksesi sen vertailusta.</string>
+    <string name="avg_dmg_per_tier">Keskimääräinen vahinko per taso</string>
+    <string name="avg_exp_per_tier">Keskimääräinen kokemus per taso</string>
+    <string name="avg_tier">Keskimääräinen taso</string>
+    <string name="survival_rate">Selviytymissuhde</string>
+    <string name="caps_per_game">Valtauspisteitä / Taistelu</string>
+    <string name="def_reset_per_game">Puolustuspisteitä / Taistelu</string>
+    <string name="stronghold_wn8">Linnake WN8</string>
+    <string name="stronghold_cap">LINNAKE</string>
+    <string name="nation_cz">Tšekin</string>
+    <string name="battles_per_tier_5">Taisteluiden määrä tason 5 vaunuissa</string>
+    <string name="battles_per_tier_7">Taisteluiden määrä tason 7 vaunuissa</string>
+    <string name="battles_per_tier_9">Taisteluiden määrä tason 9 vaunuissa</string>
+    <string name="wn8_per_tier_5">5-tasokohtainen WN8</string>
+    <string name="wn8_per_tier_7">7-tasokohtainen WN8</string>
+    <string name="wn8_per_tier_9">9-tasokohtainen WN8</string>
+    <string name="no_tier_5s_found">Tason 5 vaunuja ei löydetty</string>
+    <string name="no_tier_5s_found_games">Tason 5 pelejä ei löydetty</string>
+    <string name="no_tier_7s_found">Tason 7 vaunuja ei löydetty</string>
+    <string name="no_tier_7s_found_games">Tason 7 pelejä ei löydetty</string>
+    <string name="no_tier_9s_found">Tason 9 vaunuja ei löydetty</string>
+    <string name="no_tier_9s_found_games">Tason 9 pelejä ei löydetty</string>
+
+    <string-array name="clan_sorting">
+        <item>Arvo</item>
+        <item>Nimi</item>
+        <item>Taistelut</item>
+        <item>Voittoprosentti</item>
+        <item>WN8</item>
+        <item>Klaanin WN8</item>
+        <item>Viimeisin taistelu</item>
+        <item>Viimeisimmän päivän WN8</item>
+        <item>Viimeisimpien 7 päivän WN8</item>
+        <item>Viimeisimpien 30 päivän WN8</item>
+        <item>Viimeisimpien 60 päivän WN8</item>
+    </string-array>
+
+    <!-- optional -->
+    <string name="patch_notes">Päivitys 3.2:\n\n- Päivitetty backend, Pyynnöt voivat kestää kauemmin, mutta kaikki data tulee kerralla. \n\n- Lisätty splash joka pitää saavutukset ja vaunujen nimet päivitettyinä. \n\n-Saavutuksien katselu lisätty. \n\n- tasojen 5, 7 ja 9 diagrammit ja data lisätty. \n\n-Siirretty tekstistä kuviksi. \n\n- Asetukset-sivulle päivitetty serverin kieli ja muita asetuksia.\n\n- Serverin tiedot-sivu lisätty. \n\n- Vaunujen WN8 Tilastot muutettu nimelle Ensyklopedia. \n\n-Vapaaehtoiset mainokset lisätty lahjoitusosioon. \n\n- Lisätty Viimeisin WN8 klaanilataukseen. </string>
+    <string name="drawer_encyclopedia">TANKOPEDIA</string>
+
+    <string name="donate_title">Haluaisitko auttaa tukemaan tätä projektia?</string>
+    <string name="donate_message">HALF Tässä; Toivon, että WoT yhteisöassistentti on auttanut sinua pelatessasi World of Tanksia. Haluan luoda parhaan mahdollisen yhteisöassistentin teille. Teen jatkuvasti töitä jotta voisin tehdä tästä parhaan mahdollisen ilmaisen apin teille. Jos haluat tukea tätä appia, katso vaikka mainos tai lahjoita vähän. Pienikin ele auttaa valtavasti!</string>
+
+    <string name="dialog_donation_message">Jos pidät tästä apista, harkitse lähettäväsi minulle vaikkapa lahjoitus tai katso mainos. Jos sinulla on parannusehdotus, lähetä se vain minulle, niin ehkä saamme sen jo seuraavaan versioon!</string>
+    <string name="fragment_donate_view_ad">Katso mainos</string>
+    <string name="settings_info_refresh_msg">Tyhjentää ja päivittää varastoidun datan saavutuksiata ja laivoista Wargamingilta. tämä tapahtuu automaattisesti aina kolmen päivän välein.</string>
+    <string name="settings_info_refresh_title">Päivitä varastoitu data</string>
+    <string name="refresh_finished">Päivitys valmis!</string>
+    <string name="settings_server_language">Serverin kieli:</string>
+    <string name="settings_server">Serveri:</string>
+
+    <!-- "English", "Русский", "Polski", "Deutsch", "Français", "Español", "简体中文", "Türkçe", "Čeština", "ไทย", "Tiếng Việt", "한국어"-->
+    <!-- "en",      "ru",       "pl",       "de",   "fr",       "es",       "zh-cn",   "tr",       "cs",    "th", "vi",         "ko"-->
+    <string name="base_server_language">en</string>
+
+    <string name="resources_wot_numbers">World of Tanks\n pelaajat online</string>
+    <string name="resources_wows_numbers">World of Warships\n pelaajat online</string>
+    <string name="resources_wows_total_c">WoWs Kaikki:\n</string>
+    <string name="resources_wot_total_c">WoT Kaikki:\n</string>
+    <string name="drawer_server_info">SERVERIN INFO</string>
+    <string name="encyclopedia_wn8_stats">WN8 Tilastot</string>
+    <string name="donation_dialog_paypal">Paypal</string>
+    <string name="day_wn8">24 TUNNIN</string>
+    <string name="week_wn8">7 PÄIVÄN</string>
+    <string name="month_wn8">30 Päivän</string>
+    <string name="two_month_wn8">60 PÄIVÄN</string>
+    <string name="recent_wn8s">Viimeisimmät WN8:t</string>
+
+    <string name="online">Live</string>
+    <string name="offline">Offline</string>
+    <string name="drawer_twitch_youtube">TWITCH &amp; YOUTUBE TÄHDET</string>
+    <string name="drawer_websites">HYÖDYLLISIÄ SIVUJA</string>
+    <string name="app_language"> App Kieli</string>
+    <string name="app_langauge_base">fi</string>
+    <string name="nation_sweden">Ruotsi</string>
+</resources>

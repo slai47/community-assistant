@@ -1,0 +1,126 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <!--<item android:id="@+id/action_search" android:title="@string/action_search"-->
+    <!--android:icon="@drawable/ic_search" app:showAsAction="always"-->
+    <!--/>-->
+
+    <item
+        android:id="@+id/action_save"
+        android:title="@string/save_captain"
+        android:icon="@drawable/ic_action_save"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_refresh"
+        android:title="@string/action_refresh"
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="always"
+        android:visible="false" />
+    <!--<item android:id="@+id/action_encyclopedia" android:title="@string/action_shipopedia"-->
+    <!--android:icon="@drawable/ic_action_encyclopedia" app:showAsAction="ifRoom"-->
+    <!--/>-->
+    <item
+        android:id="@+id/action_captains"
+        android:title="@string/action_captains"
+        android:icon="@drawable/ic_captains"
+        app:showAsAction="always"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/action_bookmark"
+        android:title="@string/menu_favorite"
+        android:visible="false"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/action_warships_today"
+        android:title="@string/warship_today_nprofile_page"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/action_view_ad"
+        android:title="@string/dialog_view_ad"
+        android:visible="false"
+        app:showAsAction="collapseActionView" />
+
+    <!--<item android:id="@+id/action_websites" android:title="@string/action_websites"-->
+    <!--app:showAsAction="never">-->
+    <!--<menu>-->
+    <!--<item android:id="@+id/action_websites_warstats" android:title="@string/action_warship"-->
+    <!--/>-->
+    <!--<item android:id="@+id/action_websites_reddit" android:title="Reddit"-->
+    <!--/>-->
+    <!--<item android:id="@+id/action_websites_wows" android:title="World of Warships"-->
+    <!--/>-->
+    <!--<item android:id="@+id/action_websites_comrade" android:title="Ship Comrade"-->
+    <!--/>-->
+    <!--<item android:id="@+id/action_websites_steam" android:title="Steam Groups"-->
+    <!-->-->
+    <!--<menu>-->
+    <!--<item android:id="@+id/action_websites_steam_us" android:title="Steam US"-->
+    <!--/>-->
+    <!--<item android:id="@+id/action_websites_steam_eu" android:title="Steam EU"-->
+    <!--/>-->
+    <!--</menu>-->
+    <!--</item>-->
+    <!--</menu>-->
+    <!--</item>-->
+
+    <!--<item android:id="@+id/action_tools" android:title="Tools"-->
+    <!--app:showAsAction="never">-->
+    <!--<menu>-->
+    <!--<item android:id="@+id/action_tools_compare" android:title="Ship Compare"-->
+    <!--/>-->
+    <!--<item android:id="@+id/action_tools_game_model" android:title="GameModel3d"-->
+    <!--/>-->
+    <!--</menu>-->
+    <!--</item>-->
+
+    <!--<item android:id="@+id/action_youtubers" android:title="@string/action_youtubers"-->
+    <!--app:showAsAction="never">-->
+    <!--<menu>-->
+    <!--<item android:id="@+id/action_links_youtube_chase" android:title="iChaseGaming"-->
+    <!--/>-->
+    <!--<item android:id="@+id/action_links_youtube_revive_me" android:title="NoZoupForYouGaming"-->
+    <!--/>-->
+    <!--<item android:id="@+id/action_links_youtube_baron" android:title="BaronVanGamez"-->
+    <!--/>-->
+    <!--<item android:id="@+id/action_links_youtube_aerroon" android:title="Aerroon"-->
+    <!--/>-->
+    <!--<item android:id="@+id/action_links_youtube_ohjeezums" android:title="OhJeezums"-->
+    <!--/>-->
+    <!--<item android:id="@+id/action_links_youtube_punisher" android:title="WDA_Punisher"-->
+    <!--/>-->
+    <!--<item android:id="@+id/action_links_youtube_majesh" android:title="Mejash"-->
+    <!--/>-->
+    <!--</menu>-->
+    <!--</item>-->
+
+    <!--<item android:id="@+id/action_twitch" android:title="@string/action_twitch"-->
+    <!--app:showAsAction="never">-->
+    <!--<menu>-->
+    <!--<item android:id="@+id/action_links_twitch_braincage" android:title="Braincage"-->
+    <!--/>-->
+    <!--<item android:id="@+id/action_links_twitch_ohjeezums" android:title="OhJeezums"-->
+    <!--/>-->
+    <!--<item android:id="@+id/action_links_twitch_chase" android:title="iChaseGaming"-->
+    <!--/>-->
+    <!--<item android:id="@+id/action_links_twitch_majesh" android:title="Mejash"-->
+    <!--/>-->
+    <!--<item android:id="@+id/action_links_twitch_baron" android:title="BaronVanGamez"-->
+    <!--/>-->
+    <!--<item android:id="@+id/action_links_twitch_revive_me" android:title="NoZoupForYouGaming"-->
+    <!--/>-->
+    <!--<item android:id="@+id/action_links_twitch_punisher" android:title="WDA_Punisher"-->
+    <!--/>-->
+    <!--<item android:id="@+id/action_links_twitch_aerroon" android:title="Aerroon"-->
+    <!--/>-->
+    <!--</menu>-->
+    <!--</item>-->
+
+    <!--<item android:id="@+id/action_settings" android:title="@string/action_settings"-->
+    <!--app:showAsAction="never" />-->
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1.0"
+    android:minHeight="60dp"
+    >
+
+    <TextView
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:id="@+id/compare_title"
+        android:textColor="@color/white"
+        android:padding="2dp"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:background="@drawable/compare_normal_grid"
+        />
+
+    <TextView
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.35"
+        android:id="@+id/compare_one"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:background="@drawable/compare_normal_grid"
+        />
+
+    <TextView
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.35"
+        android:id="@+id/compare_two"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:background="@drawable/compare_normal_grid"
+        />
+
+</LinearLayout>

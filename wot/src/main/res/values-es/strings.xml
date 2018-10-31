@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+
+    <string name="language">es</string> <!-- let me choose this one -->
+
+    <!-- EVERYTHING UNDER THIS IS SUBJECT TO CHANGE-->
+    <string-array name="servers">
+        <item>EE.UU.</item>
+        <item>UE</item>
+        <item>SEA</item>
+        <item>RU</item>
+        <!--
+        <item>Korea</item> -->
+    </string-array>
+
+    <string-array name="clan_basic_sorting">
+        <item>Rango</item>
+        <item>Nombre</item>
+    </string-array>
+
+    <string-array name="advanced_sorting">
+        <item>Batallas</item>
+        <item>Clasificacion de victorias</item>
+        <item>Maestria</item>
+        <item>WN8</item>
+        <item>Prom de exp</item>
+        <item>Prom daño</item>
+        <item>K/D</item>
+        <item>Nombre</item>
+        <item>Nivel 10–1</item>
+        <item>Nivel 1–10</item>
+    </string-array>
+
+    <string name="recent_changes_news">Patch 3.0.2:\n\n- Bug Fixes for graphs\n\nPatch 3.0.1:\n\n- WN8 v21 -> v22 \n\n- More Graphs \n\n- Bug Fixes \n\nActualizacion 3.0:\n\n- Material rediseñado de la aplicacion. \n\n- Seccion nueva de mapas. \n\n- Nueva vista estandar de jugadores agregada. Al escoger esto la aplicacion cargara ese perfil primero.\n\n- Un tema mas claro ha sido agregado. \n\n- WN8 experimental de 7 dias, 30 dias y 60 dias ha sido agragado. \n\n- Graficas y caracteristicas nuevas en las paginas del jugador y del clan. \n\n- Descarga de velocidad del clan fue aumentada. Ya no se tarda tanto. \n\n- WN8 actualizado a v21. \n\n- WN8 y estadisticas del clan ahora son calculadas y almacenadas. \n\n- Soporte de Android Wear ha sido agregado. \n\n- Se arreglaron algunos problemas con la clasificacion. \n\n- Actividad de batalla le muestra imagenes del mapa. \n\n- Actualizado al API mas reciente de Wargaming. \n\n- Clasificacion de maestria fue reparado. \n\n- Tiempo de la ultima batalla fue agregado para los jugadores y los miembros del clan.</string>
+
+    <string name="wn8_cap">WN8</string>
+    <string name="overall">En general</string>
+    <string name="clan_wars_cap">CW</string>
+    <string name="win_rate">Clasificacion de victorias</string>
+    <string name="avg_battles">Prom de batallas</string>
+    <string name="avg_kills">Prom de aniquilaciones</string>
+    <string name="avg_damage">Prom de daño</string>
+    <string name="avg_exp">Prom de experiencia</string>
+    <string name="last_24_wn8">Ultimas 24 WN8</string>
+    <string name="last_7_wn8">Ultimas 7 WN8</string>
+    <string name="last_30_wn8">WN8 de 30 dias</string>
+    <string name="last_60_wn8">WN8 de 60 dias</string>
+    <string name="battles">Batallas</string>
+    <string name="k_d">K/D</string>
+    <string name="k_d_c">K/D:</string>
+    <string name="hit_percentage">% de golpe </string>
+    <string name="hit_percentage_c">% de golpe:</string>
+    <string name="dmg_factor">Factor de daño</string>
+    <string name="app_name">Asistir</string>
+
+    <string name="search_text">Buscar:</string>
+    <string name="search_fragment_wn_hint">Ingresar el nombre del vehiculo o el # de nivel</string>
+    <string name="search_fragment_player_hint">Intoducir nombre de usuario</string>
+    <string name="search_fragment_clan_hint">Introducir el nombre del clan o la abreviatura</string>
+    <string name="search_map_hint">Introducir el nombre del mapa</string>
+
+    <string name="settings">Opciones</string>
+
+    <string name="drawer_about">OPCIONES &amp; INFO</string>
+    <string name="drawer_clan">CLANES</string>
+    <string name="drawer_player">JUGADORES</string>
+    <string name="drawer_vehicle_stats">ESTADISTICAS WN8 DE VEHICULOS</string>
+    <string name="drawer_search">Buscar</string>
+    <string name="drawer_gpd">Calculador G/D</string>
+    <string name="drawer_server">SERVIDOR</string>
+    <string name="drawer_donate">APOYAR ESTE PROJECTO</string>
+    <string name="drawer_home">Inicio</string>
+    <string name="drawer_maps">MAPAS</string>
+    <string name="drawer_battle_activity">ACTIVIDAD DE BATALLAS</string>
+
+    <string name="search_no_results">Sin resultados</string>
+
+    <string name="info_settings">OPCIONES</string>
+    <string name="info_battles_title">Por que mis batallas no se estan actualizando inmediatamente?</string>
+    <string name="info_unknown_text">La batalla no esta programada todavia. Esto pasa frequentemente al desembarcar</string>
+    <string name="info_unknown_title">Por que El tiempo de la batalle es deconocido?</string>
+    <string name="info_battles_text">Wargaming \u00A9 captura batallas de guerras de clans. Esto puede causar un retraso en cuanto la batallas son actualizadas y removidas de la pantalla.</string>
+    <string name="thank_you_info">vBAddict.net por proveer los valores y la informacion WN8 esperada de tanques.</string>
+    <string name="info_about">ACERCA DE</string>
+    <string name="info_version">Version:</string>
+    <string name="info_write_a_review">Escribir una reseña</string>
+    <string name="info_email">Contacteme por correo electronico</string>
+    <string name="info_twitter">Contacteme por Twitter</string>
+    <string name="info_info">INFO</string>
+    <string name="info_thank_you">Gracias</string>
+
+    <string name="list_clan_members">Miembros:</string>
+    <string name="list_clan_added_message">añadido</string>
+    <string name="list_clan_removed_message">removido</string>
+
+    <string name="no_text_error">Tienes que introducir un término de búsqueda</string>
+    <string name="no_internet_title">Sin conección al Internet</string>
+    <string name="no_internet_message">Te gustaría encender el Internet?</string>
+    <string name="no_internet_neutral_text">Opciones</string>
+    <string name="error_no_player_found">Parece que hay un problema. Trata realizar la búsqueda una vez mas y ver si funciona. </string>
+    <string name="error">Hubo un error</string>
+
+    <string name="battle_activity_no_clans_text">No hay clanes guardados.  Agrega clanes para ver los tiempos de batalla de guerras de clanes, programar una alarma para alertarte cuando hay una batalla y en que provincia es la batalla.</string>
+
+    <string name="list_battle_title_activity">Actividad de Batallas</string>
+    <string name="activity_no_results">No fue encontrada ninguna Batalla</string>
+    <string name="no_battles">No hay Batallas</string>
+
+    <string name="system_cant_update_message">Solo puedes actualizar la activida de Batalla cada 5 minutos</string>
+
+    <string name="battle_type_engagement">Encuentro</string>
+    <string name="battle_type_landing">Desembarco</string>
+    <string name="battle_type_province">Provincia</string>
+
+    <string name="clan_details_description">Descripcion:</string>
+
+    <string name="alarm_dialog_time_title">Para cuando deseas programar la alarma?</string>
+    <string name="alarm_dialog_before">Minutos Antes</string>
+    <string name="alarm_pos_button_text">Programar alarma</string>
+    <string name="dismiss">Descartar</string>
+    <string name="alarm_dialog_title">Alarma de Batalla</string>
+    <string name="alarm_set">Alarma Programada</string>
+    <string name="alarm_click_no_alarm_times">La Batalla ha empezado o está a punto de iniciar. No se puede establecer alarma para esta batalla.</string>
+
+    <string name="scheduling">Programación</string>
+
+    <string name="server_change_text">Servidor a cambiado a</string>
+
+    <string name="clan_details_nothing_returned">No se ha encontrado nada para este clan. Talvez haya algo malo con el Servidor? </string>
+    <string name="recent_changes_title">Actualizar notas</string>
+    <string name="created_by">Creado por</string>
+    <string name="created_by_name">HALF</string>
+
+    <string name="vehicle_stat_win">Vict%:</string>
+    <string name="vehicle_stat_frag">Frags:</string>
+    <string name="vehicle_stat_def">Def:</string>
+    <string name="vehicle_stat_spots">Detección:</string>
+    <string name="vehicle_stat_dmg">Daño:</string>
+
+    <string name="notification_text">Alarma de Batalla</string>
+
+    <string name="pager_clan_details">DETALLES DE CLAN</string>
+    <string name="pager_clan_members">MIEMBROS</string>
+    <string name="pager_clan_query">INFORMACION</string>
+    <string name="details_cap">DETALLES</string>
+    <string name="pager_tanks">TANQUES</string>
+
+    <string name="player_details_win8">WN8:</string>
+    <string name="avg_dmg">Prom daño:</string>
+    <string name="win_percentage_c">Vict %:</string>
+    <string name="avg_exp_c">Prom de Exp</string>
+    <string name="battles_c">Batallas:</string>
+    <string name="player_details_player_stats">Estadísticas de Jugador</string>
+    <string name="player_details_player_tanks">AInfo avanzada del Jugador</string>
+    <string name="player_details_tank_name_col">Info avanzada del Jugador</string>
+    <string name="win_percentage">Vict %</string>
+    <string name="player_details_tank_mastery_col">Maestria</string>
+    <string name="player_details_global_rating">Clasificacion WoT:</string>
+    <string name="player_details_num_of_badges">Numero de Logros:</string>
+    <string name="player_details_badges_m">M:</string>
+    <string name="player_details_badges_1">1ro:</string>
+    <string name="player_details_badges_2">2do:</string>
+    <string name="player_details_badges_3">3ro:</string>
+    <string name="player_details_more_details">Más Estadísticas de Jugador</string>
+    <string name="player_details_tanking_factor">Factor de Tanqueo:</string>
+    <string name="player_details_avg_spot_dmg">Daño Prom por Deteccion:</string>
+    <string name="player_details_track_damge">Daño prom de la Pista:</string>
+    <string name="player_details_blocked_damage">Daño prom bloq:</string>
+    <string name="player_details_dmg_assist">Daño promedio de Assit:</string>
+    <string name="player_details_penetration">Penetracion %:</string>
+    <string name="player_details_best_game">Mejores estadisticas</string>
+    <string name="player_details_account_info">Info de la cuenta </string>
+    <string name="player_details_created_on">Creado en:</string>
+    <string name="player_details_last_battle_on">Ultima batalla en:</string>
+    <string name="player_details_best_performance">Tanque de mejor desempeño</string>
+    <string name="player_details_unknown_tank">Tanque desconocido</string>
+    <string name="player_details_joined">Se unio</string>
+    <string name="player_details_days_ago">Hace dias</string>
+    <string name="player_graphs_wn8_nation">WN8 por Nacion</string>
+    <string name="player_graphs_battles_nation">Batallas por Nacion</string>
+    <string name="player_graphs_tanks_per_tier">Tanque por Nivel</string>
+    <string name="player_graphs_tanks_per_class">Tanque por Clase</string>
+    <string name="player_graphs_tanks_per_nation">Tanque por Nacion</string>
+    <string name="player_details_best_exp">Exp:</string>
+    <string name="player_details_best_frags">Muertes:</string>
+    <string name="player_details_best_damage">Daño:</string>
+    <string name="player_details_clan_wars_stats">Estadisticas de guerras de Clanes</string>
+    <string name="player_details_no_clan_wars_stats">No se encontraron estadisticas de Guerras de Clanes</string>
+    <string name="player_details_no_stats_found">No se encontraron estadisticas</string>
+
+    <string name="insert_all_into_db_start">Instalando base de datos de tanques locales</string>
+    <string name="insert_all_into_db_end">Base de datos de tanques locales instalada </string>
+
+    <string name="open_in_wotlabs">Abrir en WoTLabs</string>
+    <string name="open_in_clantools">Abrir en ClanTools</string>
+    <string name="open_in_wotstats">Abrir en WoTStats</string>
+
+    <string name="menu_default">Configurar como Predeterminado</string>
+    <string name="menu_download">Descargar Clan</string>
+
+    <string name="clan_details_best_tanker">Mejor Tanquero:</string>
+    <string name="clan_details_avg_kills">Prom de Muertes:</string>
+    <string name="clan_details_avg_battles">Prom de Batallas:</string>
+    <string name="clan_details_avg_damage">Promedio de Daño:</string>
+    <string name="clan_details_avg_exp">Prom Exp:</string>
+    <string name="clan_details_avg_wn8">Prom WN8:</string>
+    <string name="clan_details_clan_stats">Estadisticas de Clan</string>
+    <string name="clan_details_export_title">Exportador: Escoja una fecha</string>
+    <string name="clan_details_export_message">El archivo de texto del Exportador contiene:\n Informacion basica del clan, Lista de los jugadores del clan, Lista de tanques por cada jugador y Wn8 de cada tanque. \n\n Esto esta en JSON. Para guardar del tamaño del archivo, aqui hay algunas palabraz claves: \n pXP = Prom XP \n victorias = # de batallas ganadas \n golpePC = Porcentaje de golpes \n frags = muertes o tanques destruidos \n sob = Batallas sobrevividas \n cwn8 = WN8 de las guerras del clan \n\n Esta es toda la informacion que tengo guardada en el aparato para darte lo que te doy en esta app.</string>
+    <string name="clan_details_export_subject">Exportar</string>
+    <string name="clan_graphs_no_graphs">Graficas no encontradas. Descargue el Clan nuevamante</string>
+
+    <string name="details_tanks_member_get_all_info">Descargue el Clan</string>
+
+    <string name="event_map">Mapa del Evento</string>
+
+    <string name="info_colorblind">Modo de Daltónicos</string>
+
+    <string name="failure">Fallo recolectando la información</string>
+
+    <string name="nation_china">China</string>
+    <string name="nation_france">Francia</string>
+    <string name="nation_germany">Alemania</string>
+    <string name="nation_japan">Japon</string>
+    <string name="nation_uk">RU</string>
+    <string name="nation_ussr">URSS</string>
+    <string name="nation_usa">EUA</string>
+
+    <string name="download_players">Recolectando toda la Info por jugador. Presionar para Cancelar.</string>
+    <string name="download_calculating">Calculando las estadisticas por tanque, WN8 y mas. Presionar para Cancelar</string>
+    <string name="download_graphs">Creando datos de la Grafica. Presionar para Cancelar.</string>
+
+    <string name="download_notification_downloading">Descargando</string>
+    <string name="download_notification_information">La informacion de</string>
+    <string name="download_notification_standard">Descarga en progreso. Presionar para cancelar.</string>
+    <string name="download_notification_done"> Descargado</string>
+    <string name="download_notification_cancelled"> Descarga Cancelada</string>
+
+    <string name="first_time_download_title">Descargando un clan</string>
+    <string name="first_time_download_text">Este proceso comineza una descarga que utilizara muchos datos y que puede correr por varios minutos. Este proceso es limitado a solo una descarga cada tres dias por clan debido a que la aplicación se encuentra limitada en la cantidad de veces que puede ser accedida. \n\n Lo que recibes es una vista detallada sobre cada miembro del clan, quien es mejor en cual tanque, WN8 de cada jugador y mucha más información. Esta data es guardad en el dispositivo y será reutilizada hasta la próxima descarga. \n\n Es sugerido utilizar Wifi.</string>
+
+    <string name="download_dialog_pos_message">Descargar</string>
+    <string name="download_task_running">La descarga del Clan ya ha iniciado</string>
+    <string name="refresh">Refrescar</string>
+    <string name="player_details_trees_cut">Arboles Asesinados:</string>
+
+    <string name="info_clean_clan">Limpia los archivos utilizados en el dispositivo por la app. Esto borra todos los archivos de clan descargados.</string>
+    <string name="info_clean_clan_text">Elimina las Descargas del Clan</string>
+    <string name="info_clean_clans_toast">Archivos Eliminados</string>
+    <string name="tank_clan_member_next_download_time_text">Próxima descarga disponible:\n</string>
+    <string name="clan_details_toast_loading_up_download">Cargando la información de clan descargada</string>
+    <string name="clan_details_waiting_for_clan">Esperando por la descarga de otro clan</string>
+    <string name="clan_details_download_starts">Descarga iniciada</string>
+    <string name="search_choose_hint">Elige un tanque y presiona enviar</string>
+    <string name="details_query_no_tank_selected">No hay tanque seleccionado para solicitar información</string>
+    <string name="details_query_loading">Descarga de Clan Cargando</string>
+    <string name="details_query_clan_info_not_downloaded">Para poder acceder a las funciones de esta pantalla debes de descargar el clan primero.</string>
+    <string name="details_query_description_tier">Nivel</string>
+    <string name="details_query_no_players_have_that_tank">No se encontró información</string>
+
+    <string name="tank_destroyer">Destructor de Tanque</string>
+    <string name="heavy_tank">Pesado</string>
+    <string name="medium_tank">Mediano</string>
+    <string name="light_tank">Ligero</string>
+    <string name="artillery">Artilleria</string>
+
+    <string name="details_query_select_a_tank">Selecciona \nUn Tanque</string>
+
+    <string name="task_no_internet">Descarga cancelada por falta de Internet</string>
+    <string name="dialog_fail_text">Vehículo no encontrado en la base de datos.</string>
+    <string name="dialog_title">Diferencia de Jugador</string>
+    <string name="dialog_top_yours">Tuyo</string>
+    <string name="dialog_top_average">Promedio</string>
+    <string name="dialog_top_delta">Delta</string>
+    <string name="dialog_row_wins">Victorias</string>
+    <string name="dialog_row_damage">Daño</string>
+    <string name="dialog_row_kill_death">K/D</string>
+    <string name="dialog_row_spots">Detecciones</string>
+    <string name="dialog_row_def">Pts Def</string>
+
+    <string name="unknown">Desconocido</string>
+
+    <string name="translator_text">Español traducido por Javier</string>
+
+    <string name="info_theme_mode">Tema ligero</string>
+    <string name="no_tier_10s_found">No hay Nivel 10 encontrado </string>
+    <string name="no_tier_10s_found_games">No hay juegos de nivel 10 encontrados</string>
+
+    <string name="dialog_message_bookmarking">Marcadores haran este jugador tu pagina predeterminada para ver cuando se inicia la aplicacion.</string>
+    <string name="dialog_title_bookmarking">Te gustaria hacer este jugador tu favorito?</string>
+
+    <string name="wn8_per_tier">WN8 por Nivel</string>
+    <string name="wn8_per_class">WN8 por Clase</string>
+    <string name="battles_per_tier">Batallas por Nivel</string>
+    <string name="battles_per_class">Batallas por Clase</string>
+    <string name="wn8_per_top_tier">WN8 por Nivel 10</string>
+    <string name="clan_graphs_tanks_top_tier">Numero de tanques por Nivel 10</string>
+    <string name="battles_per_top_tier">Batallas por Nivel 10</string>
+    <string name="wn8_per_tier_6">WN8 por Nivel 6</string>
+    <string name="wn8_per_tier_8">WN8 por Nivel 8</string>
+    <string name="no_tier_6s_found">No hay Nivel 6 encontrado</string>
+    <string name="no_tier_8s_found">No hay Nivel 8 encontrado</string>
+    <string name="no_tier_6s_found_games">No hay juegos de nivel 6 encontrados</string>
+    <string name="no_tier_8s_found_games">No hay juegos de nivel 8 encontrados</string>
+    <string name="clan_graphs_tanks_tier_6">Numero de tanques por Nivel 6</string>
+    <string name="clan_graphs_tanks_tier_8">Numero de tanques por Nivel 8</string>
+    <string name="battles_per_tier_6">Batallas por Nivel 6</string>
+    <string name="battles_per_tier_8">Batallas por Nivel 8</string>
+    <string name="settings_info_clear_players">Borrar información del jugador</string>
+    <string name="settings_info_clear_players_text">Borra toda la información del jugador guardada. Solo hágalo en caso de que su dispositivo tenga poco espacio restante.</string>
+    <string name="dialog_review_title"> ¿Ya ha evaluado esta aplicación?</string>
+    <string name="dialog_donation_title">Ayude a mantener esta aplicación</string>
+    <string name="player_details_stronghold_stats">Estadísticas del modo "Stronghold"</string>
+    <string name="search_text_compare">Haga un click largo para comparar jugadores.</string>
+    <string name="search_text_compare_button">Comparar</string>
+    <string name="search_compare_not_enough_players">No hay suficientes jugadores para comparar.</string>
+    <string name="search_compare_clear">Vaciar lista</string>
+    <string name="compare_player_added">Jugador añadido.</string>
+    <string name="compare_player_message">¿Te gustaría añadir a tu jugador señalado en tu lista de comparación?</string>
+    <string name="compare_player_add">Añadir</string>
+    <string name="compare_maxed_out">El máximo de jugadores para comparar es de 3, haz click en el botón "comparar" de abajo para eliminar jugadores o haz un click largo otra vez en ese jugador.</string>
+    <string name="avg_dmg_per_tier">Daño promedio por nivel.</string>
+    <string name="avg_exp_per_tier">Experiencia promedio por nivel.</string>
+    <string name="avg_tier">Nivel promedio.</string>
+    <string name="survival_rate">Tasa de supervivencia.</string>
+    <string name="caps_per_game">Capturas / Juego</string>
+    <string name="def_reset_per_game">Defender base / Juego</string>
+    <string name="stronghold_wn8">Stronghold WN8</string>
+    <string name="stronghold_cap">STRONGHOLD</string>
+    <string name="nation_cz">checo</string>
+    <string name="battles_per_tier_5">Batallas por Nivel 5</string>
+    <string name="battles_per_tier_7">Batallas por Nivel 7</string>
+    <string name="battles_per_tier_9">Batallas por Nivel 9</string>
+    <string name="wn8_per_tier_5">WN8 por Nivel 5</string>
+    <string name="wn8_per_tier_7">WN8 por Nivel 7</string>
+    <string name="wn8_per_tier_9">WN8 por Nivel 9</string>
+    <string name="no_tier_5s_found">No hay Nivel 5 encontrado</string>
+    <string name="no_tier_5s_found_games">No hay juegos de nivel 5 encontrados</string>
+    <string name="no_tier_7s_found">No hay Nivel 7 encontrado</string>
+    <string name="no_tier_7s_found_games">No hay juegos de nivel 7 encontrados</string>
+    <string name="no_tier_9s_found">No hay Nivel 9 encontrado</string>
+    <string name="no_tier_9s_found_games">No hay juegos de nivel 9 encontrados</string>
+
+    <!-- updated text-->
+    <string-array name="clan_sorting">
+        <item>Rango</item>
+        <item>Nombre</item>
+        <item>Batallas</item>
+        <item>Proporción de victorias</item>
+        <item>WN8</item>
+        <item>WN8 de clan</item>
+        <item>WN8 de fortaleza</item>
+        <item>Hora de ultima batalla</item>
+        <item>WN8 reciente del Día</item>
+        <item>WN8 reciente de 7 días</item>
+        <item>WN8 reciente de 30 días</item>
+        <item>WN8 reciente de 60 días</item> Recent 60 Day WN8
+    </string-array>
+    <!-- optional -->
+    <string name="patch_notes">Actualización 3.2:\n\n- Pantalla de bienvenida añadida lo cual mantiene los nombres de vehículos y los logros actualizados. \n\n-Logros han sido agregados. \n\n- Nivel 5,7,9 carta gráfica y datos añadidos. \n\n-Cambio de texto a iconos. \n\n- Opción para seleccionar lenguaje añadida.\n\n- Añadidura de pagina de la informacion del servidor. \n\n- “WN8 Estadísticas de Vehículos” ahora “Tanquepedia”. \n\n- Añadidura de anuncios comerciales voluntarios a la pagina de donaciones.\n\n- Añadidura de el wn8s reciente en la pagina de Información de Clanes. </string>
+
+    <string name="drawer_encyclopedia">TANQUEPEDIA</string>
+
+    <string name="donate_title">¿Le gustaría apoyar a este proyecto?</string>
+    <string name="donate_message">¡Hola! Soy yo, HALF, y espero que WoT Community Assistant le ha asistido a usted al jugar World of Tanks. Quiero crear el mejor asistente de World of Tanks para usted. Estoy trabajando continuamente en hacer esta aplicación una mejor para usted gratuitamente. Si a usted le gustaría apoyar a esta aplicación, lo puede hacer al brindar una  donación o al ver un anuncio comercial.</string>
+
+    <string name="dialog_donation_message">Si disfruta de esta aplicación y desea apoyar el desarrollo de esta aplicación, puede mandar una donación o ver un anuncio comercial. ¡Hasta puede compartir sus ideas! Esa misma idea podría ser aplicada a esta aplicación.</string>
+    <string name="fragment_donate_view_ad">Ver Un Anuncio Comercial</string>
+    <string name="settings_info_refresh_msg">Borra y refresca datos almacenados de logros y vehículos de parte de Wargaming. Use esto cuando un vehículo o logro no aparezca. Esta información es automáticamente actualizada cada 3 días.</string>
+    <string name="settings_info_refresh_title">Refresque Datos Almacenados </string>
+    <string name="refresh_finished">Refresco Completado</string>
+    <string name="settings_server_language">Lenguaje de Servidor:</string>
+    <string name="settings_server">Servidor:</string>
+
+    <!-- Choose one of these for the string below. This will be the base language returned for tank names from the server. -->
+    <!-- "English", "Русский", "Polski", "Deutsch", "Français", "Español", "简体中文", "Türkçe", "Čeština", "ไทย", "Tiếng Việt", "한국어"-->
+    <!-- "en",      "ru",       "pl",       "de",   "fr",       "es",       "zh-cn",   "tr",       "cs",    "th", "vi",         "ko"-->
+    <string name="base_server_language">es</string>
+
+    <string name="resources_wot_numbers">World of Tanks\n Jugadores en línea</string>
+    <string name="resources_wows_numbers">World of Warships\n Jugadores en línea</string>
+    <string name="resources_wows_total_c">WoWs Total:\n</string>
+    <string name="resources_wot_total_c">WoT Total:\n</string>
+    <string name="drawer_server_info"> Informacion de servidor</string>
+    <string name="encyclopedia_wn8_stats">Estadísticas WN8</string>
+    <string name="donation_dialog_paypal">Paypal</string>
+    <string name="day_wn8">24 horas</string>
+    <string name="week_wn8">7 días</string>
+    <string name="month_wn8">30 días</string>
+    <string name="two_month_wn8">60 días</string>
+    <string name="recent_wn8s">WN8s reciente </string>
+
+    <string name="online">En línea</string>
+    <string name="offline">Fuera de línea</string>
+    <string name="drawer_twitch_youtube">TWITCH &amp; Estrellas de YouTube</string>
+    <string name="drawer_websites">Sitios web útiles </string>
+    <string name="app_language">App idioma</string>
+    <string name="app_langauge_base">es</string>
+    <string name="nation_sweden">Suecia</string>
+
+</resources>

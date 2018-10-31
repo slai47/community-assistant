@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.half.wowsca.ui.viewcaptain.ViewCaptainTabbedFragment">
+
+
+    <com.utilities.views.SlidingTabLayout
+        android:id="@+id/fragment_view_captain_pager_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:elevation="6dp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/fragment_view_captain_tabbed_pager"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

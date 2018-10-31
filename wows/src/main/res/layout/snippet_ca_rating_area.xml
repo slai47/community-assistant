@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/averages_grid_area"
+    android:padding="8dp"
+    android:layout_marginBottom="20dp"
+    android:background="?attr/selectableItemBackground"
+    tools:showIn="@layout/fragment_captain">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/averages_ca_rating_top_area"
+        android:visibility="gone"
+        android:animateLayoutChanges="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_ca_rating"
+                android:layout_toLeftOf="@+id/averages_car"
+                android:layout_marginRight="3dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:id="@+id/averages_car"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="-1"
+                android:id="@+id/averages_car_dif"
+                android:textColor="@color/white"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                android:layout_toRightOf="@+id/averages_car"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/community_assistant_rating_overall"
+            android:id="@+id/averages_top_title"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:background="?attr/selectableItemBackground"
+            android:id="@+id/ca_rating_breakdown_area"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/breakdown_of_rating"
+                android:layout_centerInParent="true"
+                android:id="@+id/ca_rating_breakdown_text"
+                />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_expand"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/averages_ca_rating_breakdown"
+                android:visibility="gone"
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/averages_contribution_chart_area"
+            android:layout_marginTop="5dp"
+            android:visibility="gone"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/captain_ca_per_tier"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp" />
+            <com.github.mikephil.charting.charts.BarChart
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/graph_size"
+                android:id="@+id/averages_ca_per_tier_chart"></com.github.mikephil.charting.charts.BarChart>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/captain_ca_contrabution"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp" />
+            <com.github.mikephil.charting.charts.BarChart
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/graph_size"
+                android:id="@+id/averages_contribution_chart"></com.github.mikephil.charting.charts.BarChart>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.github.mikephil.charting.charts.RadarChart
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/averages_chart" />
+
+    <com.half.wowsca.ui.views.NonScrollableGridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/averages_grid"
+        android:numColumns="2"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="2dp"
+        android:horizontalSpacing="2dp"/>
+
+</LinearLayout>

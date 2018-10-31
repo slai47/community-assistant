@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1.0"
+    android:layout_marginBottom="3dp"
+    android:background="?attr/selectableItemBackground">
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="0dip"
+        android:id="@+id/list_ranked_ships_title"
+        android:layout_weight="0.35"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="0dip"
+        android:id="@+id/list_ranked_ships_1"
+        android:layout_weight="0.2"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="0dip"
+        android:id="@+id/list_ranked_ships_2"
+        android:layout_weight="0.2"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="0dip"
+        android:id="@+id/list_ranked_ships_3"
+        android:layout_weight="0.25"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+</LinearLayout>

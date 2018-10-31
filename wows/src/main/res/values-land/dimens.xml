@@ -1,0 +1,9 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <integer name="grid_size">5</integer>
+    <integer name="shipopedia_grid">3</integer>
+    <integer name="shipopedia_upgrade_grid">3</integer>
+
+    <integer name="ship_rows">2</integer>
+    <integer name="top_info_cols">3</integer>
+</resources>

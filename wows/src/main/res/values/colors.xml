@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- dark scheme colors -->
+    <color name="material_primary">#1976D2</color>
+    <!-- action bar background -->
+    <color name="material_accent">#FFFFFF</color>
+    <!-- accent color -->
+    <color name="material_accent_clicked">#459BFF</color>
+    <!-- clicked accent color -->
+    <color name="material_primary_dark">#121212</color>
+    <!-- notification background -->
+    <color name="material_window_background">#1976D2</color>
+    <!-- background -->
+    <color name="material_text_primary">#EEEEEE</color>
+    <!-- text color -->
+    <color name="material_text_secondary">#DEFFFFFF</color>
+    <color name="material_navigation_bar_color">#1976D2</color>
+    <!-- navigation bar color-->
+    <color name="material_divider_color">#888888</color>
+    <color name="material_expandable_group_background">#444444</color>
+
+    <color name="material_card_accent">#FF3E95DC</color>
+    <color name="material_card_text">#FF000000</color>
+    <color name="material_card_background">#FFFFFF</color>
+    <color name="material_card_background_selected">#505050</color>
+    <color name="material_button_color">#448AFF</color>
+
+    <color name="top_background">#FF3E95DC</color>
+    <color name="bottom_background">#FF163F6E</color>
+
+    <color name="material_grid_view_default">#202020</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="material_card_background_dark">#303030</color>
+
+    <color name="white_transparent">#66FFFFFF</color>
+    <color name="black_transparent">#88000000</color>
+
+    <color name="list_divider_color">#44FFFFFF</color>
+
+    <color name="black_stroke">#99000000</color>
+
+    <color name="premium_shade">#FFFFCA28</color>
+
+    <color name="captain_top_background">#22FFFFFF</color>
+    <!--remove?-->
+    <color name="captain_top_filter">#A5D6A7</color>
+
+    <color name="graph_line_color">#FF4CAF50</color>
+
+    <color name="graph_bar_color">#4CAF50</color>
+
+    <color name="selected_tab_color">#4CAF50</color>
+
+    <color name="compare_highest">#FFFBC02D</color>
+
+    <color name="compare_first">#FF9800</color>
+    <color name="compare_second">#4CAF50</color>
+    <color name="compare_three">#9C27B0</color>
+
+    <color name="average_up">#4CAF50</color>
+    <color name="average_down">#F44336</color>
+
+    <color name="web_color">#999999</color>
+    <color name="web_text_color">#66FFFFFF</color>
+
+    <color name="toolbar_text_color">#71c174</color>
+
+    <!-- light theme-->
+    <color name="material_text_primary_light">#212121</color>
+    <color name="material_text_secondary_light">#727272</color>
+    <color name="material_background_light">#FFFFFF</color>
+
+    <!-- dark theme-->
+    <color name="material_background_dark">#212121</color>
+    <color name="material_action_bar_dark">#323232</color>
+    <color name="solo_pvp_color">#F44336</color>
+    <color name="pve_color">#FF9800</color>
+    <color name="div_pvp_3">#2196F3</color>
+    <color name="div_pvp_2">#FAFA00</color>
+    <color name="ranked_color">#CCCCCC</color>
+
+
+    <color name="settings_divider_color">#22FFFFFF</color>
+</resources>

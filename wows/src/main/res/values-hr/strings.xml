@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- optional for translation-->
+    <string name="app_name">Assist</string>
+
+    <!-- base language for wargaming to send back data with the right language attached -->
+    <!-- "English", "Русский", "Polski", "Deutsch", "Français", "Español", "简体中文", "Türkçe", "Čeština", "ไทย", "Tiếng Việt", "한국어"-->
+    <!-- "en",      "ru",       "pl",       "de",   "fr",       "es",       "zh-cn",   "tr",       "cs",    "th", "vi",         "ko"-->
+    <string name="base_server_language">en</string>
+
+    <string name="action_settings">Postavke</string>
+
+    <string name="action_search">Pretraži</string>
+    <string name="action_captains">Kapetani</string>
+    <string name="action_refresh">Osvježi</string>
+    <string name="welcome">Dobrodošli!</string>
+
+    <string name="search_et_hint">Unesite korisničko ime</string>
+    <string name="search_no_results">Nema rezultata</string>
+
+    <string name="no_internet_title">Niste spojeni na Internet</string>
+    <string name="no_internet_message">Želite li uključiti vezu na Internet?</string>
+    <string name="no_internet_neutral_text">Postavke</string>
+    <string name="no_text_error">Morate unijeti pojam pretraživanja</string>
+
+    <string name="list_clan_added_message">dodano</string>
+    <string name="list_clan_removed_message">maknuto</string>
+
+    <string name="captain_average_exp">Prosječno Iskustvo</string>
+    <string name="captain_average_damage">Prosječna šteta</string>
+    <string name="captain_kills_deaths">Broj uništenih brodova po jednom uništenju vlastitog</string>
+    <string name="captain_battles">Stopa preživljavanja</string>
+    <string name="captain_winrate">Stopa pobjeđivanja</string>
+
+    <string name="menu_favorite">Favorite</string>
+    <string name="menu_unfavorite">Unfavorite</string>
+    <string name="ships_hint">Ime ili Razina</string>
+
+    <string name="donate_title">Želite li pomoći u podržavanju ovog projekta?</string>
+    <string name="donate_message">HALF ovdje, nadam se da vam je WoWS Community Assistant pomogao pri igranju World of Warships. Želja mi je da kreiram najbolju aplikaciju za pomoć pri igranju World of Warships-a. Danonoćno radim na poboljšanjima ove aplikacije, dobrovoljno. Ako želite doprinijeti razvoju aplikacije, donirajte ili pogledajte reklamu ovdje. Svaka je pomoć dobrodošla, te ću kao znak zahvalnosti nastojati organizirati giveaway-e.</string>
+    <string name="search_compare_default_text">Pritisnite i držite prst na kapetanu kako bi ga dodali u listu za usporedbu</string>
+    <string name="title_compare">Usporedi</string>
+    <string name="action_shipopedia">Shipopedia</string>
+    <string name="action_websites">Korisne Web-stranice</string>
+    <string name="action_twitch">Twitch &amp; Youtube Stars</string>
+    <string name="action_youtubers">Youtuberi od pomoći</string>
+    <string name="action_donate">Podrži aplikaciju</string>
+    <string name="drawer_search">Traži &amp;Usporedi</string>
+    <string name="drawer_captains">Kapetani</string>
+    <string name="encyclopedia_average_damage">Prosječna šteta</string>
+    <string name="encyclopedia_winrate">Stopa pobjeđivanja</string>
+    <string name="encyclopedia_kills">Prosječni broj uništenih brodova</string>
+    <string name="encyclopedia_survival_rate">Stopa preživljavanja</string>
+    <string name="encyclopedia_tier_start">Razina </string>
+    <string name="encyclopedia_tier_end"> statistika</string>
+    <string name="encyclopedia_survived_wins">Stopa preživljenih pobjeda</string>
+    <string name="encyclopedia_average_xp">Prosječno Iskustvo</string>
+    <string name="encyclopedia_games_count">Igara odigranih</string>
+    <string name="encyclopedia_survivability">Sposobnost preživljavanja</string>
+    <string name="encyclopedia_artillery">Artiljerija</string>
+    <string name="encyclopedia_torps">Torpeda</string>
+    <string name="encyclopedia_aa_def">Protuzračna obrana</string>
+    <string name="encyclopedia_aircraft">Zrakoplov</string>
+    <string name="encyclopedia_mobility">Agilnost</string>
+    <string name="encyclopedia_concealment">Sposobnost sakrivanja</string>
+    <string name="encyclopedia_ship_stats">Statistike brodova</string>
+    <string name="encyclopedia_health">Zdravlje</string>
+    <string name="encyclopedia_gun_range">Domet topa</string>
+    <string name="encyclopedia_torp_range">Domet torpeda</string>
+    <string name="encyclopedia_torp_speed">Brzina torpeda</string>
+    <string name="encyclopedia_secondary_range">Domet pomoćnih topova</string>
+    <string name="encyclopedia_aa_range">Maksimalni domet protuzračne obrane</string>
+    <string name="encyclopedia_spotted_range">Vidljivost broda neprijateljima</string>
+    <string name="encyclopedia_aircraft_spotted_range">Vidljivost broda neprijateljskim zrakoplovima</string>
+    <string name="encyclopedia_shell_damage">Šteta projektila</string>
+    <string name="encyclopedia_speed">Brzina</string>
+    <string name="encyclopedia_arty_fr">Stopa brzine paljbe artiljerije</string>
+    <string name="encyclopedia_torp_fr">Stopa brzine paljbe torpeda</string>
+    <string name="encyclopedia_torp_damage">Šteta torpeda</string>
+    <string name="encyclopedia_num_guns"># topova</string>
+    <string name="encyclopedia_num_torps"># torpeda</string>
+    <string name="encyclopedia_num_planes"># zrakoplova</string>
+    <string name="encyclopedia_rudder_time">Vrijeme okretanja kormila</string>
+    <string name="encyclopedia_turning_radius">Radijus okretanja</string>
+    <string name="encyclopedia_top_configuration">Statistike osnovne konfiguracije (Ovo će uskoro biti prilagođeno)</string>
+    <string name="encyclopedia_average_stats">Statistika prosječne borbe</string>
+    <string name="damage">Šteta</string>
+    <string name="win_rate">Stopa pobjeđivanja</string>
+    <string name="kills">Broj uništenih brodova</string>
+    <string name="planes_downed_game">Zrakoplova uništeno / partiji</string>
+    <string name="captures_game">Zahvaćenih zona / partiji </string>
+    <string name="def_reset_game">Obrana zone / partiji </string>
+    <string name="xp">XP</string>
+    <string name="survival_rate">Stopa preživljavanja</string>
+    <string name="powered_by_warshipstats">Pokreće Warshipstats.com</string>
+    <string name="encyclopedia_upgrades">Dostupna poboljšanja</string>
+    <string name="encyclopedia_next_ship">Slijedeći brod</string>
+    <string name="price_not_known">Cijena nepoznata</string>
+    <string name="gold">" Zlato"</string>
+    <string name="credits">" Krediti"</string>
+    <string name="encyclopedia_tb_torp_speed">TB Brzina torpeda</string>
+    <string name="encyclopedia_tb_prep_time">TB Vrijeme servisiranja</string>
+    <string name="encyclopedia_tb_torp_dam">TB Šteta torpeda</string>
+    <string name="encyclopedia_tb_torp">TB Domet torpeda</string>
+    <string name="encyclopedia_num_squadrons"># broj grupa</string>
+    <string name="encyclopedia_db_prep_time">DB Vrijeme pripreme</string>
+    <string name="encyclopedia_db_damage">DB šteta</string>
+    <string name="encyclopedia_ship_not_found">Greška na stranici. ID broda nije nađen.</string>
+    <string name="dismiss">Odbaci</string>
+    <string name="encyclopedia_upgrade_cost">"\n\nKrediti: "</string>
+    <string name="failed_to_grab_data">Neuspješni dohvat podataka</string>
+    <string name="russia">Rusija</string>
+    <string name="germany">Njemačka</string>
+    <string name="usa">SAD</string>
+    <string name="poland">Poljska</string>
+    <string name="japan">Japan</string>
+    <string name="uk">UK</string>
+    <string name="encyclopedia_nation_tier">\nRazina </string>
+    <string name="resources_view_add">Pogledaj reklamu</string>
+    <string name="settings">Postavke</string>
+    <string name="colorblind_mode">Mod za slijepe na boje</string>
+    <string name="settings_show_average">Prikaži usporedbu prosjeka</string>
+    <string name="settings_clean_player">Očisti informacije o igraču</string>
+    <string name="settings_clear_player_info">Čisti sve informacije o igraču. Učinite ovo samo ako imate nedostatak memorije na uređaju.</string>
+    <string name="settings_refresh_stored_data">Osvježi pohranjene podatke</string>
+    <string name="settings_refresh_stored_data_info">Čisti i osvježuje pohranjene podatke o Postignućima i Brodovima s Wargaminga. Koristite ovu opciju ako vam se postignuće ili brod ne prikazuje. Ove informacije se automatski osvježavaju svaka 3 dana.</string>
+    <string name="about">O</string>
+    <string name="version">Verzija:</string>
+    <string name="settings_write_a_review">Napiši recenziju</string>
+    <string name="settings_contact_me">Kontaktirajte Me preko E-maila</string>
+    <string name="settings_twitter">Kontakirajte Me preko Twitter-a</string>
+    <string name="settings_glossary">Rječnik</string>
+    <string name="settings_avg_dmg">Prosječna\nšteta</string>
+    <string name="battles">Borbe</string>
+    <string name="settings_avg_exp">Prosječno\nIskustvo</string>
+    <string name="settings_k_d">Broj uništenih brodova\npo jednom uništenju vlastitog broda</string>
+    <string name="settings_saved_captains">Spremljeni\nkapetani</string>
+    <string name="refresh">Osvježi</string>
+    <string name="shipopedia">Shipopedia</string>
+    <string name="achievements">Postignuća</string>
+    <string name="settings_stats_graphs"><![CDATA[Stats &\n Graphs]]></string>
+    <string name="shipsHolder">Brodovi</string>
+    <string name="settings_att">Zaslužnost</string>
+    <string name="captain_save_captain">Spremi kapetana</string>
+    <string name="average_experience">Prosječno Iskustvo</string>
+    <string name="captain_first_details">Što više partija odigrate, to će ovaj graf biti točniji.</string>
+    <string name="games_by_tier">Partija po razini</string>
+    <string name="average_tier_c">Prosječna Razina:</string>
+    <string name="games_per_ship_type">Partija po tipu broda</string>
+    <string name="games_per_nation">Partija po naciji</string>
+    <string name="times_around_the_earth_c">Broj puta oko Zemlje</string>
+    <string name="general_stats">Opće statistike</string>
+    <string name="profile_level">Nivo profila</string>
+    <string name="total_xp">Sveukupni XP</string>
+    <string name="total_damage">Sveukupna šteta</string>
+    <string name="last_battle_on">Zadnja partija datuma</string>
+    <string name="account_created_on">Račun stvoren na</string>
+    <string name="kills_by_armament_type">Broj uništenih brodova po tipu naoružanja</string>
+    <string name="average_experience_per_tier">Prosječno iskustvo po Razini</string>
+    <string name="average_damage_per_tier">Prosječna šteta po Razini</string>
+    <string name="main_battery">Glavni topovi</string>
+    <string name="destroyed_c">Uništeno:</string>
+    <string name="hit_percentage_c">Omjer pogodaka/promašaja:</string>
+    <string name="shots_fired_c">Projektila ispaljeno:</string>
+    <string name="best_ship_c">Najbolji brod:</string>
+    <string name="torpedoes">Torpeda</string>
+    <string name="secondary_battery">Pomoćni topovi</string>
+    <string name="ramming">Sudari</string>
+    <string name="delete">Izbriši</string>
+    <string name="armament_use">Korištenje naoružanja</string>
+    <string name="list_ship_average_title">Statistike Vašeg broda / Prosječne statistike broda</string>
+    <string name="max_kills">Maksimalni brod uništenih brodova</string>
+    <string name="max_damage">Maksimalna šteta</string>
+    <string name="max_planes_killed">Maksimalni broj uništenih zrakoplova</string>
+    <string name="max_xp">Maksimalni XP</string>
+    <string name="traveled">Proputovano</string>
+    <string name="kills_game">Broj uništenih brodova / partiji</string>
+    <string name="caps_game">Zahvaćenih zona / partiji</string>
+    <string name="survived_wins">Pobjede gdje vam brod nije bio uništen</string>
+    <string name="average_xp">Prosječni XP</string>
+    <string name="short_kills_game">Broj uništenih brodova / partiji</string>
+    <string name="short_win_rate">Stopa pobjeđivanja</string>
+    <string name="short_cap_points">Broj zahvaćenih zona / partiji</string>
+    <string name="short_def_reset">Broj obrana zona / partiji</string>
+    <string name="short_planes_game">Broj uništenih zrakoplova / partiji</string>
+    <string name="baseline">100 je standard</string>
+    <string name="save_captain">Spremi kapetana</string>
+    <string name="delete_captain">Izbriši kapetana</string>
+    <string name="resources_websites">Web-stranice i Alati</string>
+    <string name="resources_support">Podrška</string>
+    <string name="resources_server_info">Informacije o serveru</string>
+    <string name="resources_wot_numbers">World of Tanks\n broj igrača online</string>
+    <string name="resources_wows_numbers">World of Warships\n broj igrača online</string>
+    <string name="resources_error">Ništa nije vraćeno</string>
+    <string name="resources_wows_total_c">WoWs sveukupno:\n</string>
+    <string name="resources_wot_total_c">WoT sveukupno:\n</string>
+    <string name="ranked">Ranked</string>
+    <string name="encyclopedia">Encyclopedia</string>
+    <string name="live">LIVE</string>
+    <string name="offline">OFFLINE</string>
+    <string name="action_server_info">Informacije o serveru</string>
+    <string name="resources_powered_by">Pokreće : Warshipstats.com</string>
+    <string name="premium_ship_stats">Premium statistike</string>
+    <string name="dialog_assist_title">Pomognite u razvoju aplikacije</string>
+    <string name="dialog_review_app">Jeste li napisali recenziju za ovu aplikaciju?</string>
+    <string name="dialog_review_message">15 sekundi Vašeg vremena može doprinijeti rastu ove aplikacije. Napišite kratku recenziju na Google play klikom na tipku ispod.</string>
+    <string name="dialog_review_positive">Recenzija</string>
+    <string name="no">Ne</string>
+    <string name="dialog_view_ad">Pogledaj reklamu</string>
+    <string name="dialog_follow_title">Želite li pratiti razvoj aplikacije?</string>
+    <string name="dialog_follow_message">Pratite me na Twitter-u, gdje ću stavljati slike novih značajki aplikacije i razgovarati o novim izdanjima.</string>
+    <string name="dialog_bookmark_title">Želite li označiti ovog kapetana?</string>
+    <string name="dialog_bookmark_message">Označavanje će prikazati ovog kapetana kada otvorite aplikaciju bez da ga ponovno trebate tražiti</string>
+    <string name="yes">Da</string>
+    <string name="dialog_assist_message">Želite li pomoći ovoj besplatnoj aplikaciji? Donirajte ili pogledajte kratku reklamu ovdje. Gledanje ove reklame je dobrovoljna, te reklama neće biti prikazana na nijednom drugom mjestu u aplikaciji osim ovdje. Ovim podržavate moje održavanje giveaway-a na Youtubeu, Twitchu, Twitteru, kao i razvijanje aplikacije</string>
+    <string name="avg_dmg_c">Prosj. šteta:</string>
+    <string name="k_d_c">K/D:</string>
+    <string name="avg_caps_c">Prosj. br. zahvaćenih zona:</string>
+    <string name="avg_resets_c">Prosj. br. obrana:</string>
+    <string name="avg_planes_c">Prosj. uništeno zrakoplova:</string>
+    <string name="avg_xp_c">Prosj. XP:</string>
+    <string name="ranked_season">Sezona</string>
+    <string name="avg_kills_c">Prosj. uništenih brodova:</string>
+    <string name="ship">Brod</string>
+    <string name="top_damage_c">Rekordna šteta:</string>
+    <string name="top_exp_c">Rekordno iskustvo:</string>
+    <string name="unknown">Nepoznato</string>
+    <string name="compareArmament">Statistike naoružanja</string>
+    <string name="compare_stats_average">Statistike u usporedbi s prosječnim statistikama</string>
+    <string name="main_battery_kills">Brodova uništeno glavnim topovima</string>
+    <string name="capture_pts">Broj bodova (zahvaćene zone)</string>
+    <string name="def_reset_pts">Broj bodova (obrane)</string>
+    <string name="planes_downed">Zrakoplova uništeno</string>
+    <string name="torpedoes_kills">Brodova uništeno (torpeda)</string>
+    <string name="aircraft_kills">Brodova uništeno (zrakoplovima)</string>
+    <string name="other_kills">Brodova uništeno drugim sredstvima</string>
+    <string name="main_battery_hit_per">Omjer pogodaka glavnih topova</string>
+    <string name="torpedoes_hit_per">Omjer pogodaka torpedima</string>
+    <string name="average_damage">Prosječna šteta</string>
+    <string name="captain">Kapetan</string>
+    <string name="average_tier">Prosječna razina</string>
+    <string name="not_enough_captains">Nedovoljno kapetana za usporedbu</string>
+    <string name="compare">Usporedi</string>
+    <string name="clear_list">Očisti listu</string>
+    <string name="compare_list">Usporedi listu</string>
+    <string name="compare_add_title">Kapetan dodan u listu</string>
+    <string name="compare_dialog_message">Želite li dodati vašeg označenog kapetana također u listu?</string>
+    <string name="compare_max_message">Najviše dozvoljeno 3 kapetana za usporedbu, pritisnite tipku za usporedbu kako bi izbrisali kapetane ili držite prst pritisnut na tog kapetana</string>
+    <string name="compare_bottom_text_max">" u listi. 3/3"</string>
+    <string name="compare_bottom_text_middle">" u listi. 2/3"</string>
+    <string name="compare_bottom_text_single">" u listi. 1/3"</string>
+    <string name="update_notes_title">Obnovi zabilježbe</string>
+    <string name="player_stored_data_deleted">Korisnički podaci obrisani</string>
+    <string name="purging_refresh">Brisanje podataka i osvježivanje u tijeku</string>
+    <string name="purge_refresh_done">Brisanje i osvježivanje podataka završeno</string>
+    <string name="paypal">Paypal</string>
+    <string name="average_win_rate_per_tier">Prosječna stopa pobjeđivanja po razini</string>
+    <string name="average_survival_per_tier">Prosječna stopa preživljavanja po razini</string>
+    <string name="average_damage_per_class">Prosječna šteta po klasi</string>
+    <string name="average_win_rate_per_class">Prosječna stopa pobjeđivanja po klasi</string>
+    <string name="no_data_for_season">"Nema podataka za sezonu "</string>
+    <string name="ranked_stats">Statistike za Ranked</string>
+    <string name="crap_contact_me">Nešto nije u redu i ne radi, molim pošaljite e-mail kako bih mogao ispraviti pogrešku.</string>
+    <string name="player_private">Profil igrača je privatan</string>
+    <string name="failure_in_loading">Neuspješno dohvaćanje podataka</string>
+
+    <string name="top_kills">Rekord uništenih brodova u partiji</string>
+    <string name="top_damage">Rekord štete u partiji</string>
+    <string name="top_exp">Rekord iskustva u partiji</string>
+    <string name="most_planes_destroyed">Najviše aviona uništeno u partiji</string>
+    <string name="top_survival_rate">Rekordna stopa preživljavanja</string>
+    <string name="top_average_damage">Rekordna prosječna šteta</string>
+    <string name="top_win_rate">Rekordna stopa pobjeđivanja</string>
+    <string name="top_distance_traveled">Brod s najviše prevaljenih kilometara</string>
+    <string name="top_played_ship">Najigraniji brod</string>
+    <string name="top_most_kills">Rekordno uništenih brodova</string>
+    <string name="top_total_exp">Rekordno ukupno iskustvo</string>
+    <string name="top_total_planes">Rekordno ukupno uništeno aviona</string>
+    <string name="top_total_damage">Rekordna ukupna šteta</string>
+    <string name="top_survival_wins">Rekordan broj preživljenih pobjeda</string>
+    <string name="top_battleship">Najbolji Bojni Brod</string>
+    <string name="top_cruiser">Najbolji Kruzer</string>
+    <string name="top_destroyer">Najbolji Uništavač</string>
+    <string name="top_carrier">Najbolji Nosač aviona</string>
+
+    <string name="captain_yours_vs_average">Statistike kapetana u usporedbi s prosječnim statistikama kapetana</string>
+
+    <string name="wargaming_server_language">Wargaming jezik servera</string>
+    <string name="wins">Pobjede</string>
+    <string name="losses">Porazi</string>
+    <string name="draws">Neodlučeno</string>
+    <string name="total_capture_points">Sveukupni broj bodova (zahvaćene zone)</string>
+    <string name="total_defense_points">Sveukupan broj bodova (obrane)</string>
+    <string name="total_planes_downed">Sveukupan broj uništenih zrakoplova</string>
+    <string name="top_ship_info">Informacije o najboljem brodu</string>
+    <string name="settings_update_to_new_language">Unapređujem podatke na serveru za novi jezik</string>
+    <string name="settings_dev_blog">Blog developera</string>
+    <string name="compare_needs_two">Uspoređivač treba dvije osobe za uspoređivanje</string>
+    <string name="average_experience_per_class">Prosječno iskustvo po klasi</string>
+    <string name="average_survival_rate_per_class">Prosječna stopa preživljavanja po klasi</string>
+
+    <string name="top_ten_played_ships">10 najigranijih brodova</string>
+    <string name="top_ten_average_exp">12 najboljih po prosječnom iskustvu</string>
+    <string name="top_ten_avg_dmg">10 najboljih brodova po prosječnoj šteti</string>
+    <string name="top_ten_win_rate">10 najboljih brodova po stopi pobjeđivanja</string>
+    <string name="top_ten_k_d">10 najboljih brodova po K/D omjeru (broj uništenih brodova po jednom uništenju vlastitog)</string>
+
+    <string name="translated_by">Preveo __Themistocles__</string>
+    <string name="pan_asia">Azija</string>
+
+    <!-- changed text-->
+
+    <string-array name="ship_sorting">
+        <item>Borbe</item>
+        <item>Ime</item>
+        <item>Prosječno iskustvo</item>
+        <item>Prosječna šteta</item>
+        <item>Stopa pobjeđivanja</item>
+        <item>Brodova uništeno/jednom uništenju vlastitog</item>
+        <item>Sveukupna šteta</item>
+        <item>Sveukupan broj uništenih brodova</item>
+        <item>Zrakoplova uništeno</item>
+        <item>Razina 10-1</item>
+        <item>Razina 1-10</item>
+        <!-- only these are new-->
+        <item>CA rejting</item>
+        <item>Preciznost glavnih topova</item>
+        <item>Preciznost torpeda</item>
+    </string-array>
+
+    <string name="encyclopedia_hint">Search By Name</string>
+    <string-array name="search_nation">
+        <item>USA</item>
+        <item>UK</item>
+        <item>USSR</item>
+        <item>Japan</item>
+        <item>Germany</item>
+        <item>Asia</item>
+        <item>Poland</item>
+        <item>Commonwealth</item>
+    </string-array>
+
+    <string name="settings_theme_text">Tema aplikacije</string>
+    <string name="encyclopedia_all">Sve</string>
+    <string name="settings_remove_arp_text">Makni ARP ikone brodova</string>
+    <string name="average_accuracy_per_tier">Prosječna preciznost glavnih topova po razini</string>
+    <string name="top_ten_accuracy">10 najboljih po preciznosti glavnih topova</string>
+    <string name="torp_accuracy">Preciznost torpeda</string>
+    <string name="main_battery_accuracy">Preciznost glavnih topova</string>
+    <string name="enemy_accuracy">Preciznost neprijatelja</string>
+    <string name="detection_range">Vidljivost neprijateljskim brodovima</string>
+    <string name="experience">Iskustvo</string>
+    <string name="repair_cost">Cijena popravaka</string>
+    <string name="detontaion_chance">Šanse za detonaciju</string>
+    <string name="reload_time">Vrijeme potrebno za ponovnu mogućnost paljbe</string>
+    <string name="secondary_guns_accuracy">Preciznost pomoćnih topova</string>
+    <string name="secondary_guns_range">Domet pomoćnih topova</string>
+    <string name="burning_time">Vrijeme gorenja</string>
+    <string name="health_regen_speed">Brzina obnavljanja zdravlja</string>
+    <string name="ramming_damage_caused">Šteta uzrokovana u sudarima</string>
+    <string name="ramming_damage_received">Šteta primljena u sudarima</string>
+    <string name="ship_speed">Brzina broda</string>
+    <string name="flooding_time">Vrijeme plavljenja broda</string>
+    <string name="search_stats_server"><![CDATA[Search & Stats Server]]></string>
+    <string name="karma">Karma</string>
+    <string name="login_primary_user">Omogući login primarnog korisnika</string>
+    <string name="account_information">Informacije o računu</string>
+    <string name="pi_gold">Zlato</string>
+    <string name="free_experience">Besplatno Iskustvo</string>
+    <string name="pi_credits">Krediti</string>
+    <string name="slot_info">Brodova / Broj mjesta u luci</string>
+    <string name="battle_time">Vrijeme u borbi</string>
+    <string name="premium_expires_on">Premium istječe </string>
+    <string name="settings_saved_captain_points">Opći pregled podataka kapetana</string>
+    <string name="settings_saved_ships_points">Zasebni podaci o brodu</string>
+    <string name="settings_stats_number_dialog_title">Smanjivanje broja spremljenih brodova?</string>
+    <string name="settings_stats_number_dialog_message">Prilikom smanjivanja ovog broja, aplikacije će trebati izbrisati sve podatke o kapetanima kako bi se omogućila ova promjena. Jeste li sigurni da to želite učiniti?</string>
+    <string name="settings_stats_number_dialog_positive">Smanji broj</string>
+    <string name="settings_stats_area_warning">Navedene postavke će promijeniti način korištenja memorije u aplikaciji. Savjetuje se oprez pri korištenju ovih elemenata.</string>
+    <string name="memory_settings">Postavke memorije</string>
+    <string name="settings_data_points">Broj jedinica na koje su podaci spremljeni</string>
+    <string name="planes_downed_encyclo">Zrakoplova uništeno</string>
+    <string name="capture_points_encyclo">Zone za zahvatiti</string>
+    <string name="defense_points">Bodovi za obranu</string>
+    <string name="provided_by_warships_today">Podatke pruža : Warships.Today</string>
+    <string name="community_assistant_rating_overall">Sveukupni rejting Community Assistanta</string>
+    <string name="community_assistant_rating">Rejting Community Assistant-a </string>
+    <string name="community_assistant_rating_shorter">CA Rejting</string>
+    <string name="remove_ca_rating">Makni CA Rejting</string>
+    <string name="breakdown_of_rating">Razložba</string>
+    <string name="best_ca_rating">Najbolji CA rejting</string>
+    <string name="total_kills">Sveukupan broj uništenih brodova</string>
+    <string name="team_battles_title">Statistike Team Battle-a</string>
+    <string name="two_div_title">Statistike Divisiona s 2 kapetana</string>
+    <string name="three_div_title">Statistike Divisiona s 3 kapetana</string>
+    <string name="pve_title">PvE statistike</string>
+    <string name="games_per_gamemode">Partija po vrsti igre</string>
+    <string name="million">" milijun"</string>
+    <string name="game_mode_statistics">Statistike o vrstama igre</string>
+    <string name="win_rate_per_mode">Stopa pobjeđivanja po vrsti igre</string>
+    <string name="solo_pvp">Solo PvP</string>
+    <string name="pve">PvE</string>
+    <string name="pvp_2_div">PvP 2 Div</string>
+    <string name="pvp_3_div">PvP 3 Div</string>
+    <string name="team_battles">Team Battles</string>
+    <string name="survival_rate_per_mode">Stopa preživljavanja po vrsti igre</string>
+    <string name="most_accuracy_gun_shipg">Najprecizniji topnički brod</string>
+    <string name="most_accuracy_torp_ship">Naprecizniji torpedo brod</string>
+    <string name="click_module_to_update_view">Kliknite na modul kako bi obnovili pogled</string>
+    <string name="module_list">Moduli</string>
+    <string name="ship_characteristics">Karakteristike broda</string>
+    <string name="disable_login">Onemogući Login</string>
+    <string name="fire_control">Kontrola gorenja</string>
+    <string name="flight_control">Kontrola letenja</string>
+    <string name="torpedo_bomber">Bombarder s torpedima (TB)</string>
+    <string name="dive_bomber">Ponirući bombarder (DB)</string>
+    <string name="captain_ca_per_tier">CA rejting po razini</string>
+    <string name="captain_ca_contrabution">Rejting doprinosa po razini</string>
+
+    <!--These are optional-->
+    <string name="ca_rating_explanation">Community Assistant Rejting je %1$s šteta, %2$s uništeni brodovi i %3$s stopa pobjeđivanja. Standard je 1000.</string>
+    <string name="ca_rating_overall_explanation">Opći Community Assistant Rejting se računa tako da se nađe prosječni CA Rejting za svaku razinu, te se onda on množi s postotkom igara koji ta razina ima sveukupnog broja igara koje je odigrao igrač. Suma tih brojeva daje opći CA Rejting.</string>
+    <string name="ca_rating_reason">Razlog za brojeve i jednadžbu:\n%1$s šteta, %2$s uništeni brodovi and %3$s stopa pobjeđivanja su brojevi korišteni za kreiranje CA Rejtinga za brod.
+        Standard (statistika broda/ očekivana statistika broda) * koeficijent jednadžbe statistike. Npr.: (22000 štete / 20000 očekivano) * %1$s. Zbroji se šteta, broj uništenih brodova i stopa pobjeđivanja te se pomnoži s 1000.\n\n
+       Šteta i uništeni brodovi su važniji nego stopa pobjeđivanja zato što loš tim ne bi trebao utjecati na Vaš Rejting.
+        Činjenje štete i uništavanje brodova su vrlo važni parametri koji doprinose pobjedi i sve dok ne dobijemo precizne podatke od Wargaming-a o zahvaćanju i obrani Zona, ovi podaci bi trebali dovoljni.
+        Jednadžba za sveukupni CA Rejting je računana tako da se uzme ukupni rejting po razini pomnožen s postotkom koji ta razina zauzima u sveukupnom broju Vaših partija. Ovo pomaže pri sprečavanju negativnog utjecaja koji imaju ne-upgradeani brodovi na Vaš sveukupni rezultat i omogućuje da Vaši omiljeni brodovi/razine prevagnu nad brodovima/razinama u kojima niste dobri.
+        Originalno, ova metoda je trebala služiti kako bi se spriječilo seal-clubbere (iskusni igrači koji se iživljavaju nad početnicima) da izigraju sustav sveukupnog rejtinga, no nisam htio naštetiti onima koji možda samo vole igrati u nižim razinama, ili igraju niže razine s drugim igračima.
+        Ova metoda je još uvijek djelotvorna protiv ovoga, zato što igrači trebaju igrati više partija na višim razinama kako bi došli do slijedeće razine. Ali ovo neće naštetiti onima koji žele igrati partija na nižim razinama u svojim omiljenim brodovima.</string>
+    <!--end of optional area-->
+
+    <!--This one would be nice to have done.-->
+    <string name="ca_rating_tl_dr" >TL:DR:\n\n Community Assistant Rejting za individualne brodove je %1$s šteta, %2$s uništeni brodovi i %3$s stopa pobjeđivanja. Sveukupno Community Assistant Rejting je računan Sumom (prosječnim CA Rejtingom po razini) * (broj partija po Razini / ukupan broj partija). Standard je 1000.</string>
+
+    <string name="ship_compared_to_others">Statistike brodova u usporedbi s drugim brodovima</string>
+
+    <string name="recommended_setups">Predložene postavke</string>
+
+    <string-array name="themes">
+        <item>Ocean</item>
+        <item>Dark</item>
+    </string-array>
+    <string name="title_activity_information">Community Assistant (CA) Rejting</string>
+    <string name="per_ship_rating">Rejting zasebnog broda</string>
+    <string name="overall_ca_rating">Ukupni CA Rejting</string>
+    <string name="ca_rating_dialog_title">Community Assistant (CA) Rejting</string>
+    <string name="learn_more">Nauči više</string>
+    <string name="gun_dispersion">Disperzija topova</string>
+    <string name="gun_rotation_speed">Vrijeme rotacije topova za 180°</string>
+    <string name="armor_values">Vrijednosti oklopne zaštite</string>
+    <string name="aa_info">Informacije o protuzračnom naoružanju</string>
+    <string name="deck_armor">Paluba:</string>
+    <string name="range_armor">Sveukupno:</string>
+    <string name="bow_stern_armor"><![CDATA[Bow & Stern:]]></string>
+    <string name="gun_casemate_armor">Kazamat za top:</string>
+    <string name="citadel_armor">Citadela:</string>
+    <string name="millimeters">mm</string>
+    <string name="damage_per_second">šteta po sekundi</string>
+    <string name="kilometers">km</string>
+    <string name="kilometers_per_second">km/h</string>
+    <string name="seconds">s</string>
+    <string name="meters">m</string>
+    <string name="warship_today_nprofile_page">Warship.Today Profil</string>
+    <string name="login">Login</string>
+    <string name="app_language">aplikacija Jezik</string>
+    <string name="app_langauge_base">hr</string>
+    <string name="nation_france">Francuska</string>
+    <string name="nation_commonwealth">Commonwealth</string>
+
+    <!-- THESE NEED TO BE FIXED -->
+    <string name="view_an_ad_on_launch">View an Ad on Launch</string>
+    <string name="total_spotting_damage">Spotting Damage</string>
+    <string name="total_tanking_damage">Tanking Damage</string>
+    <string name="total_torp_tanking_damage">Torp Tanking Damage</string>
+    <string name="total_damage_to_buildings">Building Damage</string>
+    <string name="total_suppressions">Suppressions</string>
+    <string name="total_spots">Total Spots</string>
+    <string name="max_spots">Max Spots</string>
+    <string name="most_spotted_in_a_match">Most Spotted In A Match</string>
+    <string name="most_scouting_damage_in_a_match">Most Scouting Damage In A Match</string>
+    <string name="top_tanking_damage">Top Tanking Damage</string>
+    <string name="top_torpedo_tanking_damage">Top Torpedo Tanking Damage</string>
+    <string name="modules">Modules</string>
+    <string name="graphs">Graphs</string>
+    <string name="toast_not_enough_ships_to_compare">You must have more than one ship added to compare</string>
+    <string name="long_click_to_add_ship_to_compare_list">Long click to add ship to compare list</string>
+    <string name="ship_compare_title">Ship Compare</string>
+    <string name="ap_damage">AP Damage</string>
+    <string name="he_damage">HE Damage</string>
+    <string name="he_burn_chance">HE Burn Chance</string>
+    <string name="num_of_turrets"># of turrets</string>
+    <string name="num_of_torp_turret"># of Torpedo Turrets</string>
+    <string name="fighter_squadrons">Fighter Squadrons</string>
+    <string name="bomber_squadron">Bomber Squadrons</string>
+    <string name="torpedo_squadrons">Torpedo Squadrons</string>
+    <string name="db_burn_chance">DB Burn Chance</string>
+    <string name="minimum_armor">Minimum Armor</string>
+    <string name="maximum_armor">Maximum Armor</string>
+    <string name="deck_minimum_armor">Deck Minimum Armor</string>
+    <string name="deck_maximum_armor">Deck Maximum Armor</string>
+    <string name="extremities_min_armor">Extremities Minimum Armor</string>
+    <string name="extremities_max_armor">Extremities Maximum Armor</string>
+    <string name="casemate_min_armor">Casemate Minimum Armor</string>
+    <string name="casemate_max_armor">Casemate Maximum Armor</string>
+    <string name="citadel_min_armor">Citadel Minimum Armor</string>
+    <string name="citadel_max_armor">Citadel Maximum Armor</string>
+</resources>

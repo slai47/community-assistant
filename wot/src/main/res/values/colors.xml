@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- dark scheme colors -->
+    <color name="material_primary">#323232</color> <!-- action bar background -->
+    <color name="material_accent">#ff8800</color> <!-- accent color -->
+    <color name="material_accent_clicked">#FFB74D</color> <!-- clicked accent color -->
+    <color name="material_primary_dark">#121212</color> <!-- notification background -->
+    <color name="material_window_background">#212121</color> <!-- background -->
+    <color name="material_text_primary">#EEEEEE</color><!-- text color -->
+    <color name="material_text_secondary">#DEFFFFFF</color>
+    <color name="material_navigation_bar_color">#ff8800</color> <!-- navigation bar color-->
+    <color name="material_divider_color">#888888</color>
+    <color name="material_expandable_group_background">#444444</color>
+    <color name="material_card_background">#303030</color>
+    <color name="material_card_background_selected">#505050</color>
+    <color name="material_button_color">#ff8800</color>
+
+    <color name="material_grid_view_default">#202020</color>
+
+    <!-- Light scheme colors -->
+    <color name="material_light_primary">#673AB7</color> <!-- action bar background -->
+    <color name="material_light_accent">#ff8800</color> <!-- accent color -->
+    <color name="material_light_accent_clicked">#FFB74D</color> <!-- clicked accent color -->
+    <color name="material_light_primary_dark">#512DAB</color> <!-- notification background -->
+    <color name="material_light_window_background">#E2E2E2</color> <!-- background -->
+    <!--<color name="material_light_text_primary">#212121</color>&lt;!&ndash; text color &ndash;&gt;-->
+    <!--<color name="material_light_text_secondary">#727272</color>-->
+
+    <color name="material_light_text_primary">#F6F6F6</color><!-- text color -->
+    <color name="material_light_text_secondary">#262626</color>
+    <color name="material_light_navigation_bar_color">#673AB7</color> <!-- navigation bar color-->
+    <color name="material_light_divider_color">#B6B6B6</color>
+    <color name="material_light_expandable_group_background">#F6F6F6</color>
+    <color name="material_light_card_background">#F6F6F6</color>
+    <color name="material_light_card_background_selected">#DFDFDF</color>
+    <color name="material_light_button_color">#673AB7</color>
+
+    <color name="material_light_grid_view_default">#606060</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="white_transparent">#66FFFFFF</color>
+    <color name="compare_highest">#FFFBC02D</color>
+
+    <color name="compare_first">#FF9800</color>
+    <color name="compare_second">#4CAF50</color>
+    <color name="compare_three">#9C27B0</color>
+
+    <color name="black_stroke">#99000000</color>
+
+    <!-- WN8 colors -->
+    <color name="wn_very_bad">#FFFFFFFF</color>
+    <color name="wn_bad">#F44336</color>
+    <color name="wn_below_average">#FF9800</color>
+    <color name="wn_average">#FFEB3B</color>
+    <color name="wn_good">#8BC34A</color>
+    <color name="wn_very_good">#388E3C</color>
+    <color name="wn_great">#03A9F4</color>
+    <color name="wn_unicum">#7E57C2</color>
+    <color name="wn_super_unicum">#512DA8</color>
+
+    <!-- need to be removed sooner or later -->
+    <color name="cp_holo_color">#ff8800</color>
+    <color name="back_card_color">#FF444444</color>
+    <color name="bottom_card_color">#FF777777</color>
+    <color name="list_background">#FF333333</color>
+    <color name="card_focused_color">#44ff8800</color>
+    <color name="card_pressed_color">#FF555555</color>
+    <color name="background_color">#FF262424</color>
+    <color name="activity_background_color">#FF111111</color>
+
+    <color name="drawer_shader_color">#11FFFFFF</color>
+
+    <color name="black_transparent">#55000000</color>
+
+    <color name="premium_shade">#FFFF9800</color>
+
+    <color name="info_group_divider">#FF777777</color>
+    <color name="info_child_divider">#99777777</color>
+
+    <color name="drawer_text_color">#FFEEEEEE</color>
+
+    <color name="cp_holo_color_divider">#99ff8800</color>
+
+    <color name="image_fragment_background">#CC000000</color>
+
+    <color name="image_fragment_background_light">#EEFFFFFF</color>
+
+    <color name="tabsScrollColor">#8a140e</color>
+
+</resources>

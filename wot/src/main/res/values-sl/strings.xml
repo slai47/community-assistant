@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+
+    <string name="language">en</string> <!-- let me choose this one -->
+
+    <!-- EVERYTHING UNDER THIS IS SUBJECT TO CHANGE-->
+    <string-array name="servers">
+        <item>ZDA</item>
+        <item>Evropa</item>
+        <item>Jugovzhodna Azija</item>
+        <item>Rusija</item>
+        <!--
+        <item>Korea</item> -->
+    </string-array>
+
+    <string-array name="clan_basic_sorting">
+        <item>Čin</item>
+        <item>Ime</item>
+    </string-array>
+
+    <string-array name="advanced_sorting">
+        <item>Bitke</item>
+        <item>Razmerje zmag</item>
+        <item>Mojstrstvo</item>
+        <item>WN8</item>
+        <item>Povprečne Izkušnje</item>
+        <item>Povprečna Škoda</item>
+        <item>Uboji/Smrti</item>
+        <item>Ime</item>
+        <item>Nivo 10-1</item>
+        <item>Nivo 1–10</item>
+    </string-array>
+
+    <string name="recent_changes_news">Patch 3.0.2:\n\n- Bug Fixes for graphs\n\nPatch 3.0.1:\n\n- WN8 v21 -> v22 \n\n- More Graphs \n\n- Bug Fixes \n\nNadgradnja 3.0: \n\n-Materijalistični re-dizajn aplikacije. \n\n-Sekcija Novih Map. \n\n-Dodan je bil vpogled novega igralca. V tem primeru bo aplikacija naložila ta profil prvi. \n\n-Svetla tema dodana. \n\n-Eksperimentalni 7 dnevni, 30 dnevni in 60 dnevni WN8 je bil dodan. \n\n-Nove grafike in funkcije na klanskih straneh in straneh za igralce. \n\n-WN8 posodobljen na verzijo 21.
+\n\n-WN8 in statistika je sedaj zračunana in shranjena. \n\n-Dodana je podpora za Android Wear. \n\n-Popravljenih je bilo nekaj napak z sortiranjem. \n\n-Aktivnost bitk sedaj pokaže karto slik. \n\n-Posodobljeno na Wargamingov najnovejši API. \n\n-Sortiranje mojsterstva je popravljeno. \n\n-Časi zadnjih bitk za igralce ter klane so bili dodani.</string>
+    <string name="wn8_cap">WN8</string>
+    <string name="overall">Skupno</string>
+    <string name="clan_wars_cap">Klanske Bitke</string>
+    <string name="win_rate">Razmerje zmag</string>
+    <string name="avg_battles">Avg Battles</string>
+    <string name="avg_kills">Avg Kills</string>
+    <string name="avg_damage">Avg Damage</string>
+    <string name="avg_exp">Avg Exp</string>
+    <string name="last_24_wn8">Last 24 WN8</string>
+    <string name="last_7_wn8">7 DAY WN8</string>
+    <string name="last_30_wn8">30 DAY WN8</string>
+    <string name="last_60_wn8">60 DAY WN8</string>
+    <string name="battles">Bitke</string>
+    <string name="k_d">Uboji/Smrti</string>
+    <string name="k_d_c">Uboji/Smrti:</string>
+    <string name="hit_percentage">% Zadetkov</string>
+    <string name="hit_percentage_c">% Zadetkov:</string>
+    <string name="dmg_factor">Faktor Škode</string>
+    <string name="app_name">Asistenca</string>
+
+    <string name="search_text">Išči:</string>
+    <string name="search_fragment_wn_hint">Vnesi Ime Vozila ali Nivo Vozila</string>
+    <string name="search_fragment_player_hint">Vnesi Uporabniško Ime</string>
+    <string name="search_fragment_clan_hint">Vnesi Ime Klana ali Njihovo Kratico</string>
+    <string name="search_map_hint">Vnesi Ime mape</string>
+
+    <string name="settings">Nastavitve</string>
+
+    <string name="drawer_about">NASTAVITVE; INFORMACIJE</string>
+    <string name="drawer_clan">KLANI</string>
+    <string name="drawer_player">IGRALCI</string>
+    <string name="drawer_vehicle_stats">STATISTIKA WN8 ZA VOZILA</string>
+    <string name="drawer_search">Išči</string>
+    <string name="drawer_gpd">Kalkulator Iger/Smrti</string>
+    <string name="drawer_server">SERVER</string>
+    <string name="drawer_donate">PODPIRAJ TA PROJEKT</string>
+    <string name="drawer_home">Domov</string>
+    <string name="drawer_maps">MAPE</string>
+    <string name="drawer_battle_activity">Aktivnost Bitk</string>
+
+    <string name="search_no_results">Ni Rezultatov</string>
+
+    <string name="info_settings">NASTAVITVE</string>
+    <string name="info_battles_title">Zakaj se moje bitke ne posodobijo takoj?</string>
+    <string name="info_unknown_text">Bitka še ni načrtovana. To se pogosto dogaja pri bitkah za pristajanje.</string>
+    <string name="info_unknown_title">Zakaj je čas za bitko neznan?</string>
+    <string name="info_battles_text">Wargaming najde in shranjuje vse klanske bitke, zato to lahko povzroči zamude s tem ko se bitke posodabljajo in odstranjujejo.</string>
+    <string name="thank_you_info">vBAddict.net zagotavlja pričakovane povprečne vrednosti in WN8 infromacije</string>
+    <string name="info_about">O PROGRAMU</string>
+    <string name="info_version">Verzija:</string>
+    <string name="info_write_a_review">Napiši mnenje</string>
+    <string name="info_email">Kontaktiraj me preko Email-a</string>
+    <string name="info_twitter">Kontaktiraj me na Twitterju</string>
+    <string name="info_info">INFORMACIJE</string>
+    <string name="info_thank_you">Hvala </string>
+
+    <string name="list_clan_members">Člani:</string>
+    <string name="list_clan_added_message">dodano</string>
+    <string name="list_clan_removed_message">odstranjeno</string>
+
+    <string name="no_text_error">Morate vnesti iskalni pojem</string>
+    <string name="no_internet_title">Ni Povezave Do Interneta</string>
+    <string name="no_internet_message">Ali bi radi Prižgali Vaš Internet?</string>
+    <string name="no_internet_neutral_text">Nastavitve</string>
+    <string name="error_no_player_found">Izgleda da je prišlo do napake. Prosimo poskusite iskati ponovno, mogoče bo napaka odpravljena</string>
+    <string name="error">Prišlo je do napake</string>
+
+    <string name="battle_activity_no_clans_text">Noben klan ni bil shranjen. Dodajte klane da dobite dostop do časov klanskih bitk, določite opomnik za klanske bitke, ter za katero province se borite.</string>
+
+    <string name="list_battle_title_activity">Bojna Aktivnost</string>
+    <string name="activity_no_results">Nobena bitka ni bila najdena.</string>
+    <string name="no_battles">Ni Bitk</string>
+
+    <string name="system_cant_update_message">Aktivnost Bitk lahko osvežite vsakih 5 minut</string>
+
+    <string name="battle_type_engagement">Spopad</string>
+    <string name="battle_type_landing">Pristanek</string>
+    <string name="battle_type_province">Province</string>
+
+    <string name="clan_details_description">Opis:</string>
+
+    <string name="alarm_dialog_time_title">Kdaj želite nastaviti alarm?</string>
+    <string name="alarm_dialog_before">minute pred</string>
+    <string name="alarm_pos_button_text">Nastavi Alarm</string>
+    <string name="dismiss">Razreši</string>
+    <string name="alarm_dialog_title">Bojni Alarm</string>
+    <string name="alarm_set">Alarm Nastavljen</string>
+    <string name="alarm_click_no_alarm_times">Bitka se bo ravnokar začela oziroma se je že začela. Ne morate nastaviti alarma za to bitko</string>
+
+    <string name="scheduling">Razporejanje</string>
+
+    <string name="server_change_text">Server spremenjen na</string>
+
+    <string name="clan_details_nothing_returned">Za ta klan ni bilo nič najdeno. Je možno da je klan na drugem serverju??</string>
+    <string name="recent_changes_title">Opombe Posodobitev</string>
+    <string name="created_by">Ustvaril</string>
+    <string name="created_by_name">HALF</string>
+
+    <string name="vehicle_stat_win">% Zmag:</string>
+    <string name="vehicle_stat_frag">Uboji:</string>
+    <string name="vehicle_stat_def">Obramba:</string>
+    <string name="vehicle_stat_spots">Odkrivanja:</string>
+    <string name="vehicle_stat_dmg">Škoda:</string>
+
+    <string name="notification_text">Alarm za Bitke</string>
+
+    <string name="pager_clan_details">KLANSKE PODROBNOSTI</string>
+    <string name="pager_clan_members">ČLANI</string>
+    <string name="pager_clan_query">VPRAŠANJE</string>
+    <string name="details_cap">PODROBNOSTI</string>
+    <string name="pager_tanks">TANKI</string>
+
+
+    <string name="player_details_win8">WN8:</string>
+    <string name="avg_dmg">Povprečje Škode:</string>
+    <string name="win_percentage_c">% Zmag:</string>
+    <string name="avg_exp_c">Povprečne Izkušnje:</string>
+    <string name="battles_c">Bitke:</string>
+    <string name="player_details_player_stats">Statistika Igralca</string>
+    <string name="player_details_player_tanks">Napredne Informacije Igralca</string>
+    <string name="player_details_tank_name_col">Ime</string>
+    <string name="win_percentage">% Zmag</string>
+    <string name="player_details_tank_mastery_col">Mojstrstvo</string>
+    <string name="player_details_global_rating">WoT Ocena:</string>
+    <string name="player_details_num_of_badges">Število Značk:</string>
+    <string name="player_details_badges_m">M:</string>
+    <string name="player_details_badges_1">1:</string>
+    <string name="player_details_badges_2">2:</string>
+    <string name="player_details_badges_3">3:</string>
+    <string name="player_details_more_details">Dodatna Statistika Igralca</string>
+    <string name="player_details_tanking_factor">Faktor Blokiranja:</string>
+    <string name="player_details_avg_spot_dmg">Povprečna škoda zaradi tvojega odkrivanja:</string>
+    <string name="player_details_track_damge">Povprečna škoda v gosenice:</string>
+    <string name="player_details_blocked_damage">Povprečje škode katero je blokiral tvoj oklep:</string>
+    <string name="player_details_dmg_assist">Povprečje škode pri kateri si pomagal:</string>
+    <string name="player_details_penetration">% Penetracij:</string>
+    <string name="player_details_best_game">Najboljša statistika</string>
+    <string name="player_details_account_info">Info Računa</string>
+    <string name="player_details_created_on">CUstvarjeno dne :</string>
+    <string name="player_details_last_battle_on">Zadnja bitka igrana:</string>
+    <string name="player_details_best_performance">Najboljši tank po učinku</string>
+    <string name="player_details_unknown_tank">Neznan tank</string>
+    <string name="player_details_joined">Pridružen</string>
+    <string name="player_details_days_ago">dni nazaj</string>
+    <string name="player_graphs_wn8_nation">WN8 po Naciji</string>
+    <string name="player_graphs_battles_nation">Bitke na Nacijo</string>
+    <string name="player_graphs_tanks_per_tier">Tanki glede na Nivo</string>
+    <string name="player_graphs_tanks_per_class">Tank glede na klaso</string>
+    <string name="player_graphs_tanks_per_nation">Tanki glede na nacijo</string>
+    <string name="player_details_best_exp">Izkušnje:</string>
+    <string name="player_details_best_frags">Uboji:</string>
+    <string name="player_details_best_damage">Škoda:</string>
+    <string name="player_details_clan_wars_stats">Statistika Klanskih Bitk</string>
+    <string name="player_details_no_clan_wars_stats">Ni bila najdena nobena statistika Klanskih Bitk</string>
+    <string name="player_details_no_stats_found">Nobena statistika ni bila najdena</string>
+
+    <string name="insert_all_into_db_start">Nameščanje lokalne baze tankov</string>
+    <string name="insert_all_into_db_end">Lokalna baza tankov je bila nameščena</string>
+
+    <string name="open_in_wotlabs">Odpri v WotLabs</string>
+    <string name="open_in_clantools">Odpri v ClanTools</string>
+    <string name="open_in_wotstats">Opdri v WoTStats</string>
+
+    <string name="menu_default">Nastavi kot privzeto</string>
+    <string name="menu_download">Prenesi Klan</string>
+
+    <string name="clan_details_best_tanker">Najboljši Tanksist:</string>
+    <string name="clan_details_avg_kills">Povprečje Ubojev:</string>
+    <string name="clan_details_avg_battles">Povprečje Bitk:</string>
+    <string name="clan_details_avg_damage">Povprečna Škoda:</string>
+    <string name="clan_details_avg_exp">Povprečne izkušnje:</string>
+    <string name="clan_details_avg_wn8">Povprečni WN8:</string>
+    <string name="clan_details_clan_stats">Klanska Statistika</string>
+    <string name="clan_details_export_title">Izvoz: Določite datum</string>
+    <string name="clan_details_export_message">Izvozno Tekstno besedilo vsebuje:\n Osnovne klanske informacije, seznam vseh igralcev v klanu, seznam vseh tankov za vsakega igralca ter WN8 za vsak tank.\n\nTo je shranjeno v JSON. Da bi prihranili na velikosti datoteke je tukaj nekaj ključnih besed: \naXp = povprečne izkušnje \nwins = #zmaganih bitk \nhitsPC =odstotek zadetkov  \nfrags = uboji oziroma število uničenih tankov
+\nsur = število bitk v katerih ste preživeli \ncwn8 = WN8 klana \n\nTo so vse informacije katere so shranjene na vaši napravi, potrebne za delovanje.</string>
+    <string name="clan_details_export_subject">Izvozi</string>
+    <string name="clan_graphs_no_graphs">Graf ni bil najden. Prenesite Klan ponovno</string>
+
+    <string name="details_tanks_member_get_all_info">Prenesite Klan</string>
+
+    <string name="event_map">Zemljevid Dogodkov</string>
+
+    <string name="info_colorblind">Način za barvno-slepe</string>
+
+    <string name="failure">Napaka pri prenesu informacij</string>
+
+    <string name="nation_china">Kitajska</string>
+    <string name="nation_france">Francija</string>
+    <string name="nation_germany">Nemčija</string>
+    <string name="nation_japan">Japonska</string>
+    <string name="nation_uk">Velika Britanija</string>
+    <string name="nation_ussr">Sovjetska Zveza</string>
+    <string name="nation_usa">ZDA</string>
+
+    <string name="download_players">Pridobivam Vse Informacije Na Igralca. Kliknite Za Prekinitev</string>
+    <string name="download_calculating">Preračunavam Statistiko Glede na Tank, WN8 in več. Kliknite Za Prekinitev</string>
+    <string name="download_graphs">Ustvarjam Podatke Grafov. Kliknite Za Prekinitev</string>
+
+    <string name="download_notification_downloading">Prenašam</string>
+    <string name="download_notification_information">informacije</string>
+    <string name="download_notification_standard">Prenos v teku. Kliknite Za Prekinitev</string>
+    <string name="download_notification_done"> Prenešeno</string>
+    <string name="download_notification_cancelled"> Prenos je bil Prekinjen</string>
+
+    <string name="first_time_download_title">Prenašam klan</string>
+    <string name="first_time_download_text">Ta proces začne prenos, kateri porabi veliko količino podatkov in lahko traja tudi več minut. Ta proces je omejen na samo eden prenos na vsake tri dni na klan, saj je aplikacija omejena na število kolikokrat je lahko dostopana. \n\nKar dobite je podroben vpogled v informacije vsakega igralca v klanu, kdo je najboljši v katerem tanku, WN8 za vsakega igralca ter še mnogo več informacij. Ti podatki so shranjeni na vaši napravi in bodo bili uporabljeni do naslednjega prenosa.
+\n\nUporaba WIFI je priporočena.</string>
+
+    <string name="download_dialog_pos_message">Prenos</string>
+    <string name="download_task_running">Prenos klana se je že začel</string>
+    <string name="refresh">Osveži</string>
+    <string name="player_details_trees_cut">Dreves Ubitih:</string>
+
+    <string name="info_clean_clan">Zbriše podatke shranjene na telefonu o aplikaciji. To zbriše vse prenešene klanske datoteke.</string>
+    <string name="info_clean_clan_text">Počisti Klanske Prenose</string>
+    <string name="info_clean_clans_toast">Zbrisane Datoteke</string>
+    <string name="tank_clan_member_next_download_time_text">Naslednji prenos na voljo:\n</string>
+    <string name="clan_details_toast_loading_up_download">Nalagam prenešene klanske informacije</string>
+    <string name="clan_details_waiting_for_clan">Čakam na ostali prenos klana</string>
+    <string name="clan_details_download_starts">Prenos se je Začel</string>
+    <string name="search_choose_hint">Izberite tank in pritisni gumb</string>
+    <string name="details_query_no_tank_selected">Noben tank ni bil izbran</string>
+    <string name="details_query_loading">Prenos Klana Poteka</string>
+    <string name="details_query_clan_info_not_downloaded">Za dostop funkcij tega zaslona, potrebujete najprej prenesti klan</string>
+    <string name="details_query_description_tier">Nivo</string>
+    <string name="details_query_no_players_have_that_tank">Nobena informacija ni bila najdena</string>
+
+    <string name="tank_destroyer">Uničevalec Tankov</string>
+    <string name="heavy_tank">Težki Tank</string>
+    <string name="medium_tank">Srednji Tank</string>
+    <string name="light_tank">Lahki Tank</string>
+    <string name="artillery">Artilerija</string>
+
+    <string name="details_query_select_a_tank">Izberite \nTank</string>
+
+    <string name="task_no_internet">Prenos je bil prekinjen, ker aplikaciija nima dostopa do interneta</string>
+    <string name="dialog_fail_text">Vozilo ni bilo najdeno v bazi podatkov.</string>
+    <string name="dialog_title">Razlike Igralcev</string>
+    <string name="dialog_top_yours">Tvoj</string>
+    <string name="dialog_top_average">Povprečje</string>
+    <string name="dialog_top_delta">Delta</string>
+    <string name="dialog_row_wins">Zmage</string>
+    <string name="dialog_row_damage">Škoda</string>
+    <string name="dialog_row_kill_death">Uboji/Smrti</string>
+    <string name="dialog_row_spots">Odkrivanje</string>
+    <string name="dialog_row_def">Točke obrambe</string>
+
+    <string name="unknown">Neznano</string>
+
+    <string name="translator_text">Slovenski jezik preved z pomočjo igralca Anerheon. </string>
+
+    <string name="info_theme_mode">Svetla Tema</string>
+    <string name="no_tier_10s_found">Noben tank nivoja 10 ni bil najden</string>
+    <string name="no_tier_10s_found_games">Nobene igre z tanki nivoja 10 niso bile najdene</string>
+
+    <string name="dialog_message_bookmarking">Če shranite tega igralca bo vaša začetna stran shranjena na tega igralca.</string>
+    <string name="dialog_title_bookmarking">Ali želite shraniti tega igralca?</string>
+
+    <string name="wn8_per_tier">WN8 glede na Nivo</string>
+    <string name="wn8_per_class">WN8 glede na Klaso</string>
+    <string name="battles_per_tier">Bitk glede na Nivo</string>
+    <string name="battles_per_class">Bitk glede na Klaso</string>
+    <string name="wn8_per_top_tier">WN8 na Nivo 10</string>
+    <string name="clan_graphs_tanks_top_tier">Število Tankov na 10 Nivoju</string>
+    <string name="battles_per_top_tier">Število Bitk glede na 10 Nivo</string>
+    <string name="wn8_per_tier_6">WN8 na Nivo 6</string>
+    <string name="wn8_per_tier_8">WN8 na Nivo 8</string>
+    <string name="no_tier_6s_found">Noben tank nivoja 6 ni bil najden</string>
+    <string name="no_tier_8s_found">Noben tank nivoja 8 ni bil najden</string>
+    <string name="no_tier_6s_found_games">Nobene igre z tanki nivoja 6 niso bile najdene</string>
+    <string name="no_tier_8s_found_games">Nobene igre z tanki nivoja 8 niso bile najdene</string>
+    <string name="clan_graphs_tanks_tier_6">Število Tankov na 6 Nivoju</string>
+    <string name="clan_graphs_tanks_tier_8">Število Tankov na 9 Nivoju</string>
+    <string name="battles_per_tier_6">Število Bitk glede na 6 Nivo</string>
+    <string name="battles_per_tier_8">Število Bitk glede na 8 Nivo</string>
+    <string name="settings_info_clear_players">Počisti Informacije Od Igralca</string>
+    <string name="settings_info_clear_players_text">Počisti vse informacije od igralca. Počistite informacije le v primeru če vam primankuje pomnilnika.</string>
+    <string name="dialog_review_title">Ste že ocenili to aplikacijo?</string>
+    <string name="dialog_donation_title">Pomagajte aplikaciji</string>
+    <string name="player_details_stronghold_stats">Stonghold Statistika</string>
+    <string name="search_text_compare">olgi klik za primerjavo igralcev</string>
+    <string name="search_text_compare_button">Primerjaj</string>
+    <string name="search_compare_not_enough_players">Ni dovolj igralcev za primerjavo</string>
+    <string name="search_compare_clear">Počisti</string>
+    <string name="compare_player_added">Igralec dodan</string>
+    <string name="compare_player_message">Ali bi želeli dodati vašega dodanega igralca k primerjalni listi?</string>
+    <string name="compare_player_add">Dodaj</string>
+    <string name="compare_maxed_out">Maximalno tri igralce za primerjavo, kliknite gumb za primerjanje za izbris igralcev oziroma dolgi klik na tem igralcu</string>
+    <string name="avg_dmg_per_tier">Povprečna Škoda Na Nivo</string>
+    <string name="avg_exp_per_tier">Povprečne Izkušnje Na Nivo</string>
+    <string name="avg_tier">Povprečni Nivo</string>
+    <string name="survival_rate">Stopnja Preživetja</string>
+    <string name="caps_per_game">Točke / Igra</string>
+    <string name="def_reset_per_game">Defenzivno resetiranje / Igra</string>
+    <string name="stronghold_wn8">Stronghold WN8</string>
+    <string name="stronghold_cap">STRONGHOLD</string>
+    <string name="nation_cz">češčina</string>
+    <string name="battles_per_tier_5">Število Bitk glede na 5 Nivo</string>
+    <string name="battles_per_tier_7">Število Bitk glede na 7 Nivo</string>
+    <string name="battles_per_tier_9">Število Bitk glede na 9 Nivo</string>
+    <string name="wn8_per_tier_5">WN8 na Nivo 5</string>
+    <string name="wn8_per_tier_7">WN8 na Nivo 7</string>
+    <string name="wn8_per_tier_9">WN8 na Nivo 9</string>
+    <string name="no_tier_5s_found">Noben tank nivoja 5 ni bil najden</string>
+    <string name="no_tier_5s_found_games">Nobene igre z tanki nivoja 5 niso bile najdene</string>
+    <string name="no_tier_7s_found">Noben tank nivoja 7 ni bil najden</string>
+    <string name="no_tier_7s_found_games">Nobene igre z tanki nivoja 7 niso bile najdene</string>
+    <string name="no_tier_9s_found">Noben tank nivoja 9 ni bil najden</string>
+    <string name="no_tier_9s_found_games">Nobene igre z tanki nivoja 9 niso bile najdene</string>
+
+    <!-- updated text-->
+    <string-array name="clan_sorting">
+        <item>Rank</item>
+        <item>Name</item>
+        <item>Battles</item>
+        <item>Win Rate</item>
+        <item>WN8</item>
+        <item>Clan WN8</item>
+        <item>Stronghold WN8</item>
+        <item>Last Battle Time</item>
+        <item>Recent Day WN8</item>
+        <item>Recent 7 Day WN8</item>
+        <item>Recent 30 Day WN8</item>
+        <item>Recent 60 Day WN8</item>
+    </string-array>
+    <!-- optional -->
+    <string name="patch_notes">Update 3.2:\n\n- Updated backend, calls might take longer, but all data will come in at once. \n\n- Added splash screen that keeps the tank names and achievements updated. \n\n-Achievements View added. \n\n- Tier 5,7,9 graphs and data added. \n\n-Moved over from text to icons. \n\n- Update Settings page to add in Server Language and new options.\n\n- Added Server Info page. \n\n- Vehicle WN8 Stats renamed to Encyclopedia. \n\n- Added Voluntary ads to the donate page.\n\n- Added Recent wn8s to clan downloads. </string>
+
+    <string name="drawer_encyclopedia">TANKOPEDIA</string>
+
+    <string name="donate_title">Would you like to help support this project?</string>
+    <string name="donate_message">HALF here, I hope that WoT Community Assistant has assisted you in playing the game World of Tanks. I want to create the best World of Tanks assistant for you. I am working constantly on making this app a better app for you for free. If you would like to support the app, donating or viewing an Ad will help this app so much.</string>
+
+    <string name="dialog_donation_message">If you enjoy this app, you could send a donation or view an ad to support this app\'s development. Even drop me some of your ideas, you might see your idea built into this app!</string>
+    <string name="fragment_donate_view_ad">View an Ad</string>
+    <string name="settings_info_refresh_msg">Clears and refreshes stored Achievement and Ship data from Wargaming. Use this when a tank or achievement isn\'t showing up. This information is automatically updated every 3 days.</string>
+    <string name="settings_info_refresh_title">Refresh Stored Data</string>
+    <string name="refresh_finished">Refresh Finished</string>
+    <string name="settings_server_language">Server Language:</string>
+    <string name="settings_server">Server:</string>
+
+    <!-- Choose one of these for the string below. This will be the base language returned for tank names from the server. -->
+    <!-- "English", "Русский", "Polski", "Deutsch", "Français", "Español", "简体中文", "Türkçe", "Čeština", "ไทย", "Tiếng Việt", "한국어"-->
+    <!-- "en",      "ru",       "pl",       "de",   "fr",       "es",       "zh-cn",   "tr",       "cs",    "th", "vi",         "ko"-->
+    <string name="base_server_language">en</string>
+
+    <string name="resources_wot_numbers">World of Tanks\n players online</string>
+    <string name="resources_wows_numbers">World of Warships\n players online</string>
+    <string name="resources_wows_total_c">WoWs Total:\n</string>
+    <string name="resources_wot_total_c">WoT Total:\n</string>
+    <string name="drawer_server_info">SERVER INFO</string>
+    <string name="encyclopedia_wn8_stats">WN8 Stats</string>
+    <string name="donation_dialog_paypal">Paypal</string>
+    <string name="day_wn8">24 HOUR</string>
+    <string name="week_wn8">7 DAY</string>
+    <string name="month_wn8">30 DAY</string>
+    <string name="two_month_wn8">60 DAY</string>
+    <string name="recent_wn8s">Recent WN8s</string>
+
+    <string name="online">Live</string>
+    <string name="offline">Offline</string>
+    <string name="drawer_twitch_youtube">TWITCH &amp; YOUTUBE STARS</string>
+    <string name="drawer_websites">USEFUL WEBSITES</string>
+    <string name="app_language"> App jezik</string>
+    <string name="app_langauge_base">sl</string>
+    <string name="nation_sweden">Švedska</string>
+</resources>

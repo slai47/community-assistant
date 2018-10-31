@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">32dp</dimen>
+    <dimen name="activity_vertical_margin">32dp</dimen>
+
+    <dimen name="top_ship_size">200dp</dimen>
+
+    <integer name="grid_size">5</integer>
+    <integer name="shipopedia_grid">3</integer>
+    <integer name="shipopedia_upgrade_grid">4</integer>
+
+    <integer name="ship_rows">3</integer>
+    <integer name="top_info_cols">4</integer>
+
+    <integer name="twitch_cols">2</integer>
+
+    <dimen name="graph_size">300dp</dimen>
+</resources>

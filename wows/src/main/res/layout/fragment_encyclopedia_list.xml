@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:id="@+id/encyclopedia_list_top_area"
+        android:background="?attr/colorPrimary"
+        android:elevation="6dp"
+        >
+
+        <FrameLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:animateLayoutChanges="true"
+            android:layout_weight="0.4"
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName|textAutoCorrect"
+                android:id="@+id/encyclopedia_list_et"
+                android:imeOptions="actionDone"
+                android:hint="@string/encyclopedia_hint" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/encyclopedia_list_et_delete"
+                android:padding="10dp"
+                android:src="@drawable/ic_delete"
+                android:clickable="true"
+                android:layout_gravity="right|center_vertical"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <Spinner
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:id="@+id/encyclopedia_list_nation_selector"
+            android:layout_weight="0.3"
+            />
+
+        <Spinner
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:id="@+id/encyclopedia_list_tier_selector"
+            android:layout_weight="0.3"
+            />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/encyclopedia_list_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/encyclopedia_list_error_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/search_no_results"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/encyclopedia_list_compare_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:paddingBottom="5dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="5dp"
+            android:text="@string/long_click_to_add_ship_to_compare_list"
+            android:textSize="12dp" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+
+    <!-- EVERYTHING UNDER THIS IS SUBJECT TO CHANGE-->
+    <string-array name="servers">
+        <item>US</item>
+        <item>EU</item>
+        <item>SEA</item>
+        <item>RU</item>
+        <!--
+        <item>Korea</item> -->
+    </string-array>
+
+    <string-array name="clan_basic_sorting">
+        <item>Helyezés</item>
+        <item>Név</item>
+    </string-array>
+
+    <string-array name="advanced_sorting">
+        <item>Csaták száma</item>
+        <item>Nyerési ráta</item>
+        <item>Kiválóság</item>
+        <item>WN8</item>
+        <item>Átlag XP</item>
+        <item>Átlag sebzés</item>
+        <item>Frag/halál</item>
+        <item>Név</item>
+        <item>Szint 10–1</item>
+        <item>Szint 1–10</item>
+    </string-array>
+
+    <string name="recent_changes_news">Patch 3.0.2:\n\n- Bug Fixes for graphs\n\nPatch 3.0.1:\n\n- WN8 v21 -> v22 \n\n- More Graphs \n\n- Bug Fixes \n\nUpdate 3.0:\n\n- Material Redesign of the app. \n\n- New Maps section. \n\n- New default player view added. Choosing this will have the app load that profile first.\n\n- Light theme added. \n\n- Experimental 7 day, 30 day and 60 day WN8s added. \n\n- New graphs and features on both Player and Clan pages. \n\n- Clan download speed was increased. Doesn\'t take as long anymore. \n\n- WN8 updated to v21. \n\n-Clan WN8 and stats is now calculated and stored.\n\n- Android Wear support added.\n\n- Fixed a few issues with sorting.\n\n- Battle Activity now shows you map images.\n\n-Updated to Wargaming\'s latest API.\n\n-Mastery sort fixed.\n\n-Last battles times added to players and clan members.</string>
+
+    <string name="wn8_cap">WN8</string>
+    <string name="overall">Összes</string>
+    <string name="clan_wars_cap">CW</string>
+    <string name="win_rate">Nyerési ráta</string>
+    <string name="avg_battles">Átlag csata</string>
+    <string name="avg_kills">Átlag frag</string>
+    <string name="avg_damage">Átlag sebzés</string>
+    <string name="avg_exp">Átlag XP</string>
+    <string name="last_24_wn8">Utolsó 24 óra WN8</string>
+    <string name="last_7_wn8">7 nap WN8</string>
+    <string name="last_30_wn8">30 nap WN8</string>
+    <string name="last_60_wn8">60 nap WN8</string>
+    <string name="battles">Csaták száma</string>
+    <string name="k_d">Frag/halál</string>
+    <string name="k_d_c">Frag/halál:</string>
+    <string name="hit_percentage">Találat %</string>
+    <string name="hit_percentage_c">Találat %:</string>
+    <string name="dmg_factor">Sebzési faktor</string>
+    <string name="app_name">WoT Assist</string>
+    <string name="language">en</string> <!-- let me choose this one -->
+
+    <string name="search_text">Keresés:</string>
+    <string name="search_fragment_wn_hint">Írj be jármű nevet vagy szintet</string>
+    <string name="search_fragment_player_hint">Írj be egy felhasználónevet</string>
+    <string name="search_fragment_clan_hint">Írj be egy klánnevet vagy rövidítést</string>
+    <string name="search_map_hint">Írd be egy pálya nevét</string>
+
+    <string name="settings">Beállítások</string>
+
+    <string name="drawer_about">BEÁLLÍTÁSOK &amp; INFO</string>
+    <string name="drawer_clan">KLÁNOK</string>
+    <string name="drawer_player">JÁTÉKOSOK</string>
+    <string name="drawer_vehicle_stats">JÁRMŰ WN8 STATISZTIKÁK</string>
+    <string name="drawer_search">Keresés</string>
+    <string name="drawer_gpd">G/D Számoló</string>
+    <string name="drawer_server">SZERVER</string>
+    <string name="drawer_donate">TÁMOGASD A PROJEKTET</string>
+    <string name="drawer_home">Főmenü</string>
+    <string name="drawer_maps">TÉRKÉPEK</string>
+    <string name="drawer_battle_activity">Csata aktivitás</string>
+
+    <string name="search_no_results">Nincs találat</string>
+
+    <string name="info_settings">BEÁLLÍTÁSOK</string>
+    <string name="info_battles_title">Miért nem frissülnek a csatáim azonnal?</string>
+    <string name="info_unknown_text">A csata még nincsen beütemezve. Ez gyakran megtörténik leszállásoknál.</string>
+    <string name="info_unknown_title">Miért "Ismeretlen" a csata időpontja?</string>
+    <string name="info_battles_text">Wargaming \u00A9 tárolja a klánháború csatákat, emiatt lehet egy csúszás mikor a csaták frissülnek és törlődnek a képernyőről.</string>
+    <string name="thank_you_info">A vBAddict.net-nek a várható tank értékek és a WN8 információ szolgáltatásáért.</string>
+    <string name="info_about">AZ APPRÓL</string>
+    <string name="info_version">Verziószám:</string>
+    <string name="info_write_a_review">Írj egy értékelést</string>
+    <string name="info_email">Írj e-mailt</string>
+    <string name="info_twitter">Írj Twitteren</string>
+    <string name="info_info">INFO</string>
+    <string name="info_thank_you">Köszönet</string>
+
+    <string name="list_clan_members">Tagok:</string>
+    <string name="list_clan_added_message">hozzáadva</string>
+    <string name="list_clan_removed_message">törölve</string>
+
+    <string name="no_text_error">Be kell írnod egy szót a kereséshez</string>
+    <string name="no_internet_title">Nincs Internetkapcsolat</string>
+    <string name="no_internet_message">Szeretnéd bekapcsolni az Internetet?</string>
+    <string name="no_internet_neutral_text">Beállítások</string>
+    <string name="error_no_player_found">Úgy tűnik, hogy hiba történt. Próbáld újra a keresést.</string>
+    <string name="error">Hiba történt</string>
+
+    <string name="battle_activity_no_clans_text">Nincs elmentett klán. Ments el klánt hogy láthasd a Klánháború időpontokat és beállíthass egy emlékeztetőt a csaták idejéről és provinciájáról.</string>
+
+    <string name="list_battle_title_activity">Csata aktivitás</string>
+    <string name="activity_no_results">Nem található csata</string>
+    <string name="no_battles">Nincs csata</string>
+
+    <string name="system_cant_update_message">Csak öt percenként frissítheted a csata aktivitást</string>
+
+    <string name="battle_type_engagement">Ütközet</string>
+    <string name="battle_type_landing">Leszállás</string>
+    <string name="battle_type_province">Provincia</string>
+
+    <string name="clan_details_description">Leírás:</string>
+
+    <string name="alarm_dialog_time_title">Mikorra akarod beállítani az emlékeztetőt?</string>
+    <string name="alarm_dialog_before">perccel előtte</string>
+    <string name="alarm_pos_button_text">Emlékezető beállítása</string>
+    <string name="dismiss">Leállítás</string>
+    <string name="alarm_dialog_title">Csata emlékeztető</string>
+    <string name="alarm_set">Emlékezető beállítva</string>
+    <string name="alarm_click_no_alarm_times">A csata elkezdődött vagy hamarosan elkezdődik. Nem állíthatsz be emlékeztetőt ehhez a csatához.</string>
+
+    <string name="scheduling">Ütemezés</string>
+
+    <string name="server_change_text">Szerver átváltva</string>
+
+    <string name="clan_details_nothing_returned">Erre a klánra nem található semmi. Talán rossz szerveren keresel?</string>
+    <string name="recent_changes_title">Frissítési </string>
+    <string name="created_by">Készítette:</string>
+    <string name="created_by_name">HALF</string>
+
+    <string name="vehicle_stat_win">Nyerési ráta:</string>
+    <string name="vehicle_stat_frag">Frag:</string>
+    <string name="vehicle_stat_def">Véd. pontok:</string>
+    <string name="vehicle_stat_spots">Felderített tankok:</string>
+    <string name="vehicle_stat_dmg">Sebzés:</string>
+
+    <string name="notification_text">Csata emlékeztető</string>
+
+    <string name="pager_clan_details">KLÁN RÉSZLETEK</string>
+    <string name="pager_clan_members">TAGOK</string>
+    <string name="pager_clan_query">LEKÉRDEZÉS</string>
+    <string name="details_cap">RÉSZLETEK</string>
+    <string name="pager_tanks">TANKOK</string>
+
+
+    <string name="player_details_win8">WN8:</string>
+    <string name="avg_dmg">Átlag sebzés:</string>
+    <string name="win_percentage_c">Nyerési ráta:</string>
+    <string name="avg_exp_c">Átlag XP:</string>
+    <string name="battles_c">Csaták:</string>
+    <string name="player_details_player_stats">Játékos statisztikák:</string>
+    <string name="player_details_player_tanks">Összetett játékos statisztikák</string>
+    <string name="player_details_tank_name_col">Név</string>
+    <string name="win_percentage">Nyerési ráta</string>
+    <string name="player_details_tank_mastery_col">Kiválóság</string>
+    <string name="player_details_global_rating">WoT Rating:</string>
+    <string name="player_details_num_of_badges">Medálok száma:</string>
+    <string name="player_details_badges_m">M:</string>
+    <string name="player_details_badges_1">1st:</string>
+    <string name="player_details_badges_2">2nd:</string>
+    <string name="player_details_badges_3">3rd:</string>
+    <string name="player_details_more_details">Több statisztika:</string>
+    <string name="player_details_tanking_factor">Páncélhasználat:</string>
+    <string name="player_details_avg_spot_dmg">Átlag derítési sebzés:</string>
+    <string name="player_details_track_damge">Átlag láncolási sebzés:</string>
+    <string name="player_details_blocked_damage">Átlag blokkolt sebzés:</string>
+    <string name="player_details_dmg_assist">Átlag közreműködött sebzés:</string>
+    <string name="player_details_penetration">Átütési ráta:</string>
+    <string name="player_details_best_game">Legjobb statisztikák</string>
+    <string name="player_details_account_info">Felhasználó info</string>
+    <string name="player_details_created_on">Létrehozva:</string>
+    <string name="player_details_last_battle_on">Utolsó csata:</string>
+    <string name="player_details_best_performance">Legjobb teljesítményű tank</string>
+    <string name="player_details_unknown_tank">Ismeretlen tank</string>
+    <string name="player_details_joined">Csatlakozott</string>
+    <string name="player_details_days_ago">napja</string>
+    <string name="player_graphs_wn8_nation">WN8 nemzetenként</string>
+    <string name="player_graphs_battles_nation">Csata nemzetenként</string>
+    <string name="player_graphs_tanks_per_tier">Tank szintenként</string>
+    <string name="player_graphs_tanks_per_class">Tank fajtánként</string>
+    <string name="player_graphs_tanks_per_nation">Tank nemzetenként</string>
+    <string name="player_details_best_exp">XP:</string>
+    <string name="player_details_best_frags">Frag:</string>
+    <string name="player_details_best_damage">Sebzés:</string>
+    <string name="player_details_clan_wars_stats">Klánháború statisztikák</string>
+    <string name="player_details_no_clan_wars_stats">Nem találhatóak Klánháború statisztikák</string>
+    <string name="player_details_no_stats_found">Nem találhatóak statisztikák</string>
+
+    <string name="insert_all_into_db_start">Helyi tank adatbázis telepítése</string>
+    <string name="insert_all_into_db_end">Helyi tank adatbázis telepítve</string>
+
+    <string name="open_in_wotlabs">Megnyitás WoTLabs-ban</string>
+    <string name="open_in_clantools">Megnyitás ClanTools-ban</string>
+    <string name="open_in_wotstats">Megnyitás WoTStats-ban</string>
+
+    <string name="menu_default">Belállítás alapértelmezettként</string>
+    <string name="menu_download">Klán letöltése</string>
+
+    <string name="clan_details_best_tanker">Legjobb játékos:</string>
+    <string name="clan_details_avg_kills">Átlag frag:</string>
+    <string name="clan_details_avg_battles">Átlag csata:</string>
+    <string name="clan_details_avg_damage">Átlag sebzés:</string>
+    <string name="clan_details_avg_exp">Átlag XP:</string>
+    <string name="clan_details_avg_wn8">Átlag WN8:</string>
+    <string name="clan_details_clan_stats">Klán statisztikák</string>
+    <string name="clan_details_export_title">Exporter: Válassz dátumot</string>
+    <string name="clan_details_export_message">Exportált szövegfájl tartalma:\n Alapvető klán információ, klántagok listája, az egyes játékosok tankjainak és azok WN8 értékeinek listája.\n\nEz JSON-ban van. A fájlméret csökkentése érdekében itt egy pár kulcsszó:\naXp = Átlag XP\nwins = megnyert csaták száma\nhitsPC = találati ráta\nfrags = frag\nsur = túlélt csaták\ncwn8 = Klánháború WN8\n\nEz az összes információ amit a készüléken tárolok és az app működéséhez kell.</string>
+    <string name="clan_details_export_subject">Export</string>
+    <string name="clan_graphs_no_graphs">Statisztika nem található. Töltsd le újra a klánt</string>
+
+    <string name="details_tanks_member_get_all_info">Klán letöltése</string>
+
+    <string name="event_map">Esemény térkép</string>
+
+    <string name="info_colorblind">Színvak mód</string>
+
+    <string name="failure">Hiba az információ megszerzésével</string>
+
+    <string name="nation_china">Kína</string>
+    <string name="nation_france">Franciao.</string>
+    <string name="nation_germany">Németo.</string>
+    <string name="nation_japan">Japán</string>
+    <string name="nation_uk">UK</string>
+    <string name="nation_ussr">SZU</string>
+    <string name="nation_usa">USA</string>
+
+    <string name="download_players">Játékosonkénti összes információ megszerzése. Kattints a megszaktáshoz.</string>
+    <string name="download_calculating">Tankonkénti statisztika, WN8, stb. számítása. Kattints a megszaktáshoz.</string>
+    <string name="download_graphs">Grafikus megjelenítés létrehozása. Kattints a megszaktáshoz.</string>
+
+    <string name="download_notification_downloading">Letöltés</string>
+    <string name="download_notification_information">\ információja</string>
+    <string name="download_notification_standard">Letöltés folyamatban. Kattints a megszaktáshoz.</string>
+    <string name="download_notification_done"> Letöltve</string>
+    <string name="download_notification_cancelled"> Letöltés megszakítva</string>
+
+    <string name="first_time_download_title">Klán letöltése</string>
+    <string name="first_time_download_text">Ez a folyamat nagy adatmennyiséget vesz igénybe és percekig is eltarthat. A folyamat le lett korlátozva három naponta egy klán letöltésére, mivel az app csak korlátozott alkalommal férhet hozzá a rendszerhez.\n\nA letöltés után egy részletes áttekintést kapsz a klán összes tagjáról, arról hogy ki a legjobb melyik tankban, az összes játékos statistztikáiról, stb. Ezt az adatot a készülék tárolja, és innen lesz újrahasználva a következő letöltésig.\n\nWifi használata ajánlott.</string>
+
+    <string name="download_dialog_pos_message">Letöltés</string>
+    <string name="download_task_running">Klán letöltése már folyamatban van</string>
+    <string name="refresh">Frissítés</string>
+    <string name="player_details_trees_cut">Kidöntött fák:</string>
+
+    <string name="info_clean_clan">Az app által a készüléket tárolt fájlok kitakarítása. Ez törli az összes letöltött klán adatát.</string>
+    <string name="info_clean_clan_text">Klán letöltések törlése</string>
+    <string name="info_clean_clans_toast">Törölt fájlok</string>
+    <string name="tank_clan_member_next_download_time_text">Következő letöltés elérhető:\n</string>
+    <string name="clan_details_toast_loading_up_download">Klán információ betöltése</string>
+    <string name="clan_details_waiting_for_clan">Várakozás egy másik klán letöltésére</string>
+    <string name="clan_details_download_starts">Letöltés megkezdve</string>
+    <string name="search_choose_hint">Válassz ki egy tankot és kattints a betöltéshez</string>
+    <string name="details_query_no_tank_selected">Nincs tank kiválasztva a lekérdezéshez</string>
+    <string name="details_query_loading">Letöltött klán betöltése</string>
+    <string name="details_query_clan_info_not_downloaded">Ahhoz hogy a lap funkcióihoz hozzáférhess, először le kell töltened egy klánt.</string>
+    <string name="details_query_description_tier">Szint</string>
+    <string name="details_query_no_players_have_that_tank">Nem található információ</string>
+
+    <string name="tank_destroyer">Tankvadász</string>
+    <string name="heavy_tank">Nehéz</string>
+    <string name="medium_tank">Közepes</string>
+    <string name="light_tank">Könnyű</string>
+    <string name="artillery">Löveg</string>
+
+    <string name="details_query_select_a_tank">Válassz\negy tankot</string>
+
+    <string name="task_no_internet">Letöltési feladat megszakítva mert internet nem érhető el</string>
+    <string name="dialog_fail_text">Ez a jármű nem található az adatbázisban.</string>
+    <string name="dialog_title">Játékosok közötti különbség</string>
+    <string name="dialog_top_yours">Tied</string>
+    <string name="dialog_top_average">Átlag</string>
+    <string name="dialog_top_delta">Delta</string>
+    <string name="dialog_row_wins">Győztes csaták</string>
+    <string name="dialog_row_damage">Sebzés</string>
+    <string name="dialog_row_kill_death">Frag/halál</string>
+    <string name="dialog_row_spots">Felderített tankok</string>
+    <string name="dialog_row_def">Véd. pontok</string>
+
+    <string name="unknown">ismeretlen</string>
+
+    <string name="translator_text">Magyar fordítás: aronsz [ACE-]</string>
+
+    <string name="info_theme_mode">Világos téma</string>
+    <string name="no_tier_10s_found">Nem található tizes szintű tank</string>
+    <string name="no_tier_10s_found_games">Nem található játék tizes szintű tankkal</string>
+
+    <string name="dialog_message_bookmarking">Ennek a játékosnak a könyvjelzőzésével ez a lap lesz az alapértelmezett képernyő az app indításakor.</string>
+    <string name="dialog_title_bookmarking">Szeretnéd könyvjelzőbe rakni ezt a játékost?</string>
+
+    <string name="wn8_per_tier">WN8 szintenként</string>
+    <string name="wn8_per_class">WN8 fajtánként</string>
+    <string name="battles_per_tier">Csaták szintenként</string>
+    <string name="battles_per_class">Csaták típusonként</string>
+    <string name="wn8_per_top_tier">WN8 10es szintű tankonként</string>
+    <string name="clan_graphs_tanks_top_tier">Tizes szintű tankok száma</string>
+    <string name="battles_per_top_tier">Csaták tizes szintű tankonként</string>
+    <string name="clan_graphs_tanks_tier_6">Hatos szintű tankok száma</string>
+    <string name="clan_graphs_tanks_tier_8">A nyolcas szintű tankok száma</string>
+    <string name="no_tier_6s_found">Nem található Hatos szintű tank</string>
+    <string name="no_tier_8s_found">Nem található A nyolcas szintű tank</string>
+    <string name="no_tier_6s_found_games">Nem található játék Hatos szintű tankkal</string>
+    <string name="no_tier_8s_found_games">Nem található játék A nyolcas szintű tankkal</string>
+    <string name="wn8_per_tier_6">WN8 6es szintű tankonként</string>
+    <string name="wn8_per_tier_8">WN8 8es szintű tankonként</string>
+    <string name="battles_per_tier_6">Csaták Hatos szintű tankonként</string>
+    <string name="battles_per_tier_8">Csaták A nyolcas szintű tankonként</string>
+    <string name="settings_info_clear_players">Játékos információ törlése</string>
+    <string name="settings_info_clear_players_text">Törli az összes mentett játékos információt. Csak akkor tedd ezt, ha a készülékeden kevés a hely.</string>
+    <string name="dialog_review_title">Értékelted már az appot?</string>
+    <string name="dialog_donation_title">Segíts támogatni az appot</string>
+    <string name="player_details_stronghold_stats">Stronghold statisztikák</string>
+    <string name="search_text_compare">Kattints hosszan a játékosok összehasonlításához</string>
+    <string name="search_text_compare_button">Összehasonlítás</string>
+    <string name="search_compare_not_enough_players">Nincs elég játékos az összehasonlításhoz</string>
+    <string name="search_compare_clear">Üres</string>
+    <string name="compare_player_added">Játékos hozzáadva</string>
+    <string name="compare_player_message">Szeretnéd hozzárakni a könyvjelzőzött játékosodat az összehasonlítási listához?</string>
+    <string name="compare_player_add">Hozzáadás</string>
+    <string name="compare_maxed_out">Maximum három játékos hasonlítható össze, kattins az összehasonlítás gombra lent vagy kattints hosszan egy névre a játékos törléséhez</string>
+    <string name="avg_dmg_per_tier">Átlag sebzés szintenként</string>
+    <string name="avg_exp_per_tier">Átlag XP szintenként</string>
+    <string name="avg_tier">Átlag szint</string>
+    <string name="survival_rate">Túlélési ráta</string>
+    <string name="caps_per_game">Foglalás/csata</string>
+    <string name="def_reset_per_game">Védés/csata</string>
+    <string name="stronghold_wn8">Stronghold WN8</string>
+    <string name="stronghold_cap">STRONGHOLD</string>
+    <string name="nation_cz">cseh</string>
+    <string name="battles_per_tier_5">Csaták öt szintű tankonként</string>
+    <string name="battles_per_tier_7">Csaták hét szintű tankonként</string>
+    <string name="battles_per_tier_9">Csaták kilenc szintű tankonként</string>
+    <string name="wn8_per_tier_5">WN8 5es szintű tankonként</string>
+    <string name="wn8_per_tier_7">WN8 7es szintű tankonként</string>
+    <string name="wn8_per_tier_9">WN8 9es szintű tankonként</string>
+    <string name="no_tier_5s_found">Nem található öt szintű tank</string>
+    <string name="no_tier_5s_found_games">Nem található játék öt szintű tankkal</string>
+    <string name="no_tier_7s_found">Nem található hét szintű tank</string>
+    <string name="no_tier_7s_found_games">Nem található játék hét szintű tankkal</string>
+    <string name="no_tier_9s_found">Nem található kilenc szintű tank</string>
+    <string name="no_tier_9s_found_games">Nem található játék kilenc szintű tankkal</string>
+
+    <string-array name="clan_sorting">
+        <item>Helyezés</item>
+        <item>Név</item>
+        <item>Csaták száma</item>
+        <item>Nyerési ráta</item>
+        <item>WN8</item>
+        <item>Klán WN8</item>
+        <item>Legutóbbi csata</item>
+        <item>Tegnapi WN8</item>
+        <item>Előző 7 Napos WN8</item>
+        <item>Előző 30 Napos WN8</item>
+        <item>Előző 60 Napos WN8</item>
+    </string-array>
+
+
+    <!-- optional -->
+    <string name="patch_notes">3.2-es Frissítés:\n\n- Backend-et frissítettem, a kapcsolódás több ideig tarthat, de az adat egyszerre for megérkezni. \n\n- Hozzáadtam egy felugró ablakot, ami frissíti a tankneveket és kitüntetéseket. \n\n-Hozzáadtam az 5/7/9-es szintű tankokhoz tartozó grafikonokat és adatokat. \n\n-Áttértem szövegekről ikonokra. \n\n- Frissítettem a "Beállítások" oldalt, hozzáadtam "szerver nyelv" menüpontot és egyéb új opciókat.\n\n- Hozzáadtam egy "szerver infó" oldalt. \n\n- Átneveztem a "Jármű WN8" oldalt Enciklopédiára. \n\n- Hozzáadtam opcionális reklámokat a "Támogatás" oldalhoz.\n\n- Hozzáadtam egy "legújabb WN8 értékek" nézetet a klán letöltésekhez. </string>
+    <string name="drawer_encyclopedia">TANKOPÉDIA</string>
+
+    <string name="donate_title">Szeretnéd támogatni a projektet?</string>
+    <string name="donate_message">Remélem hogy a WoT Community Assistant app segített neked a játékban. A célom az, hogy a legjobb közösségi segítő appot hozzam létre számotokra. Folyamatosan dolgozom azon, hogy a lehető legjobbá tegyem nektek ezt az ingyenes appot. Ha szeretnél támogatni az app készítésében, az adományozás vagy egy reklám megtekintése nagyon sokat segítene nekem. - HALF</string>
+
+    <string name="dialog_donation_message">Ha tetszett az app, kérlek gondolj az adományozásra, vagy nézz meg egy reklámot hogy segítsd az app fejlesztését. Ha vannak ötleteid az applikációval kapcsolatban, küldd el nekem őket (ford. megj.: angolul!), és lehet hogy a következő frissítésbe már bele lesznek rakva!</string>
+    <string name="fragment_donate_view_ad">Reklám megtekintése</string>
+    <string name="settings_info_refresh_msg">Kitörli és frissíti a Wargamingtől szerzett tárolt kitüntetéseket és a hajók adatait. Akkor használd, ha egy hajó vagy kitüntetés nem jelenik meg, alapból három naponta automatikusan frissülnek az adatok.</string>
+    <string name="settings_info_refresh_title">Tárolt adatok frissítése</string>
+    <string name="refresh_finished">Frissítés befejezve</string>
+    <string name="settings_server_language">Szerver nyelv:</string>
+    <string name="settings_server">Szerver:</string>
+
+    <!-- "English", "Русский", "Polski", "Deutsch", "Français", "Español", "简体中文", "Türkçe", "Čeština", "ไทย", "Tiếng Việt", "한국어"-->
+    <!-- "en",      "ru",       "pl",       "de",   "fr",       "es",       "zh-cn",   "tr",       "cs",    "th", "vi",         "ko"-->
+    <string name="base_server_language">en</string>
+
+    <string name="resources_wot_numbers">World of Tanks\n játékosok online</string>
+    <string name="resources_wows_numbers">World of Warships\n játékosok online</string>
+    <string name="resources_wows_total_c">WoWs össz:\n</string>
+    <string name="resources_wot_total_c">WoT össz:\n</string>
+    <string name="drawer_server_info">SZERVER INFO</string>
+    <string name="encyclopedia_wn8_stats">WN8 Statisztikák</string>
+    <string name="donation_dialog_paypal">Paypal</string>
+    <string name="day_wn8">24 ÓRÁS</string>
+    <string name="week_wn8">7 Napos</string>
+    <string name="month_wn8">30 Napos</string>
+    <string name="two_month_wn8">60 Napos</string>
+    <string name="recent_wn8s">Legújabb WN8</string>
+
+    <string name="online">Élő</string>
+    <string name="offline">Offline</string>
+    <string name="drawer_twitch_youtube">TWITCH &amp; YOUTUBE SZTÁROK</string>
+    <string name="drawer_websites">HASZNOS OLDALAK</string>
+    <string name="app_language">App Language</string>
+    <string name="app_langauge_base">hu</string>
+    <string name="nation_sweden">Svédország</string>
+</resources>

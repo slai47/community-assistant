@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_details_download"
+        android:title="@string/menu_download"
+        android:icon="@drawable/ic_download"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/menu_details_refresh"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_refresh"
+        android:title="@string/refresh"
+        />
+    <item android:id="@+id/menu_details_default"
+        android:checkable="true"
+        android:checked="false"
+        android:icon="@drawable/ic_drawer_favorite"
+        android:title="@string/menu_default"
+        app:showAsAction="always"
+        />
+</menu>

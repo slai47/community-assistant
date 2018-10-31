@@ -1,0 +1,507 @@
+<resources>
+
+    <!-- optional for translation-->
+    <string name="app_name">Assist</string>
+
+    <!-- base language for wargaming to send back data with the right language attached -->
+    <!-- "English", "Русский", "Polski", "Deutsch", "Français", "Español", "简体中文", "Türkçe", "Čeština", "ไทย", "Tiếng Việt", "한국어"-->
+    <!-- "en",      "ru",       "pl",       "de",   "fr",       "es",       "zh-cn",   "tr",       "cs",    "th", "vi",         "ko"-->
+    <string name="base_server_language">de</string>
+
+    <string name="action_settings">Einstellungen</string>
+
+    <string name="action_search">Suche</string>
+    <string name="action_captains">Kapitäne</string>
+    <string name="action_refresh">Aktualisieren</string>
+    <string name="welcome">Willkommen</string>
+
+    <string name="search_et_hint">Gib einen Benutzernamen ein</string>
+    <string name="search_no_results">Keine Treffer</string>
+
+    <string name="no_internet_title">Keine Verbindung zum Internet</string>
+    <string name="no_internet_message">Möchtest Du die Datenverbindung aktivieren?</string>
+    <string name="no_internet_neutral_text">Einstellungen</string>
+    <string name="no_text_error">Du musst einen Suchbegriff eingeben</string>
+
+    <string name="list_clan_added_message">hinzugefügt</string>
+    <string name="list_clan_removed_message">entfernt</string>
+
+    <string name="captain_average_exp">Durchschn. Erfahrung</string>
+    <string name="captain_average_damage">Durchschn. Schaden</string>
+    <string name="captain_kills_deaths">Abschüsse pro Tod</string>
+    <string name="captain_battles">Überlebensrate</string>
+    <string name="captain_winrate">Gewinnrate</string>
+
+    <string name="menu_favorite">favorisieren</string>
+    <string name="menu_unfavorite">entfavorisieren</string>
+    <string name="ships_hint">Name oder Tier</string>
+
+    <string name="donate_title">Möchtest Du das Projekt unterstützen?</string>
+    <string name="donate_message">Ich hoffe, dass Dir der WoWs Community Assistant in World of Warships geholfen hat. Ich möchte für Dich den besten World of Warship Assistenten erschaffen. Ich arbeite immer weiter daran die App besser zu machen, und das kostenlos. Wenn Du die Entwicklung der App unterstützen möchtest, dann kannst Du spenden oder Dir kurz Werbung ansehen. Beides hilft mir die Arbeit an der App fortzusetzen und Gewinnspiele zu veranstalten, damit ich Euch etwas für die Unterstützung zurückgeben kann! </string>
+    <string name="search_compare_default_text">Halte einen Kapitän gedrückt um ihn zur Vergleich-Liste hinzuzufügen</string>
+    <string name="title_compare">Vergleichen</string>
+    <string name="action_shipopedia">Shipopedia</string>
+    <string name="action_websites">Hilfreiche Internetseiten</string>
+    <string name="action_twitch">Twitch &amp; Youtube Stars</string>
+    <string name="action_youtubers">Hilfreiche Youtuber</string>
+    <string name="action_donate">Unterstütze die App</string>
+    <string name="drawer_search">Suche &amp; Vergleiche</string>
+    <string name="drawer_captains">Kapitäne</string>
+    <string name="encyclopedia_average_damage">Durchschnittlicher Schaden</string>
+    <string name="encyclopedia_winrate">Siegrate</string>
+    <string name="encyclopedia_kills">Durchschn. Abschüsse</string>
+    <string name="encyclopedia_survival_rate">Überlebensrate</string>
+    <string name="encyclopedia_tier_start">Tier </string>
+    <string name="encyclopedia_tier_end"> Statistiken</string>
+    <string name="encyclopedia_survived_wins">Überlebensrate bei Siegen</string>
+    <string name="encyclopedia_average_xp">Durchschn. Erfahrung</string>
+    <string name="encyclopedia_games_count">Gefechte gespielt</string>
+    <string name="encyclopedia_survivability">Überlebensfähigkeit</string>
+    <string name="encyclopedia_artillery">Hauptbatterie</string>
+    <string name="encyclopedia_torps">Torpedos</string>
+    <string name="encyclopedia_aa_def">Luftabwehr</string>
+    <string name="encyclopedia_aircraft">Flugzeuge</string>
+    <string name="encyclopedia_mobility">Manövrierfähigkeit</string>
+    <string name="encyclopedia_concealment">Verborgenheit</string>
+    <string name="encyclopedia_ship_stats">Schiffsstatistiken</string>
+    <string name="encyclopedia_health">Lebenspunkte</string>
+    <string name="encyclopedia_gun_range">Feuerreichweite</string>
+    <string name="encyclopedia_torp_range">Torpedoreichweite</string>
+    <string name="encyclopedia_torp_speed">Torpedogeschwindigkeit</string>
+    <string name="encyclopedia_secondary_range">Sekundärgeschützreichweite</string>
+    <string name="encyclopedia_aa_range">Max. Flugabwehrreichweite</string>
+    <string name="encyclopedia_spotted_range">Sichtbarkeit (Oberfläche)</string>
+    <string name="encyclopedia_aircraft_spotted_range">Sichtbarkeit (aus der Luft)</string>
+    <string name="encyclopedia_shell_damage">Granate Höchstschaden</string>
+    <string name="encyclopedia_speed">Geschwindigkeit</string>
+    <string name="encyclopedia_arty_fr">Artillerie Feuerrate</string>
+    <string name="encyclopedia_torp_fr">Torpedo Feuerrate</string>
+    <string name="encyclopedia_torp_damage">Torpedo Schaden</string>
+    <string name="encyclopedia_num_guns"># Geschütze</string>
+    <string name="encyclopedia_num_torps"># Torpedos</string>
+    <string name="encyclopedia_num_planes"># Flugzeuge</string>
+    <string name="encyclopedia_rudder_time">Ruderstellzeit</string>
+    <string name="encyclopedia_turning_radius">Wenderadius</string>
+    <string name="encyclopedia_top_configuration">Statistiken der Schiffe in Stock Konfiguration (wird bald erweitert)</string>
+    <string name="encyclopedia_average_stats">Durchschnittliche Gefechtsstatistiken</string>
+    <string name="damage">Schaden</string>
+    <string name="win_rate">Gewinnrate</string>
+    <string name="kills">Abschüsse</string>
+    <string name="planes_downed_game">Flugzeuge abgeschossen / Gefecht</string>
+    <string name="captures_game">Eroberungen / Gefecht</string>
+    <string name="def_reset_game">Basisverteidigungen / Gefecht</string>
+    <string name="xp">XP</string>
+    <string name="survival_rate">Überlesensrate</string>
+    <string name="powered_by_warshipstats">Powered by Warshipstats.com</string>
+    <string name="encyclopedia_upgrades">verfügbare Upgrades</string>
+    <string name="encyclopedia_next_ship">nächstes Schiff</string>
+    <string name="price_not_known">Preis unbekannt</string>
+    <string name="gold">" Dublonen"</string>
+    <string name="credits">" Silber"</string>
+    <string name="encyclopedia_tb_torp_speed">TB Torpedogeschwindigkeit</string>
+    <string name="encyclopedia_tb_prep_time">TB Vorbereitungszeit</string>
+    <string name="encyclopedia_tb_torp_dam">TB Torpedoschaden</string>
+    <string name="encyclopedia_tb_torp">TB Torpedoreichweite</string>
+    <string name="encyclopedia_num_squadrons"># Staffel</string>
+    <string name="encyclopedia_db_prep_time">DB Vorbereitungszeit</string>
+    <string name="encyclopedia_db_damage">DB Schaden</string>
+    <string name="encyclopedia_ship_not_found">Fehler auf Seite. Konnte keine Schiff ID finden</string>
+    <string name="dismiss">ausblenden</string>
+    <string name="encyclopedia_upgrade_cost">"\n\nSilber: "</string>
+    <string name="failed_to_grab_data">Konnte Daten nicht laden</string>
+    <string name="russia">Russland</string>
+    <string name="germany">Deutschland</string>
+    <string name="usa">USA</string>
+    <string name="poland">Polen</string>
+    <string name="japan">Japan</string>
+    <string name="uk">UK</string>
+    <string name="encyclopedia_nation_tier">\nTier </string>
+    <string name="resources_view_add">Werbung ansehen</string>
+    <string name="settings">Einstellungen</string>
+    <string name="colorblind_mode">Farbblindenmodus</string>
+    <string name="settings_show_average">zeige durchschn. Vergleichswerte</string>
+    <string name="settings_clean_player">lösche Spielerinformation</string>
+    <string name="settings_clear_player_info">Löscht alle gespeicherten Spielerinformationen. Nur bei niedrigem Systemspeicher empfohlen.</string>
+    <string name="settings_refresh_stored_data">Aktualisiere gespeicherte Daten</string>
+    <string name="settings_refresh_stored_data_info">Aktualisiert gespeicherte Errungenschaften und Schiffsdaten von Wargaming. Nutze diese Funktion, wenn ein Schiff oder eine Errungenschaft nicht angezeigt wird. Die Informationen werden alle 3 Tage automatisch aktualisiert.</string>
+    <string name="about">ÜBER</string>
+    <string name="version">Version:</string>
+    <string name="settings_write_a_review">Schreibe eine Bewertung</string>
+    <string name="settings_contact_me">Kontaktiere via E-Mail (nur englisch)</string>
+    <string name="settings_twitter">Kontaktiere via Twitter</string>
+    <string name="settings_glossary">GLOSSAR</string> 
+    <string name="settings_avg_dmg">Durchschn.\nSchaden</string>
+    <string name="battles">Gefechte</string>
+    <string name="settings_avg_exp">Durchschn.\nErfahrung</string>
+    <string name="settings_k_d">Abschüsse\npro Tod</string>
+    <string name="settings_saved_captains">gespeicherte\nKapitäne</string>
+    <string name="refresh">Aktualisieren</string>
+    <string name="shipopedia">Shipopedia</string>
+    <string name="achievements">Errungenschaften</string>
+    <string name="settings_stats_graphs"><![CDATA[Stats &\n Graphs]]></string>
+    <string name="shipsHolder">Schiffe</string>
+    <string name="settings_att">Danksagung</string>
+    <string name="captain_save_captain">speichere Kapitän</string>
+    <string name="average_experience">Durchschn. Erfahrung</string>
+    <string name="captain_first_details">Je mehr Gefechte Du fährst, desto besser wird der Graph.</string>
+    <string name="games_by_tier">Gefechte nach Tier</string>
+    <string name="average_tier_c">Durchschn. Tier:</string>
+    <string name="games_per_ship_type">Gefechte nach Schiffstyp</string>
+    <string name="games_per_nation">Gefechte pro Nation</string>
+    <string name="times_around_the_earth_c">Anzahl Erdumrundungen:</string>
+    <string name="general_stats">Allgemeine Statistiken</string>
+    <string name="profile_level">Profilstufe</string>
+    <string name="total_xp">Gesamte XP</string>
+    <string name="total_damage">Gesamtschaden</string>
+    <string name="last_battle_on">Letztes Gefecht am</string>
+    <string name="account_created_on">Konto erstellt am</string>
+    <string name="kills_by_armament_type">Abschüsse nach Bewaffnungstyp</string>
+    <string name="average_experience_per_tier">Durchschn. Erfahrung pro Tier</string>
+    <string name="average_damage_per_tier">Durchschn. Schaden pro Tier</string>
+    <string name="main_battery">Hauptbatterie</string>
+    <string name="destroyed_c">Zerstört:</string>
+    <string name="hit_percentage_c">Treffer %:</string>
+    <string name="shots_fired_c">Schüsse abgegeben:</string>
+    <string name="best_ship_c">Bestes Schiff:</string>
+    <string name="torpedoes">Torpedos</string>
+    <string name="secondary_battery">Sekundärbatterie</string>
+    <string name="ramming">Rammen</string>
+    <string name="delete">Löschen</string>
+    <string name="armament_use">Benutzte Bewaffnung</string>
+    <string name="list_ship_average_title">Deine Schiffsstatistiken / Durchschn. Schiffsstatistiken</string>
+    <string name="max_kills">Max Abschüsse</string>
+    <string name="max_damage">Max Schaden</string>
+    <string name="max_planes_killed">Max Flugzeuge abgeschossen</string>
+    <string name="max_xp">Max XP</string>
+    <string name="traveled">gefahren</string>
+    <string name="kills_game">Abschüsse / Gefecht</string>
+    <string name="caps_game">Bereiche / Gefecht</string>
+    <string name="survived_wins">überlebte Siege</string>
+    <string name="average_xp">Durchschn. XP</string>
+    <string name="short_kills_game">Abschüsse/Gefecht</string>
+    <string name="short_win_rate">Gewinnrate</string>
+    <string name="short_cap_points">Eroberungen/Gefecht</string>
+    <string name="short_def_reset">Basisverteidigung/Gefecht</string>
+    <string name="short_planes_game">Flugzeuge/Gefecht</string>
+    <string name="baseline">100 ist Basislinie</string>
+    <string name="save_captain">Speichere Kapitän</string>
+    <string name="delete_captain">Lösche Kapitän</string>
+    <string name="resources_websites">Internetseiten und Tools</string>
+    <string name="resources_support">Support</string>
+    <string name="resources_server_info">Server Info</string>
+    <string name="resources_wot_numbers">World of Tanks\n Spieler online</string>
+    <string name="resources_wows_numbers">World of Warships\n Spieler online</string>
+    <string name="resources_error">Es kam nichts zurück</string>
+    <string name="resources_wows_total_c">WoWs Gesamt:\n</string>
+    <string name="resources_wot_total_c">WoT Gesamt:\n</string>
+    <string name="ranked">Gewertet</string>
+    <string name="encyclopedia">Enzyklopädie</string>
+    <string name="live">LIVE</string>
+    <string name="offline">OFFLINE</string>
+    <string name="action_server_info">Server Info</string>
+    <string name="resources_powered_by">This app is powered by Warshipstats.com</string> 
+    <string name="premium_ship_stats">Premium Statistiken</string>
+    <string name="dialog_assist_title">Hilf mit bei der Entwicklung dieser App</string>
+    <string name="dialog_review_app">Hast Du diese App schon bewertet?</string> 
+    <string name="dialog_review_message">15 Sekunden Deiner Zeit können helfen diese App zu verbreiten. Verfasse eine kurze Review auf Google Play indem Du auf den \'Review\' Button drückst.</string>
+    <string name="dialog_review_positive">Review</string>
+    <string name="no">Nein</string>
+    <string name="dialog_view_ad">Werbung ansehen</string> 
+    <string name="dialog_follow_title">Möchtest Du über die Entwicklung informiert werden?</string>
+    <string name="dialog_follow_message">Folge mir auf Twitter! Dort poste ich neue Bilder von neuen Features und spreche über neue Releases.</string>
+    <string name="dialog_bookmark_title">Möchtest Du Dir diesen Kapitän merken?</string> 
+    <string name="dialog_bookmark_message">Wenn Du Dir diesen Kapitän merkst, wird er diesen Kapitän beim öffnen der App anzeigen ohne dass Du ihn suchen musst.</string> 
+    <string name="yes">Ja</string>
+    <string name="dialog_assist_message">Möchtest Du mich bei der Entwicklung dieser App unterstützen? Spende oder sieh Dir eine kurze Werbung an. Die Werbung ist freiwillig und wird sonst nicht in der App plaziert. Diese Unterstützung hilft dabei Giveaways auf Twitter, Twitch und Youtube zu organisieren, sowie die Entwicklung der App zu fördern.</string>
+    <string name="avg_dmg_c">Durchschn. Schaden:</string>
+    <string name="k_d_c">Abschüsse/Verluste:</string>
+    <string name="avg_caps_c">Durchschn. Basiseroberungspunkte:</string>
+    <string name="avg_resets_c">Durchschn. Basisverteidigungspunkte:</string>
+    <string name="avg_planes_c">Durchschn. Flugzeuge:</string>
+    <string name="avg_xp_c">Durchschn. XP:</string>
+    <string name="ranked_season">Saison</string>
+    <string name="avg_kills_c">Durchschn. Abschüsse:</string>
+    <string name="ship">Schiff</string>
+    <string name="top_damage_c">Höchster Schaden:</string>
+    <string name="top_exp_c">Höchste XP:</string>
+    <string name="unknown">Unbekannt</string>
+    <string name="compareArmament">Bewaffnungsstatistiken</string>
+    <string name="compare_stats_average">Eigene Statistiken mit durchschn. Statistiken vergleichen</string>
+    <string name="main_battery_kills">Mit Hauptbatterie zerstört</string>
+    <string name="capture_pts">Basiseroberungspunkte</string>
+    <string name="def_reset_pts">Basisverteidigungspunkte</string>
+    <string name="planes_downed">Flugzeugabschüsse</string>
+    <string name="torpedoes_kills">Mit Torpedos zerstört</string>
+    <string name="aircraft_kills">Mit Flugzeugen zerstört</string>
+    <string name="other_kills">Anderweitig zerstört</string>
+    <string name="main_battery_hit_per">Hauptbatterietrefferrate %</string>
+    <string name="torpedoes_hit_per">Torpedotrefferrate %</string>
+    <string name="average_damage">Durchn. Schaden</string>
+    <string name="captain">Kapitän</string>
+    <string name="average_tier">Durchschn. Tier</string>
+    <string name="not_enough_captains">Nicht genug Kapitäne zum vergleichen</string>
+    <string name="compare">Vergleichen</string>
+    <string name="clear_list">Liste löschen</string>
+    <string name="compare_list">Liste Vergleichen</string>
+    <string name="compare_add_title">Kapitän zur Liste hinzugefügt</string>
+    <string name="compare_dialog_message">Möchtest Du den gebookmarketen Kapitän ebenfalls in die Vergleichsliste mit aufnehmen?</string> 
+    <string name="compare_max_message">Max. drei Kaptiäne können verglichen werden. Klicke auf den \'Vergleichen\' Button oder halte den gewünschten Kapitän gedrückt</string>
+    <string name="compare_bottom_text_max">" Listenplatz #3"</string>
+    <string name="compare_bottom_text_middle">" Listenplatz #2"</string>
+    <string name="compare_bottom_text_single">" Listenplatz #1"</string>
+    <string name="update_notes_title">Update Notes</string>
+    <string name="player_stored_data_deleted">Gespeicherte Daten des Spielers gelöscht</string>
+    <string name="purging_refresh">Bereinigung der Daten und Refresh begonnen</string>
+    <string name="purge_refresh_done">Bereinigung und Refresh abgeschlossen</string>
+    <string name="paypal">Paypal</string>
+    <string name="average_win_rate_per_tier">Durchschn. WinRate pro Tier</string>
+    <string name="average_survival_per_tier">Durchschn. Überlebensrate pro Tier</string>
+    <string name="average_damage_per_class">Durchschn. Schaden pro Klasse</string>
+    <string name="average_win_rate_per_class">Durchschn. Siegrate pro Klasse</string>
+    <string name="no_data_for_season">"Keine Daten für diese Saison vorhanden "</string>
+    <string name="ranked_stats">Ranked Statistiken</string>
+    <string name="crap_contact_me">Etwas arbeitet nicht richtig, bitte schreib mir eine Email. Dies hilft mir das Problem nachzustellen und zu fixen (Nur Englisch bitte)</string>
+    <string name="player_private">Spieler hat sein Profil auf privat</string>
+    <string name="failure_in_loading">Konnte Daten nicht laden</string>
+
+    <string name="top_kills">Meiste Kills in einem Spiel</string>
+    <string name="top_damage">Höchster Schaden in einem Gefecht</string>
+    <string name="top_exp">Höchste XP in einem Gefecht</string>
+    <string name="most_planes_destroyed">Meiste Flugzeuge zerstört (in einem Gefecht)</string>
+    <string name="top_survival_rate">Höchste Überlebensrate</string>
+    <string name="top_average_damage">Höchster Durchschnittsschaden</string>
+    <string name="top_win_rate">Höchste WinRate</string>
+    <string name="top_distance_traveled">Am weitesten gefahrenes Schiff</string>
+    <string name="top_played_ship">Meistgespieltes Schiff</string>
+    <string name="top_most_kills">Meiste Schiffe zerstört</string>
+    <string name="top_total_exp">Höchste Gesamt-XP</string>
+    <string name="top_total_planes">Höchstzahl Flugzeuge zerstört</string>
+    <string name="top_total_damage">Größter Gesamtschaden</string>
+    <string name="top_survival_wins">Höchstanzahl an Siegen die überlebt wurden</string>
+    <string name="top_battleship">Bestes Schlachtschiff</string>
+    <string name="top_cruiser">Bester Kreuzer</string>
+    <string name="top_destroyer">Bester Zerstörer</string>
+    <string name="top_carrier">Bester Flugzeugträger</string>
+
+    <string name="captain_yours_vs_average">Eigener Kapitän vs. Durchschnittskapitän</string>
+
+    <string name="wargaming_server_language">Wargaming Serversprache</string>
+    <string name="wins">Siege</string>
+    <string name="losses">Niederlagen</string>
+    <string name="draws">Unentschieden</string>
+    <string name="total_capture_points">Gesamt Basiseroberung</string>
+    <string name="total_defense_points">Gesamt Basisverteidigung</string>
+    <string name="total_planes_downed">Gesamtanzahl Flugzeuge zerstört</string>
+    <string name="top_ship_info">Wichtige Schiffsinformationen</string>
+    <string name="settings_update_to_new_language">Server Update auf neue Sprache</string>
+    <string name="settings_dev_blog">Entwickler Blog</string>
+    <string name="compare_needs_two">Zum Vergleichen werden mind. zwei Personen benötigt</string>
+
+    <string name="average_experience_per_class">durchschn. XP pro Klasse</string>
+    <string name="average_survival_rate_per_class">durchschn. Überlebensrate pro Klasse</string>
+    <string name="top_ten_played_ships">Top Ten der meistgespielten Schiffe</string>
+    <string name="top_ten_average_exp">Top Ten an durchschn. XP</string>
+    <string name="top_ten_avg_dmg">Top Ten Schiffe (durchschn. Schaden)</string>
+    <string name="top_ten_win_rate">Top Ten Schiffe (WinRate)</string>
+    <string name="top_ten_k_d">Top Ten Schiffe (K/D)</string>
+
+    <string name="translated_by">Translated by EngiineTurbo, vectoranalysis and schnipsor</string>
+    <string name="pan_asia">Asien</string>
+
+    <string-array name="ship_sorting">
+        <item>Gefechte</item>
+        <item>Name</item>
+        <item>durchschn. XP</item>
+        <item>durchschn. Schaden</item>
+        <item>Siegrate</item>
+        <item>Abschüsse/Tod</item>
+        <item>Gesamtschaden</item>
+        <item>Gesamte Abschüsse</item>
+        <item>Flugzeugabschüsse</item>
+        <item>Tier 10-1</item>
+        <item>Tier 1-10</item>
+        <!-- only these are new-->
+        <item>CA Wertung</item>
+        <item>Hauptbatteriegenauigkeit</item>
+        <item>Torpedogenauigkeit</item>
+    </string-array>
+
+    <string name="encyclopedia_hint">Suche nach Name</string>
+    <string-array name="search_nation">
+        <item>USA</item>
+        <item>UK</item>
+        <item>USSR</item>
+        <item>Japan</item>
+        <item>Deutschland</item>
+        <item>Asien</item>
+        <item>Polen</item>
+        <item>Frankreich</item>
+        <item>Commonwealth</item>
+    </string-array>
+
+    <string name="settings_theme_text">App Design</string>
+    <string name="encyclopedia_all">Alle</string>
+    <string name="settings_remove_arp_text">Entferne ARP Ship Icons</string>
+    <string name="average_accuracy_per_tier">durchschn. Hauptbatteriegenauigkeit pro Tier</string>
+    <string name="top_ten_accuracy">Top Ten nach Hauptbatteriegenauigkeit</string>
+    <string name="torp_accuracy">Torpedogenauigkeit</string>
+    <string name="main_battery_accuracy">Hauptbatteriegenauigkeit</string>
+    <string name="enemy_accuracy">Gegner Genauigkeit</string>
+    <string name="detection_range">Erkennungsreichweite</string>
+    <string name="experience">Erfahrung</string>
+    <string name="repair_cost">Reparaturkosten</string>
+    <string name="detontaion_chance">Detonation Chanse</string>
+    <string name="reload_time">Nachladezeit</string>
+    <string name="secondary_guns_accuracy">Sekundärgeschützgenauigkeit</string>
+    <string name="secondary_guns_range">Sekundärgeschützreichweite</string>
+    <string name="burning_time">Brandzeit</string>
+    <string name="health_regen_speed">Lebensregenerationsgeschwindigkeit</string>
+    <string name="ramming_damage_caused">verursachter Rammschaden</string>
+    <string name="ramming_damage_received">erhaltener Rammschaden</string>
+    <string name="ship_speed">Schiff Geschwindigkeit</string>
+    <string name="flooding_time">Flut Zeit</string>
+    <string name="search_stats_server"><![CDATA[Search & Stats Server]]></string>
+    <string name="karma">Karma</string>
+    <string name="login_primary_user">Aktiviere Login für favorisierten Nutzer</string>
+    <string name="account_information">Account Information</string>
+    <string name="pi_gold">Gold/Dublonen</string>
+    <string name="free_experience">freie Erfahrung</string>
+    <string name="pi_credits">Credits</string>
+    <string name="slot_info">Schiffe / Anzahl Hafenplätze</string>
+    <string name="battle_time">Zeit im Gefecht</string>
+    <string name="premium_expires_on">Premium läuft aus am</string>
+    <string name="settings_saved_captain_points">Kapitän Gesamtdaten</string>
+    <string name="settings_saved_ships_points">Individuelle Schiffsdaten</string>
+    <string name="settings_stats_number_dialog_title">Verringere Sicherungspunkte?</string>
+    <string name="settings_stats_number_dialog_message">Wenn du diese Nummer verringerst, muss die App alle bisheringen Speicherpunkte beseitigen. Bist du damit einverstanden?</string>
+    <string name="settings_stats_number_dialog_positive">Nummer verringern</string>
+    <string name="settings_stats_area_warning">Die Einstellungen hier drunter ändern die Speichernutzung. Achtung ist geboten, wenn Du hier was änderst!</string>
+    <string name="memory_settings">Speichereinstellungen</string>
+    <string name="settings_data_points">Anzahl an Datenpunkten, die gespeichert werden</string>
+    <string name="planes_downed_encyclo">Flugzeuge zerstört</string>
+    <string name="capture_points_encyclo">Eroberungspunkte</string>
+    <string name="defense_points">Verteidigungspunkte</string>
+    <string name="provided_by_warships_today">Daten bereitgestellt durch Warships.Today</string>
+    <string name="community_assistant_rating_overall">übergreifende Community Assistant Bewertung</string>
+    <string name="community_assistant_rating">Community Assistant Bewertung</string>
+    <string name="community_assistant_rating_shorter">CA Bewertung</string>
+    <string name="remove_ca_rating">Entfernen CA Bewertung</string>
+    <string name="breakdown_of_rating">Aufschlüsselung</string>
+    <string name="best_ca_rating">Best CA Rating</string>
+    <string name="total_kills">Gesamte Abschüsse</string>
+    <string name="team_battles_title">Teamgefechte Statistiken</string>
+    <string name="two_div_title">2 Kapitän Division Statistiken</string>
+    <string name="three_div_title">3 Kapitän Division Statistiken</string>
+    <string name="pve_title">PvE Statistken</string>
+    <string name="games_per_gamemode">Gefechte pro Modus</string>
+    <string name="million">" million"</string>
+    <string name="game_mode_statistics">Spielmodus Statististiken</string>
+    <string name="win_rate_per_mode">Gewinnrate pro Modus</string>
+    <string name="solo_pvp">Solo PvP</string>
+    <string name="pve">PvE</string>
+    <string name="pvp_2_div">PvP 2 Div</string>
+    <string name="pvp_3_div">PvP 3 Div</string>
+    <string name="team_battles">Teamgefechte</string>
+    <string name="survival_rate_per_mode">Überlebensrate pro Modus</string>
+    <string name="most_accuracy_gun_shipg">beste Genauigkeit Kanonenboot</string>
+    <string name="most_accuracy_torp_ship">beste Genauigkeit Torpedoboot</string>
+    <string name="click_module_to_update_view">Klick Modul um Ansicht zu aktualisieren</string>
+    <string name="module_list">Module</string>
+    <string name="ship_characteristics">Shiffcharakteristik</string>
+    <string name="disable_login">Deaktiviere Login</string>
+    <string name="fire_control">Feuerkontrolle</string>
+    <string name="flight_control">Flugkontrolle</string>
+    <string name="torpedo_bomber">Torpedobomber</string>
+    <string name="dive_bomber">Sturzbomber</string>
+    <string name="captain_ca_per_tier">CA Wertung pro Tier</string>
+    <string name="captain_ca_contrabution">Wertungs Beitrag pro Tier</string>
+
+    <!--These are optional-->
+    <string name="ca_rating_explanation">Die Community Assistant Wertung setzt sich zusammen aus %1$s Schaden, %2$s Abschüssen and %3$s Sieg Rate. Basis entspricht 1000.</string>
+    <string name="ca_rating_overall_explanation">Insgesamt setzt sich die Community Assistant Wertung zusammen aus der durchschnittlichen CA Wertung für jedes Tier. Diese wird multipliziert mit der Anzahl an Gefechten auf jenem Tier (Prozentsatz aller Gefechte dieses Spielers). Die auf das jeweilige Tier bezogene werden aufsummiert und ergeben so die Gesamte CA Wertung.</string>
+<string name="ca_rating_reason">Erklärung der Zahlen und Gleichungen:\n%1$s Schaden, %2$s Zerstörungen and %3$s Sieg Rate bilden die Basis  zur Berechnung der CA Wertung für ein Schiff.
+   Grundsätzlich: (Schiffswert / erwarteter Schiffswert) * Koeffizient der Gleichung. Beispielrechnung: (22000 Schaden / 20000 erwarteter Schaden) * %1$s. Zusammengezählt ergeben Schaden, Zerstörungen und Sieg Rate einen Wert und dieser wird multipliziert mit 1000.\n\n
+   Schaden und Zerstörungen werden höher bewertet als Sieg Rate, da ein schlechtes Team die Wertung eines Spielers nicht beeinflussen sollte.
+   Schaden verursachen und Schiffe zerstören sind sehr wichtig um Gefechte zu gewinnen. Zumindest solange bis genaue Zahlen von Wargaming veröffentlicht werden hinsichtlich der Punktevergabe für Basiseroberung und -verteidigung.
+   Die Gleichung für die Gesamte CA Wertung errechnet sich aus der CA Wertung pro Tier multipliziert mit dem prozentualen Anteil aller deiner Gefechte auf diesem Tier. Dadurch soll verhindert werden, dass Schiffe in Stock Konfiguration nur einen geringen Einfluss auf den Gesamt CA Wert haben. Ebenso ermöglicht diese Art der Berechnung, dass Lieblingsschiffe und -tiers einen größeren Einfluss auf die Gesamt CA Wertung.
+   Ursprünglich war die Berechnung so geplant, das Seal Clubber die Gesamte CA Wertung so nicht beeinflussen können. Dies wird zum Teil dadurch verhindert, dass in den höheren Tiers mehr Gefechte gespielt werden müssen um mehr XP zu grinden.
+   Jedoch sollte die Methode auch keine Spieler negativ bewerten, die einfach nur gerne in den unteren Tiers spielen. Sei es alleine oder zusammen mit Freunden in einer Division.
+   </string>
+    <!--end of optional area-->
+
+    <!--This one would be nice to have done.-->
+    <string name="ca_rating_tl_dr" >TL:DR:\n\nIndividuelle Community Assistant Schiffswertung ist %1$s Schaden, %2$s Zerstörungen und %3$s Sieg Rate. Die Gesamt Community Assistant Wertung berechnet sich wie folgt: (durchschnittliche CA Wertung pro Tier) * (Anzahl Gefechte pro Tier / Anzahl aller Gefechte). Basis entspricht 1000.</string>
+
+    <string name="ship_compared_to_others">Shiffswerte im Vergleich zu anderen Schiffen</string>
+
+    <string name="recommended_setups">Empfohlenes Setup</string>
+
+    <string-array name="themes">
+        <item>Ocean</item>
+        <item>Dark</item>
+    </string-array>
+    <string name="title_activity_information">Community Assistant (CA) Wertung</string>
+    <string name="per_ship_rating">Individuelle Schiffswertung</string>
+    <string name="overall_ca_rating">Gesamt CA Wertung</string>
+    <string name="ca_rating_dialog_title">Community Assistant (CA) Wertung</string>
+    <string name="learn_more">Erfahre mehr</string>
+    <string name="gun_dispersion">Geschütz Dispersion</string>
+    <string name="gun_rotation_speed">Geschütz Drehung um 180°</string>
+    <string name="armor_values">Panzerung</string>
+    <string name="aa_info">AA Info</string>
+    <string name="deck_armor">Deck:</string>
+    <string name="range_armor">Gesant:</string>
+    <string name="bow_stern_armor"><![CDATA[Bug & Heck:]]></string>
+    <string name="gun_casemate_armor">Geschütz Kasematten:</string>
+    <string name="citadel_armor">Zitadelle:</string>
+    <string name="millimeters">mm</string>
+    <string name="damage_per_second">dps</string>
+    <string name="kilometers">km</string>
+    <string name="kilometers_per_second">km/h</string>
+    <string name="seconds">s</string>
+    <string name="meters">m</string>
+    <string name="warship_today_nprofile_page">Warship.Today Profile</string>
+    <string name="login">Login</string>
+    <string name="app_language">App Sprache</string>
+    <string name="app_langauge_base">de</string>
+    <string name="nation_france">Frankreich</string>
+    <string name="nation_commonwealth">Commonwealth</string>
+
+    <!-- THESE NEED TO BE FIXED -->
+    <string name="view_an_ad_on_launch">Werbung zum Start ansehen</string>
+    <string name="total_spotting_damage">Schaden durch Aufklärung</string>
+    <string name="total_tanking_damage">erhaltener Schaden</string>
+    <string name="total_torp_tanking_damage">erhaltener Schaden durch Torpedos</string>
+    <string name="total_damage_to_buildings">Gebäudeschaden</string>
+    <string name="total_suppressions">Unterdrückungen</string>
+    <string name="total_spots">gesamte Aufklärungen</string>
+    <string name="max_spots">max. Aufklärungen</string>
+    <string name="most_spotted_in_a_match">meiste Aufklärungen in einem Gefecht</string>
+    <string name="most_scouting_damage_in_a_match">meister Aufklärungsschaden in einem Gefecht</string>
+    <string name="top_tanking_damage">meister erhaltener Schaden</string>
+    <string name="top_torpedo_tanking_damage">meister erhaltener Schaden durch Torpedos</string>
+    <string name="modules">Module</string>
+    <string name="graphs">Graphen</string>
+    <string name="toast_not_enough_ships_to_compare">Du musst mehr als ein Schiff zum Vergleichen hinzufügen</string>
+    <string name="long_click_to_add_ship_to_compare_list">Halten, um ein Schiff zum Vergleichen hinzuzufügen</string>
+    <string name="ship_compare_title">Schiffsvergleich</string>
+    <string name="ap_damage">AP Schaden</string>
+    <string name="he_damage">HE Schaden</string>
+    <string name="he_burn_chance">HE Brandwahrscheinlichkeit</string>
+    <string name="num_of_turrets"># an Türmen</string>
+    <string name="num_of_torp_turret"># of Torpedowerfern</string>
+    <string name="fighter_squadrons">Jägerstaffeln</string>
+    <string name="bomber_squadron">Bomberstaffeln</string>
+    <string name="torpedo_squadrons">Torpedostaffeln</string>
+    <string name="db_burn_chance">Sturzbomber Brandwahrscheinlichkeit</string>
+    <string name="minimum_armor">min. Panzerung</string>
+    <string name="maximum_armor">max. Panzerung</string>
+    <string name="deck_minimum_armor">min. Deckpanzerung</string>
+    <string name="deck_maximum_armor">max. Deckpanzerung</string>
+    <string name="extremities_min_armor">min. Aufbautenpanzerung</string>
+    <string name="extremities_max_armor">max. Aufbautenpanzerung</string>
+    <string name="casemate_min_armor">min. Kasemattenpanzerung</string>
+    <string name="casemate_max_armor">max. Kasemattenpanzerung</string>
+    <string name="citadel_min_armor">min. Zitadellenpanzerung</string>
+    <string name="citadel_max_armor">max. Zitadellenpanzerung</string>
+</resources>

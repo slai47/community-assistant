@@ -1,0 +1,507 @@
+<resources>
+
+    <!-- optional for translation-->
+    <string name="app_name">WoWs Assistent</string>
+
+
+    <!-- base language for wargaming to send back data with the right language attached -->
+    <!-- "English", "Русский", "Polski", "Deutsch", "Français", "Español", "简体中文", "Türkçe", "Čeština", "ไทย", "Tiếng Việt", "한국어"-->
+    <!-- "en",      "ru",       "pl",       "de",   "fr",       "es",       "zh-cn",   "tr",       "cs",    "th", "vi",         "ko"-->
+    <string name="base_server_language">en</string>
+
+    <string name="action_settings">Instellingen</string>
+
+    <string name="action_search">Zoeken</string>
+    <string name="action_captains">Kapiteins</string>
+    <string name="action_refresh">Verversen</string>
+    <string name="welcome">Welkom</string>
+
+    <string name="search_et_hint">Voer gebruikersnaam in</string>
+    <string name="search_no_results">Geen resultaat</string>
+
+    <string name="no_internet_title">Geen verbinding met internet</string>
+    <string name="no_internet_message">Wil je de internetverbinding inschakelen?</string>
+    <string name="no_internet_neutral_text">Instellingen</string>
+    <string name="no_text_error">Je moet een zoekterm invoeren</string>
+
+    <string name="list_clan_added_message">toegevoegd</string>
+    <string name="list_clan_removed_message">verwijderd</string>
+
+    <string name="captain_average_exp">Gemiddelde Ervaring</string>
+    <string name="captain_average_damage">Gemiddelde Schade</string>
+    <string name="captain_kills_deaths">Vijanden vernietigd per Gezonken</string>
+    <string name="captain_battles">Overlevingsratio</string>
+    <string name="captain_winrate">Winratio</string>
+
+    <string name="menu_favorite">Favoriet</string>
+    <string name="menu_unfavorite">Impopulair</string>
+    <string name="ships_hint">Naam of Niveau</string>
+
+    <string name="donate_title">Wil je dit project ondersteunen?</string>
+    <string name="donate_message">Ik ben HALF, Ik hoop dat WoWS Community Assistant je heeft geholpen met het spelen van World of Warships. Ik wil de beste  World of Warships assistent maken voor je. Ik probeer constant om deze app voor je te verbeteren, zonder kosten. Als je de ontwikkeling van deze app wilt ondersteunen, doneer dan, of bekijk onderstaande gratis advertentie. Alle beetjes helpen mij om aan deze app te blijven werken, en om weggeefacties te kunnen doen. Hiermee kan ik je terugbetalen voor je hulp.</string>
+    <string name="search_compare_default_text">Houd een kapitein lang ingedrukt om deze toe te voegen aan de vergelijking</string>
+    <string name="title_compare">Vergelijk</string>
+    <string name="action_shipopedia">Shipopedia</string>
+    <string name="action_websites">Handige Websites</string>
+    <string name="action_twitch">Twitch &amp; Youtube Sterren</string>
+    <string name="action_youtubers">Behulpzame Youtubers</string>
+    <string name="action_donate">Ondersteun de App</string>
+    <string name="drawer_search">Zoek &amp; Vergelijk</string>
+    <string name="drawer_captains">Kapiteins</string>
+    <string name="encyclopedia_average_damage">Gemiddelde Schade</string>
+    <string name="encyclopedia_winrate">Winratios</string>
+    <string name="encyclopedia_kills">Gemiddeld vijanden vernietigd</string>
+    <string name="encyclopedia_survival_rate">Overlevingsratio</string>
+    <string name="encyclopedia_tier_start">Niveau </string>
+    <string name="encyclopedia_tier_end"> Statistieken</string>
+    <string name="encyclopedia_survived_wins">Overlevingsratio met overwinningen</string>
+    <string name="encyclopedia_average_xp">Gemiddelde Ervaring</string>
+    <string name="encyclopedia_games_count">Spellen gespeeld</string>
+    <string name="encyclopedia_survivability">Overlevingskansen</string>
+    <string name="encyclopedia_artillery">Artillerie</string>
+    <string name="encyclopedia_torps">Torpedo\'s</string>
+    <string name="encyclopedia_aa_def">Luchtafweerverdediging</string>
+    <string name="encyclopedia_aircraft">Vliegtuigen</string>
+    <string name="encyclopedia_mobility">Wendbaarheid</string>
+    <string name="encyclopedia_concealment">Zichtbaarheid</string>
+    <string name="encyclopedia_ship_stats">Scheepsstatistieken</string>
+    <string name="encyclopedia_health">Gezondheid</string>
+    <string name="encyclopedia_gun_range">Kanon reikweidte</string>
+    <string name="encyclopedia_torp_range">Torpedo reikweidte</string>
+    <string name="encyclopedia_torp_speed">Torpedo snelheid</string>
+    <string name="encyclopedia_secondary_range">Secundair reikweidte</string>
+    <string name="encyclopedia_aa_range">Max Luchtafweer reikweidte</string>
+    <string name="encyclopedia_spotted_range">Schip ontdekt reikweidte</string>
+    <string name="encyclopedia_aircraft_spotted_range">Vliegtuig ontdekt reikweidte</string>
+    <string name="encyclopedia_shell_damage">Granaatschade</string>
+    <string name="encyclopedia_speed">Snelheid</string>
+    <string name="encyclopedia_arty_fr">Geschut vuursnelheid</string>
+    <string name="encyclopedia_torp_fr">Torpedo vuursnelheid</string>
+    <string name="encyclopedia_torp_damage">Torpedoschade</string>
+    <string name="encyclopedia_num_guns"># Kanonnen</string>
+    <string name="encyclopedia_num_torps"># Torpedo\'s</string>
+    <string name="encyclopedia_num_planes"># Vliegtuigen</string>
+    <string name="encyclopedia_rudder_time">Roer draaitijd</string>
+    <string name="encyclopedia_turning_radius">Draaicircel</string>
+    <string name="encyclopedia_top_configuration">Standaard configuratie statistieken (Dit wordt binnenkort aangepast)</string>
+    <string name="encyclopedia_average_stats">Gemiddelde Gevechts Statistieken</string>
+    <string name="damage">Schade</string>
+    <string name="win_rate">Winratio</string>
+    <string name="kills">Vijanden vernietigd</string>
+    <string name="planes_downed_game">Vliegtuigen Neergehaald / Spel</string>
+    <string name="captures_game">Veroverd / Spel</string>
+    <string name="def_reset_game">Def gereset / Spel</string>
+    <string name="xp">Erv</string>
+    <string name="survival_rate">Overlevingsratio</string>
+    <string name="powered_by_warshipstats">Mogelijk gemaakt door Warshipstats.com</string>
+    <string name="encyclopedia_upgrades">Beschikbare Upgrades</string>
+    <string name="encyclopedia_next_ship">Volgend Schip</string>
+    <string name="price_not_known">Prijs onbekend</string>
+    <string name="gold">" Goud"</string>
+    <string name="credits">" Credits"</string>
+    <string name="encyclopedia_tb_torp_speed">TB Torpedo snelheid</string>
+    <string name="encyclopedia_tb_prep_time">TB voorbereidingstijd</string>
+    <string name="encyclopedia_tb_torp_dam">TB Torpedo Schade</string>
+    <string name="encyclopedia_tb_torp">TB Torpedo reikweidte</string>
+    <string name="encyclopedia_num_squadrons"># Squadrons</string>
+    <string name="encyclopedia_db_prep_time">DB voorbereidingstijd</string>
+    <string name="encyclopedia_db_damage">DB Schade</string>
+    <string name="encyclopedia_ship_not_found">Fout op pagina. Kon scheepsID niet vinden</string>
+    <string name="dismiss">Annuleer</string>
+    <string name="encyclopedia_upgrade_cost">"\n\nCredits: "</string>
+    <string name="failed_to_grab_data">Kon data niet vinden</string>
+    <string name="russia">Rusland</string>
+    <string name="germany">Duitsland</string>
+    <string name="usa">USA</string>
+    <string name="poland">Polen</string>
+    <string name="japan">Japan</string>
+    <string name="uk">UK</string>
+    <string name="encyclopedia_nation_tier">\nNiveau </string>
+    <string name="resources_view_add">Laat advertentie zien</string>
+    <string name="settings">Instellingen</string>
+    <string name="colorblind_mode">Kleurenblindheid modus</string>
+    <string name="settings_show_average">Laat gemiddeld vergelijk zien</string>
+    <string name="settings_clean_player">Wis spelerinformatie</string>
+    <string name="settings_clear_player_info">Wist alle spelerinformatie. Doe dit alleen als je apparaat weinig geheugen heeft.</string>
+    <string name="settings_refresh_stored_data">Ververs opgeslagen gegevens</string>
+    <string name="settings_refresh_stored_data_info">Wist en ververst Prestatie en scheepsinformatie van Wargaming. Gebruik dit als een schip of prestatie niet wordt weergegeven. Deze informatie wordt normaal gesproken iedere 3 dagen bijgewerkt.</string>
+    <string name="about">OVER</string>
+    <string name="version">Versie:</string>
+    <string name="settings_write_a_review">Schrijf een recensie</string>
+    <string name="settings_contact_me">Neem contact op via email</string>
+    <string name="settings_twitter">Neem contact op via Twitter</string>
+    <string name="settings_glossary">WOORDENLIJST</string>
+    <string name="settings_avg_dmg">Gemiddelde\nSchade</string>
+    <string name="battles">Gevechten</string>
+    <string name="settings_avg_exp">Gemiddelde\nErvaring</string>
+    <string name="settings_k_d">Vijanden vernietigd\nper Gezonken</string>
+    <string name="settings_saved_captains">Opgeslagen\nKapiteins</string>
+    <string name="refresh">Ververs</string>
+    <string name="shipopedia">Shipopedia</string>
+    <string name="achievements">Prestatie</string>
+    <string name="settings_stats_graphs"><![CDATA[Statistieken &\n Grafieken]]></string>
+    <string name="shipsHolder">Schepen</string>
+    <string name="settings_att">Toewijzing</string>
+    <string name="captain_save_captain">Sla kapitein op</string>
+    <string name="average_experience">Gemiddelde Ervaring</string>
+    <string name="captain_first_details">Hoe meer gevechten je speelt, hoe meer deze grafiek zich uitbreidt</string>
+    <string name="games_by_tier">Spellen per Niveau</string>
+    <string name="average_tier_c">Gemiddeld Niveau:</string>
+    <string name="games_per_ship_type">Spellen per scheepstype</string>
+    <string name="games_per_nation">Spellen per land</string>
+    <string name="times_around_the_earth_c">Keren rond de aarde:</string>
+    <string name="general_stats">Algemene statistieken</string>
+    <string name="profile_level">Profiel niveau</string>
+    <string name="total_xp">Totaal XP</string>
+    <string name="total_damage">Totaal Schade</string>
+    <string name="last_battle_on">Laatste gevecht op</string>
+    <string name="account_created_on">Account gemaakt op</string>
+    <string name="kills_by_armament_type">Vernietigd per Bewapeningstype</string>
+    <string name="average_experience_per_tier">Gemiddelde ervaring per niveau</string>
+    <string name="average_damage_per_tier">Gemiddelde schade per niveau</string>
+    <string name="main_battery">Hoofdgeschut</string>
+    <string name="destroyed_c">Vernietigd:</string>
+    <string name="hit_percentage_c">% geraakt:</string>
+    <string name="shots_fired_c">Schoten afgevuurd:</string>
+    <string name="best_ship_c">Beste schip:</string>
+    <string name="torpedoes">Torpedo\'s</string>
+    <string name="secondary_battery">Secundair geschut</string>
+    <string name="ramming">Rammen</string>
+    <string name="delete">Verwijder</string>
+    <string name="armament_use">Gebruik bewapening</string>
+    <string name="list_ship_average_title">Jouw scheepsstatistieken / Gemiddelde scheepsstatistieken</string>
+    <string name="max_kills">Max vijanden vernietigd</string>
+    <string name="max_damage">Max Schade</string>
+    <string name="max_planes_killed">Max Vliegtuigen neergeschoten</string>
+    <string name="max_xp">Max XP</string>
+    <string name="traveled">Afgelegde afstand</string>
+    <string name="kills_game">Vernietigd / Spel</string>
+    <string name="caps_game">Veroveringen / Spel</string>
+    <string name="survived_wins">Overleefde \noverwinningen</string>
+    <string name="average_xp">Gemiddeld XP</string>
+    <string name="short_kills_game">Vernietigd/Spel</string>
+    <string name="short_win_rate">Winratio</string>
+    <string name="short_cap_points">Veroverd/Spel</string>
+    <string name="short_def_reset">Def gereset/Spel</string>
+    <string name="short_planes_game">Vliegtuigen/Spel</string>
+    <string name="baseline">100 is Basisuitgangspunt</string>
+    <string name="save_captain">Sla Kapitein op</string>
+    <string name="delete_captain">Verwijder Kapitein</string>
+    <string name="resources_websites">Websites en hulpmiddelen</string>
+    <string name="resources_support">Ondersteuning</string>
+    <string name="resources_server_info">Server Info</string>
+    <string name="resources_wot_numbers">World of Tanks\n spelers online</string>
+    <string name="resources_wows_numbers">World of Warships\n spelers online</string>
+    <string name="resources_error">Er is niets gevonden</string>
+    <string name="resources_wows_total_c">WoWs Totaal:\n</string>
+    <string name="resources_wot_total_c">WoT Totaal:\n</string>
+    <string name="ranked">Ranked</string>
+    <string name="encyclopedia">Encyclopedia</string>
+    <string name="live">LIVE</string>
+    <string name="offline">OFFLINE</string>
+    <string name="action_server_info">Server Info</string>
+    <string name="resources_powered_by">Deze app is mogelijk gemaakt door Warshipstats.com</string>
+    <string name="premium_ship_stats">Premium statistieken</string>
+    <string name="dialog_assist_title">Help de ontwikkelaar van deze app</string>
+    <string name="dialog_review_app">Heb je deze app al een recensie gegeven?</string>
+    <string name="dialog_review_message">15 seconden van je tijd kunnen deze app beter maken. Maak een snelle recensie op Google Play door op onderstaande knop te klikken.</string>
+    <string name="dialog_review_positive">Recensie</string>
+    <string name="no">Nee</string>
+    <string name="dialog_view_ad">Bekijk advertentie</string>
+    <string name="dialog_follow_title">Wil je de ontwikkeling volgen?</string>
+    <string name="dialog_follow_message">Volg me op Twitter, waar ik afbeeldingen plaats over nieuwe mogelijkheden en nieuwe versies bespreek.</string>
+    <string name="dialog_bookmark_title">Wil je deze kapitein bewaren?</string>
+    <string name="dialog_bookmark_message">Bewaren zorgt ervoor dat deze kapitein zichtbaar is in de app, zonder hem opnieuw op te hoeven zoeken</string>
+    <string name="yes">Ja</string>
+    <string name="dialog_assist_message">Wil je deze gratis app helpen? Doneer of kijk een korte advertentie om de app te ondersteunen. Het kijken van de advertentie is vrijwillig en zal nooit ergens anders in de app verschijnen. Deze ondersteuning helpt met het betalen van de cadeautjes die ik weggeef via Twitter, Twitch of zelfs Youtube en de ontwikkeling van deze app.</string>
+    <string name="avg_dmg_c">Gem Schade:</string>
+    <string name="k_d_c">Verm/Gest:</string>
+    <string name="avg_caps_c">Gem Veroverd:</string>
+    <string name="avg_resets_c">Gem gereset:</string>
+    <string name="avg_planes_c">Gem Vliegtuigen:</string>
+    <string name="avg_xp_c">Gem XP:</string>
+    <string name="ranked_season">Periode</string>
+    <string name="avg_kills_c">Gem vijanden vernietigd:</string>
+    <string name="ship">Schip</string>
+    <string name="top_damage_c">Top Schade:</string>
+    <string name="top_exp_c">Top Erv:</string>
+    <string name="unknown">Onbekend</string>
+    <string name="compareArmament">Bewapeningsstatistieken</string>
+    <string name="compare_stats_average">Statistieken vergeleken met de gemiddelde statistieken</string>
+    <string name="main_battery_kills">Hoofdgeschut vijanden vernietigd</string>
+    <string name="capture_pts">Veroverings Ptn</string>
+    <string name="def_reset_pts">Def gereset Ptn</string>
+    <string name="planes_downed">Vliegtuigen neergeschoten</string>
+    <string name="torpedoes_kills">Torpedo vijanden vernietigd</string>
+    <string name="aircraft_kills">Vliegtuigen vernietigd</string>
+    <string name="other_kills">Andere vernietigd</string>
+    <string name="main_battery_hit_per">Hoofdgeschut % geraakt</string>
+    <string name="torpedoes_hit_per">Torpedo\'s % geraakt</string>
+    <string name="average_damage">Gemiddelde schade</string>
+    <string name="captain">Kapitein</string>
+    <string name="average_tier">Gemiddeld Niveau</string>
+    <string name="not_enough_captains">Niet genoeg kapiteins om te vergelijken</string>
+    <string name="compare">Vergelijk</string>
+    <string name="clear_list">Maak lijst leeg</string>
+    <string name="compare_list">Vergelijk lijst</string>
+    <string name="compare_add_title">Kapitein aan lijst toegevoegd</string>
+    <string name="compare_dialog_message">Wil je je opgeslagen kapitein ook aan de vergelijkingslijst toevoegen?</string>
+    <string name="compare_max_message">Maximaal drie kapiteins te vergelijken, klik de vergelijk knop om de kapiteins te verwijderen, of hou een kapitein lang ingedrukt</string>
+    <string name="compare_bottom_text_max">" in lijst. 3/3"</string>
+    <string name="compare_bottom_text_middle">" in lijst. 2/3"</string>
+    <string name="compare_bottom_text_single">" in lijst. 1/3"</string>
+    <string name="update_notes_title">Update Notities</string>
+    <string name="player_stored_data_deleted">Speler opgeslagen data verwijderd</string>
+    <string name="purging_refresh">Data opschonen en verversing starten</string>
+    <string name="purge_refresh_done">Opschonen en verversen klaar</string>
+    <string name="paypal">Paypal</string>
+    <string name="average_win_rate_per_tier">Gemiddeld winratio per niveau</string>
+    <string name="average_survival_per_tier">Gemiddeld overlevingsratio per niveau</string>
+    <string name="average_damage_per_class">Gemiddelde schade per klasse</string>
+    <string name="average_win_rate_per_class">Gemiddelde winratio per klasse</string>
+    <string name="no_data_for_season">"Geen data voor periode "</string>
+    <string name="ranked_stats">Ranked Statistieken</string>
+    <string name="crap_contact_me">Iets werkt niet of is misgegaan, stuur me alstublieft een email om het op te lossen of te vinden.</string>
+    <string name="player_private">Speler profiel is afgeschermd</string>
+    <string name="failure_in_loading">Kon data niet laden</string>
+
+    <string name="top_kills">Top vernietigd in een spel</string>
+    <string name="top_damage">Top schade in een spel</string>
+    <string name="top_exp">Top ervaring in een spel</string>
+    <string name="most_planes_destroyed">Meeste vliegtuigen vernietigd in een spel</string>
+    <string name="top_survival_rate">Hoogste overlevingsratio</string>
+    <string name="top_average_damage">Hoogste gemiddelde schade</string>
+    <string name="top_win_rate">Hoogste winratio</string>
+    <string name="top_distance_traveled">Meeste afstand afgelegd in schip</string>
+    <string name="top_played_ship">Meest gespeelde schip</string>
+    <string name="top_most_kills">Meeste vijanden vernietigd</string>
+    <string name="top_total_exp">Hoogste totaal ervaring</string>
+    <string name="top_total_planes">Hoogste totaal vliegtuigen neergeschoten</string>
+    <string name="top_total_damage">Hoogste totaal schade</string>
+    <string name="top_survival_wins">Hoogste overleefde overwinningen</string>
+    <string name="top_battleship">Beste Slagschip</string>
+    <string name="top_cruiser">Beste Kruiser</string>
+    <string name="top_destroyer">Beste Torpedojager</string>
+    <string name="top_carrier">Beste Vliegdekschip</string>
+
+    <string name="captain_yours_vs_average">Kapiteinsstatistieken versus gemiddelde kapiteinsstatistieken</string>
+
+    <string name="wargaming_server_language">Wargaming Server Taal</string>
+    <string name="wins">Overwinningen</string>
+    <string name="losses">Verliezen</string>
+    <string name="draws">Onbeslist</string>
+    <string name="total_capture_points">Totaal Veroveringspunten</string>
+    <string name="total_defense_points">Totaal Verdedigingspunten</string>
+    <string name="total_planes_downed">Totaal Vliegtuigen neergehaald</string>
+    <string name="top_ship_info">Top scheepsinformatie</string>
+    <string name="settings_update_to_new_language">Serverdata naar nieuwe taal bijwerken</string>
+    <string name="settings_dev_blog">Ontwikkelaars Blog</string>
+    <string name="compare_needs_two">De vergelijker heeft minimaal twee kapiteins nodig</string>
+
+    <string name="average_experience_per_class">Gemiddelde ervaring per klasse</string>
+    <string name="average_survival_rate_per_class">Gemiddeld overlevingsratio per klasse</string>
+    <string name="top_ten_played_ships">Top tien meest gespeelde schepen</string>
+    <string name="top_ten_average_exp">Top tien per gemiddelde ervaring</string>
+    <string name="top_ten_avg_dmg">Top tien per gemiddelde schade</string>
+    <string name="top_ten_win_rate">Top tien per gemiddelde winratio</string>
+    <string name="top_ten_k_d">Top tien schepen per vijanden vernietigd/gezonken</string>
+
+    <string name="translated_by">Vertaald door UltraPulse </string>
+    <string name="pan_asia">Azië</string>
+
+    <string-array name="ship_sorting">
+        <item>Gevechten</item>
+        <item>Naam</item>
+        <item>Gemiddeld Exp</item>
+        <item>Gemiddelde Schade</item>
+        <item>Win Ratio</item>
+        <item>Vernietigd/Gezonken</item>
+        <item>Totaal Schade</item>
+        <item>Totaal Gedood</item>
+        <item>Vliegtuigen Neergehaald</item>
+        <item>Niveau 10-1</item>
+        <item>Niveau 1-10</item>
+        <!-- only these are new-->
+        <item>CA Indicatie</item>
+        <item>Hoofdgeschut nauwkeurigheidy</item>
+        <item>Torpedo nauwkeurigheid</item>
+    </string-array>
+
+    <string name="encyclopedia_hint">Zoek op naam</string>
+    <string-array name="search_nation">
+        <item>USA</item>
+        <item>UK</item>
+        <item>USSR</item>
+        <item>Japan</item>
+        <item>Duitsland</item>
+        <item>Azië</item>
+        <item>Polen</item>
+        <item>Frankrijk</item>
+        <item>Gemenebest</item>
+    </string-array>
+
+    <string name="settings_theme_text">App Thema</string>
+    <string name="encyclopedia_all">Alle</string>
+    <string name="settings_remove_arp_text">Verwijder ARP Schip Iconen</string>
+    <string name="average_accuracy_per_tier">Gemiddeld hoofdgeschut nauwkeurigheid per niveau</string>
+    <string name="top_ten_accuracy">Top Tien per hoofdgeschut nauwkeurigheid </string>
+    <string name="torp_accuracy">Torpedo nauwkeurigheid</string>
+    <string name="main_battery_accuracy">Hoofdgeschut nauwkeurigheid </string>
+    <string name="enemy_accuracy">Vijandelijke nauwkeurigheid</string>
+    <string name="detection_range">Detectie afstand</string>
+    <string name="experience">Ervaring</string>
+    <string name="repair_cost">Reparatie kosten</string>
+    <string name="detontaion_chance">Kans op ontploffen</string>
+    <string name="reload_time">Laadtijd</string>
+    <string name="secondary_guns_accuracy">Bijgeschut nauwkeurigheid</string>
+    <string name="secondary_guns_range">Bijgeschut reikweidte</string>
+    <string name="burning_time">Brandtijd</string>
+    <string name="health_regen_speed">Reparatiesnelheid</string>
+    <string name="ramming_damage_caused">Ramschade toegebracht</string>
+    <string name="ramming_damage_received">Ramschade ontvangen</string>
+    <string name="ship_speed">Scheepssnelheid</string>
+    <string name="flooding_time">Zinktijd</string>
+    <string name="search_stats_server"><![CDATA[Search & Stats Server]]></string>
+    <string name="karma">Karma</string>
+    <string name="login_primary_user">Inschakelen favoriete gebruiker aanmelden</string>
+    <string name="account_information">Account Informatie</string>
+    <string name="pi_gold">Goud</string>
+    <string name="free_experience">Vrije Ervaring</string>
+    <string name="pi_credits">Credits</string>
+    <string name="slot_info">Schepen / Totaal Ligplaatsen</string>
+    <string name="battle_time">Tijd in gevecht</string>
+    <string name="premium_expires_on">Premium verloopt op</string>
+    <string name="settings_saved_captain_points">Algemene kapiteinsgegevens</string>
+    <string name="settings_saved_ships_points">Individuele scheepsgegevens</string>
+    <string name="settings_stats_number_dialog_title">Opgeslagen momenten terugbrengen?</string>
+    <string name="settings_stats_number_dialog_message">Als dit aantal verminderd moet de app alle opgeslagen informatie van de kapiteins verwijderen om dit mogelijk te maken. Weet je dit zeker?</string>
+    <string name="settings_stats_number_dialog_positive">Verminderen</string>
+    <string name="settings_stats_area_warning">Onderstaande instellingen passen het gedrag aan hoe het geheugen in de app wordt gebruikt. Voorzichtigheid is geboden tijdens het aanpassen of gebruiken van deze mogelijkheden.</string>
+    <string name="memory_settings">Geheugen instellingen</string>
+    <string name="settings_data_points">Aantal opgeslagen informatiemomenten</string>
+    <string name="planes_downed_encyclo">Vliegtuigen neergeschoten</string>
+    <string name="capture_points_encyclo">Veroveringspunten</string>
+    <string name="defense_points">Verdedigingspunten</string>
+    <string name="provided_by_warships_today">Informatie verstrekt door Warships.Today</string>
+    <string name="community_assistant_rating_overall">Algemene Community Assistant Indicatie</string>
+    <string name="community_assistant_rating">Community Assistant Indicatie</string>
+    <string name="community_assistant_rating_shorter">CA Indicatie</string>
+    <string name="remove_ca_rating">Verwijder CA Indicatie</string>
+    <string name="breakdown_of_rating">Uitgewerkt</string>
+    <string name="best_ca_rating">Beste CA Indicatie</string>
+    <string name="total_kills">Totaal Gedood</string>
+    <string name="team_battles_title">Team Battles Statistieken</string>
+    <string name="two_div_title">2 Kapitein Divisie Statistieken</string>
+    <string name="three_div_title">3 Kapitein Divisie Statistieken</string>
+    <string name="pve_title">PvE Statistieken</string>
+    <string name="games_per_gamemode">Gespeeld per soort</string>
+    <string name="million">" miljoen"</string>
+    <string name="game_mode_statistics">Spelsoort statistieken</string>
+    <string name="win_rate_per_mode">Win Ratio per Soort</string>
+    <string name="solo_pvp">Solo PvP</string>
+    <string name="pve">PvE</string>
+    <string name="pvp_2_div">PvP 2 Div</string>
+    <string name="pvp_3_div">PvP 3 Div</string>
+    <string name="team_battles">Team gevechten</string>
+    <string name="survival_rate_per_mode">Overleginsratio Per Soort</string>
+    <string name="most_accuracy_gun_shipg">Hoogste nauwkeurigheid Kanonneerboot</string>
+    <string name="most_accuracy_torp_ship">Hoogste nauwkeurigheid Torpedoboot</string>
+    <string name="click_module_to_update_view">Klik module om update scherm weer te geven</string>
+    <string name="module_list">Modules</string>
+    <string name="ship_characteristics">Scheepsgegevens</string>
+    <string name="disable_login">Aanmelden uitschakelen</string>
+    <string name="fire_control">Vuurcontrole</string>
+    <string name="flight_control">Vluchtcontrole</string>
+    <string name="torpedo_bomber">Torpedobommenwerper</string>
+    <string name="dive_bomber">Duikbommenwerper</string>
+    <string name="captain_ca_per_tier">CA Indicatie Per Niveau</string>
+    <string name="captain_ca_contrabution">Indicatie Bijdrage Per Niveau</string>
+
+    <!--These are optional-->
+    <string name="ca_rating_explanation">Community Assistant Indicatie is %1$s schade, %2$s gedood en %3$s overwinningsratio. Basis is 1000.</string>
+    <string name="ca_rating_overall_explanation">De algemene Community Assistant Indicatie is berekend door de gemiddelde CA indicatie voor ieder niveau te vinden en dat te vermenigvuldigen met het percentage gevechten dat niveau heeft uit het totaal aantal gevechten gespeeld door de speler. Het totaal van deze getallen geeft de algemene CA Indicatie.</string>
+<string name="ca_rating_reason">Basis voor de getallen en indicatie.:\n%1$s damage, %2$s gedood en %3$s winratio zijn de getallen gebruikt om de CA Indicatie voor een schip te creëren.
+   Standaard (scheepsstat / verwachte scheepsstat) * stat coef vergelijking. Bijvoorbeeld: (22000 schade / 20000 verwacht) * %1$s. Tel bij elkaar op, schade, gedood en winratio aantallen, en vermenigvuldig met 1000.\n\n
+   Schade en gedood worden hoger gewaardeerd dan het winratio omdat een slecht team je Indicatie niet moet beïnvloeden.
+   Toebrengen van schade en doden van tegenstanders zijn erg belangrijk voor het winnen van een gevecht en to we precieze informatie van Wargaming krijgen over Veroverings- en Verdedigingspunten, moeten we het hiermee doen.
+   De vergelijking voor de Algemene CA Indicatie is berekend door de algemene indicatie per niveau vermenigvuldigd door het percentage waarmee dat niveau voorkomt in al je gevechten. Dit zorgt ervoor dat standaard schepen je algemene score niet teveel beïnvloeden, en je favoriete schepen/niveau’s eruit te laten springen ten opzichten van andere niveau’s die je naar beneden kunnen halen.
+   Initieel was deze methode bedoeld om te voorkomen dat ‘seal clubbers’ misbruik kunnen maken van het standaard systeem om indicatie te berekenen. Maar ik wilde diegenen die ervan houden om in de lagere tiers te spelen, of samen speelden met spelers uit lagere tiers niet benadelen.
+   Deze methode voorkomt dit nog steeds, omdat spelers meer gevechten moeten voeren in hogere niveau’s om in het volgende niveau te moeten geraken. maar dit benadeelt dus niet diegenen die in lage niveau’s willen spelen met hun favoriete schepen.</string>
+    <!--end of optional area-->
+
+    <!--This one would be nice to have done.-->
+    <string name="ca_rating_tl_dr" >TL:DR:\n\nIndividuele Scheeps Community Assistant Indicatie is %1$s schade, %2$s gedood en %3$s winratio. Algemene Community Assistant Indicatie is berekend door het totaal van(gemiddelde CA Indicatie van het Niveau) * (aantal gevechten van het niveau / totaal gevechten). Basis van 1000.</string>
+
+    <string name="ship_compared_to_others">Scheepsstatistieken vergeleken met andere schepen</string>
+
+    <string name="recommended_setups">Aanbevolen configuraties</string>
+
+    <string-array name="themes">
+        <item>Oceaan</item>
+        <item>Donker</item>
+    </string-array>
+    <string name="title_activity_information">Community Assistant (CA) Indicatie</string>
+    <string name="per_ship_rating">Individelel scheepsindicatie</string>
+    <string name="overall_ca_rating">Algemene CA Indicatie</string>
+    <string name="ca_rating_dialog_title">Community Assistant (CA) Indicatie</string>
+    <string name="learn_more">Ontdek meer</string>
+    <string name="gun_dispersion">Geschut onnauwkeurigheid</string>
+    <string name="gun_rotation_speed">Geschut rotatie 180°</string>
+    <string name="armor_values">Bepantesringwaardes</string>
+    <string name="aa_info">Luchtafweer info</string>
+    <string name="deck_armor">Dek:</string>
+    <string name="range_armor">Algemeen:</string>
+    <string name="bow_stern_armor"><![CDATA[Boeg & Hek:]]></string>
+    <string name="gun_casemate_armor">Geschut kazemat:</string>
+    <string name="citadel_armor">Midscheeps:</string>
+    <string name="millimeters">mm</string>
+    <string name="damage_per_second">sps</string>
+    <string name="kilometers">km</string>
+    <string name="kilometers_per_second">km/u</string>
+    <string name="seconds">sec</string>
+    <string name="meters">m</string>
+    <string name="warship_today_nprofile_page">Warship.Today Profiel</string>
+    <string name="login">Aanmelden</string>
+    <string name="app_language"> App Taal</string>
+    <string name="app_langauge_base">nl</string>
+    <string name="nation_france">Frankrijk</string>
+    <string name="nation_commonwealth">Gemenebest</string>
+
+    <!-- THESE NEED TO BE FIXED -->
+    <string name="view_an_ad_on_launch">Bekijk een advertentie  </string>
+    <string name="total_spotting_damage">Spotten van een vijand wanneer een bondgenoot op de vijand schiet</string>
+    <string name="total_tanking_damage">Ingenomen schade</string>
+    <string name="total_torp_tanking_damage">Ingenomen schade van Torpedo\'s</string>
+    <string name="total_damage_to_buildings">Opbouwende schade</string>
+    <string name="total_suppressions">Totale opheffing</string>
+    <string name="total_spots">Totale plaatsen</string>
+    <string name="max_spots">Maximum plaatsen</string>
+    <string name="most_spotted_in_a_match">Meest gespot in een Match</string>
+    <string name="most_scouting_damage_in_a_match">Meest verkenning schade in een ronde</string>
+    <string name="top_tanking_damage">Gerankte ingenomen schade</string>
+    <string name="top_torpedo_tanking_damage">Gerankte ingenomen schade van Torpedo\'s</string>
+    <string name="modules">Module</string>
+    <string name="graphs">Grafiek</string>
+    <string name="toast_not_enough_ships_to_compare">Je moet meer dan één schip geselecteerd hebben om te vergelijken</string>
+    <string name="long_click_to_add_ship_to_compare_list">Langdurige muisklik om een schip toe te voegen om te vergelijken  </string>
+    <string name="ship_compare_title">Schip vergelijking</string>
+    <string name="ap_damage">AP Schade</string>
+    <string name="he_damage">HE Schade</string>
+    <string name="he_burn_chance">HE Brand kans</string>
+    <string name="num_of_turrets"># van de Kanonnen</string>
+    <string name="num_of_torp_turret"># van de Torpedo buizen</string>
+    <string name="fighter_squadrons"> Geveschtsvliegtuig eskader</string>
+    <string name="bomber_squadron">Bommenwerper eskader</string>
+    <string name="torpedo_squadrons">Torpedo eskader</string>
+    <string name="db_burn_chance">DB Brand kans</string>
+    <string name="minimum_armor">Minimale panster</string>
+    <string name="maximum_armor">Maximale pantser</string>
+    <string name="deck_minimum_armor">Dek minimale pantser</string>
+    <string name="deck_maximum_armor">Dek maximale pantser</string>
+    <string name="extremities_min_armor">Extremiteiten Minimale Pantser</string>
+    <string name="extremities_max_armor">Extremiteiten Maximale Pantser</string>
+    <string name="casemate_min_armor">Geschutkoepel Minimale Pantser</string>
+    <string name="casemate_max_armor">Geschutskoepel Maximale Pantser</string>
+    <string name="citadel_min_armor">Citadel Minimale Pantser</string>
+    <string name="citadel_max_armor">Citadel Maximale Pantser</string>
+</resources>

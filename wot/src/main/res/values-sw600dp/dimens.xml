@@ -1,0 +1,8 @@
+<resources>
+
+    <dimen name="tanks_member_divider_height">8dp</dimen>
+    <dimen name="list_map_size">300dp</dimen>
+    <dimen name="encyclopedia_image_size">80dp</dimen>
+
+    <integer name="grid_size">4</integer>
+</resources>
