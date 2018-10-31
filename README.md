@@ -1,6 +1,6 @@
 ![WoWS and WoT Community Assistant logo](https://i.imgur.com/yhy0ELe.png)
 
-# community-assistant
+# Community Assistant
 Stats application for World of Warship & World of Tanks Players profiles to view changes over time.
 
 ## Summary
