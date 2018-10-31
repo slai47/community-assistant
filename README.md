@@ -1,3 +1,5 @@
+![WoWS and WoT Community Assistant logo](https://i.imgur.com/yhy0ELe.png)
+
 # community-assistant
 Stats application for World of Warship & World of Tanks Players profiles to view changes over time.
 
@@ -5,6 +7,8 @@ Stats application for World of Warship & World of Tanks Players profiles to view
 
 Player stats applications built using the [Wargaming players API](https://developers.wargaming.net/). Specifically the World of Tanks PC and WoWS PC APIs.
 
+
+![Image of WoWS Community Assistant](https://i.imgur.com/Mgc8Ihh.png)
 
 ### Community Assistant for WoWS
 
@@ -14,6 +18,8 @@ Stats application built using MVI with multiple activities/fragments and [GreenR
 
 This project could use a lot of improvements. UI could get a better material design and have data shown in different manners. The backend code could be chopped up and have less code duplication along with the files being split for readability. Adding animiations for better UX would be nice along with better use of styles and images to give the app a more concise look. The view layout files could be split up into snippets and potentially made reusable.
 
+
+![Image of WoT Community Assistant](https://i.imgur.com/kbYasjV.png)
 
 ### Community Assistant for WoT
 
@@ -30,4 +36,4 @@ Android library used to keep common files between WoWS and WoT profiles. Contain
 
 ## Repo state
 
-Ported over to Github from BitBucket.
+Ported over to Github from BitBucket. The project is building and runs when targeting WoWS. WoT project needs work to get going again due to its age.
