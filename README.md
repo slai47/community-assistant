@@ -10,7 +10,7 @@ Player stats applications built using the [Wargaming players API](https://develo
 
 ![Image of WoWS Community Assistant](https://i.imgur.com/Mgc8Ihh.png)
 
-### Community Assistant for WoWS
+## Community Assistant for WoWS
 
 Currently published on Google Play Store [here](https://play.google.com/store/apps/details?id=com.half.wowsca).
 
@@ -21,7 +21,7 @@ This project could use a lot of improvements. UI could get a better material des
 
 ![Image of WoT Community Assistant](https://i.imgur.com/kbYasjV.png)
 
-### Community Assistant for WoT
+## Community Assistant for WoT
 
 Currently unpublished due to lack of development time needed to update and third party data sources no longer updating.
 
@@ -30,10 +30,10 @@ Build using a one activity to rule them all architecture with Otto Eventbus for 
 The app is currently not runnable but needs to have its API code updated with new elements, WN8 data updated, otto updated to [GreenRobot.Eventbus](https://github.com/greenrobot/EventBus) and general updates from not being touched for 2+ years.
 
 
-### Utils
+## Utils
 
 Android library used to keep common files between WoWS and WoT profiles. Contains early implementations of a Preferences handler called `Prefs`, data storage handlers in `utilities/storage` for small text file speed improvements, an old interface styling for creating backend processes with third party information and old libraries used to help make certain things in Android easier.
 
-## Repo state
+### Repo state
 
 Ported over to Github from BitBucket. The project is building and runs when targeting WoWS. WoT project needs work to get going again due to its age.
