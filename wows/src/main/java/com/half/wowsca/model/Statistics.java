@@ -28,7 +28,7 @@ public class Statistics {
     private long maxPlanesKilledShipId;
     private int maxPlanesKilled;
 
-    private int totalXP;
+    private long totalXP;
     private int survivedBattles;
     private int droppedCapturePoints;
     private int draws;
@@ -74,7 +74,7 @@ public class Statistics {
             statistics.setMaxXPShipId(obj.optLong("max_xp_ship_id"));
             statistics.setSecondaryBattery(BatteryStats.parse(obj.optJSONObject("second_battery")));
             statistics.setMaxFragsInBattleShipId(obj.optLong("max_frags_ship_id"));
-            statistics.setTotalXP(obj.optInt("xp"));
+            statistics.setTotalXP(obj.optLong("xp"));
             statistics.setSurvivedBattles(obj.optInt("survived_battles"));
             statistics.setDroppedCapturePoints(obj.optInt("dropped_capture_points"));
             statistics.setDraws(obj.optInt("draws"));
@@ -184,11 +184,11 @@ public class Statistics {
         this.maxPlanesKilled = maxPlanesKilled;
     }
 
-    public int getTotalXP() {
+    public long getTotalXP() {
         return totalXP;
     }
 
-    public void setTotalXP(int totalXP) {
+    public void setTotalXP(long totalXP) {
         this.totalXP = totalXP;
     }
 

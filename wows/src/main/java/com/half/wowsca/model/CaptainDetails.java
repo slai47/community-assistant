@@ -43,7 +43,7 @@ public class CaptainDetails {
     private long maxPlanesKilledShipId;
     private int maxPlanesKilled;
 
-    private int totalXP;
+    private long totalXP;
     private int survivedBattles;
     private int droppedCapturePoints;
     private int draws;
@@ -170,7 +170,7 @@ public class CaptainDetails {
                     d.setMaxXPShipId(pvp.optLong("max_xp_ship_id"));
                     d.setSecondaryBattery(BatteryStats.parse(pvp.optJSONObject("second_battery")));
                     d.setMaxFragsInBattleShipId(pvp.optLong("max_frags_ship_id"));
-                    d.setTotalXP(pvp.optInt("xp"));
+                    d.setTotalXP(pvp.optLong("xp"));
                     d.setSurvivedBattles(pvp.optInt("survived_battles"));
                     d.setDroppedCapturePoints(pvp.optInt("dropped_capture_points"));
                     d.setDraws(pvp.optInt("draws"));
@@ -346,11 +346,11 @@ public class CaptainDetails {
         this.maxPlanesKilled = maxPlanesKilled;
     }
 
-    public int getTotalXP() {
+    public long getTotalXP() {
         return totalXP;
     }
 
-    public void setTotalXP(int totalXP) {
+    public void setTotalXP(long totalXP) {
         this.totalXP = totalXP;
     }
 
