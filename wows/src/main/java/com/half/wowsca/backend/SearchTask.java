@@ -48,7 +48,7 @@ public class SearchTask extends AsyncTask<SearchQuery, Void, SearchResults> {
                         JSONObject user = users.optJSONObject(i);
                         if (user != null) {
                             Captain c = new Captain();
-                            c.setId(user.optInt("account_id"));
+                            c.setId(user.optLong("account_id"));
                             c.setName(user.optString("nickname"));
                             c.setServer(query.getServer());
                             results.getCaptains().add(c);

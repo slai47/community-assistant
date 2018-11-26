@@ -59,7 +59,7 @@ public class CaptainManager {
         return c.getServer().toString() + c.getId();
     }
 
-    public static String createCapIdStr(Server s, int id) {
+    public static String createCapIdStr(Server s, long id) {
         return s.toString() + id;
     }
 
@@ -114,7 +114,7 @@ public class CaptainManager {
     }
 
 
-    public static boolean fromSearch(Context ctx, Server s, int id) {
+    public static boolean fromSearch(Context ctx, Server s, long id) {
         return getCaptains(ctx).get(createCapIdStr(s, id)) == null;
     }
 

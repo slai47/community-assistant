@@ -78,7 +78,7 @@ public class CompareManager {
         }
     }
 
-    public static void removeCaptain(Server s, int id) {
+    public static void removeCaptain(Server s, long id) {
         if (size() > 0) {
             for (int i = 0; i < captains.size(); i++) {
                 Captain c = captains.get(i);
@@ -94,7 +94,7 @@ public class CompareManager {
         captains.clear();
     }
 
-    public static boolean isAlreadyThere(Server s, int id) {
+    public static boolean isAlreadyThere(Server s, long id) {
         boolean there = false;
         if (size() > 0) {
             for (int i = 0; i < captains.size(); i++) {

@@ -50,7 +50,7 @@ public class ViewCaptainActivity extends CABaseActivity implements ICaptain {
     public static final String EXTRA_NAME = "name";
     public static final String EXTRA_SERVER = "server";
 
-    private int id;
+    private long id;
     private String name;
     private Server server;
 
@@ -60,7 +60,7 @@ public class ViewCaptainActivity extends CABaseActivity implements ICaptain {
         setContentView(R.layout.activity_main);
         bindView();
         if (savedInstanceState == null) {
-            id = getIntent().getIntExtra(EXTRA_ID, 0);
+            id = getIntent().getLongExtra(EXTRA_ID, 0);
             name = getIntent().getStringExtra(EXTRA_NAME);
             try {
                 server = Server.valueOf(getIntent().getStringExtra(EXTRA_SERVER));
@@ -68,7 +68,7 @@ public class ViewCaptainActivity extends CABaseActivity implements ICaptain {
                 server = CAApp.getServerType(getApplicationContext());
             }
         } else {
-            id = savedInstanceState.getInt(EXTRA_ID);
+            id = savedInstanceState.getLong(EXTRA_ID);
             name = savedInstanceState.getString(EXTRA_NAME);
             server = Server.valueOf(getIntent().getStringExtra(EXTRA_SERVER));
         }
@@ -161,7 +161,7 @@ public class ViewCaptainActivity extends CABaseActivity implements ICaptain {
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        outState.putInt(EXTRA_ID, id);
+        outState.putLong(EXTRA_ID, id);
         outState.putString(EXTRA_NAME, name);
         outState.putString(EXTRA_SERVER, server.toString());
     }

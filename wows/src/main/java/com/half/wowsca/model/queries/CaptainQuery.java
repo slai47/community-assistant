@@ -8,7 +8,7 @@ import com.half.wowsca.model.enums.Server;
 public class CaptainQuery {
 
     private String name;
-    private int id;
+    private long id;
     private Server server;
     private String token;
 
@@ -20,11 +20,11 @@ public class CaptainQuery {
         this.name = name;
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
