@@ -67,7 +67,7 @@ public class SplashActivity extends CABaseActivity {
         progressBar = findViewById(R.id.splash_progress);
         button = findViewById(R.id.splash_button);
         iv = (ImageView) findViewById(R.id.imageView);
-        Picasso.with(this).load(R.drawable.web_hi_res_512).into(iv);
+        Picasso.get().load(R.drawable.web_hi_res_512).into(iv);
 
         getSwipeBackLayout().setEnableGesture(false);
     }

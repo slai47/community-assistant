@@ -41,7 +41,7 @@ public class UpgradesAdapter extends RecyclerView.Adapter<UpgradesAdapter.Upgrad
         EquipmentInfo exteriorItem = items.get(position);
         holder.id = exteriorItem.getId();
         holder.tvName.setText(exteriorItem.getName());
-        Picasso.with(ctx).load(exteriorItem.getImage()).error(R.drawable.ic_missing_image).into(holder.ivIcon);
+        Picasso.get().load(exteriorItem.getImage()).error(R.drawable.ic_missing_image).into(holder.ivIcon);
     }
 
     @Override

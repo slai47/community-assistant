@@ -28,8 +28,10 @@ import com.half.wowsca.model.Statistics;
 import com.half.wowsca.model.encyclopedia.items.ShipInfo;
 import com.half.wowsca.model.enums.Server;
 import com.half.wowsca.ui.viewcaptain.ViewCaptainActivity;
+import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 import com.utilities.Utils;
+import com.utilities.logging.Dlog;
 import com.utilities.preferences.Prefs;
 
 import java.text.DecimalFormat;
@@ -272,7 +274,17 @@ public class UIUtils {
             }
         }
         if(ship != null)
-            Picasso.with(view.getContext()).load(highDefImage ? ship.getBestImage() : ship.getImage()).error(R.drawable.ic_missing_image).into(view);
+            Picasso.get().load(highDefImage ? ship.getBestImage() : ship.getImage()).error(R.drawable.ic_missing_image).into(view, new Callback() {
+                @Override
+                public void onSuccess() {
+
+                }
+
+                @Override
+                public void onError(Exception e) {
+                    Dlog.d(UIUtils.class.getName(),e.getMessage());
+                }
+            });
     }
 
     public static void createOtherStatsArea(LinearLayout area, List<String> listStrs, List<Statistics> list){

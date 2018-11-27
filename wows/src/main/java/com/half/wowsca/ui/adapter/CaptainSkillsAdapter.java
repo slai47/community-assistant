@@ -41,7 +41,7 @@ public class CaptainSkillsAdapter extends RecyclerView.Adapter<CaptainSkillsAdap
         CaptainSkill skill = skills.get(position);
         holder.id = skill.getId();
         holder.tvName.setText(skill.getName());
-        Picasso.with(ctx).load(skill.getImage()).error(R.drawable.ic_missing_image).into(holder.ivIcon);
+        Picasso.get().load(skill.getImage()).error(R.drawable.ic_missing_image).into(holder.ivIcon);
     }
 
     @Override

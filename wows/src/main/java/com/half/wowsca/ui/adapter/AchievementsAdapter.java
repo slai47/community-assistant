@@ -41,7 +41,7 @@ public class AchievementsAdapter extends ArrayAdapter<Achievement> {
         TextView tvDiff = (TextView) convertView.findViewById(R.id.list_achievement_difference);
 
         if (info != null) {
-            Picasso.with(getContext()).load(info.getImage()).error(R.drawable.ic_missing_image).into(iv);
+            Picasso.get().load(info.getImage()).error(R.drawable.ic_missing_image).into(iv);
         }
         if (achievement.getNumber() == 0) {
             iv.setImageAlpha(125);

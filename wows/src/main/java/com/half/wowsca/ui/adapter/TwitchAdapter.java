@@ -61,11 +61,11 @@ public class TwitchAdapter extends RecyclerView.Adapter<TwitchAdapter.TwitchHold
             holder.status.setText(obj.getStreamName());
 
         if(!TextUtils.isEmpty(obj.getLogo())){
-            Picasso.with(ctx).load(obj.getLogo()).resize(800, 600).centerInside().error(R.drawable.ic_missing_image).into(holder.logo);
+            Picasso.get().load(obj.getLogo()).resize(800, 600).centerInside().error(R.drawable.ic_missing_image).into(holder.logo);
         }
 
         if(!TextUtils.isEmpty(obj.getThumbnail())){
-            Picasso.with(ctx).load(obj.getThumbnail()).error(R.drawable.ic_missing_image).into(holder.background);
+            Picasso.get().load(obj.getThumbnail()).error(R.drawable.ic_missing_image).into(holder.background);
         }
         //check for youtube only
         if(obj.getName().equals("Jammin411")){

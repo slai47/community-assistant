@@ -308,7 +308,7 @@ public class ShipProfileActivity extends CABaseActivity {
                 setTitle(shipInfo.getName());
                 String nation = UIUtils.getNationText(getApplicationContext(), shipInfo.getNation());
                 tvNationTier.setText(nation + getString(R.string.encyclopedia_nation_tier) + " " + shipInfo.getTier());
-                Picasso.with(getApplicationContext()).load(shipInfo.getBestImage()).error(R.drawable.ic_missing_image).into(imageView);
+                Picasso.get().load(shipInfo.getBestImage()).error(R.drawable.ic_missing_image).into(imageView);
 
                 DecimalFormat formatter = new DecimalFormat(PATTERN);
                 if (shipInfo.isPremium()) {
@@ -935,7 +935,7 @@ public class ShipProfileActivity extends CABaseActivity {
                         TextView text = (TextView) view.findViewById(R.id.list_next_ship_text);
 
                         text.setText(info.getName());
-                        Picasso.with(getApplicationContext()).load(info.getImage()).error(R.drawable.ic_missing_image).into(image);
+                        Picasso.get().load(info.getImage()).error(R.drawable.ic_missing_image).into(image);
 
                         view.setTag(l);
                         view.setOnClickListener(new View.OnClickListener() {
@@ -966,7 +966,7 @@ public class ShipProfileActivity extends CABaseActivity {
                     if (info != null) {
                         View view = LayoutInflater.from(getApplicationContext()).inflate(R.layout.list_upgrades, llNextShips, false);
                         ImageView image = (ImageView) view.findViewById(R.id.list_upgrades_image);
-                        Picasso.with(getApplicationContext()).load(info.getImage()).error(R.drawable.ic_missing_image).into(image);
+                        Picasso.get().load(info.getImage()).error(R.drawable.ic_missing_image).into(image);
                         view.setTag(l);
                         view.setOnClickListener(new View.OnClickListener() {
                             @Override

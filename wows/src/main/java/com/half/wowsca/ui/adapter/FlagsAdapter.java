@@ -41,7 +41,7 @@ public class FlagsAdapter extends RecyclerView.Adapter<FlagsAdapter.FlagsViewHol
         ExteriorItem exteriorItem = exteriorItems.get(position);
         holder.id = exteriorItem.getId();
         holder.tvName.setText(exteriorItem.getName());
-        Picasso.with(ctx).load(exteriorItem.getImage()).error(R.drawable.ic_missing_image).into(holder.ivIcon);
+        Picasso.get().load(exteriorItem.getImage()).error(R.drawable.ic_missing_image).into(holder.ivIcon);
     }
 
     @Override

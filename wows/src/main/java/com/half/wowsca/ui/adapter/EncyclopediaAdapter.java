@@ -99,7 +99,7 @@ public class EncyclopediaAdapter extends RecyclerView.Adapter<EncyclopediaAdapte
         ShipInfo info = ships.get(position);
         holder.shipId = info.getShipId();
 
-        Picasso.with(ctx).load(info.getImage()).error(R.drawable.ic_missing_image).into(holder.img);
+        Picasso.get().load(info.getImage()).error(R.drawable.ic_missing_image).into(holder.img);
 //        String nation = info.getNation();
 //        if (nation.equals("ussr")) { // TODO translations
 //            nation = "Russia";
