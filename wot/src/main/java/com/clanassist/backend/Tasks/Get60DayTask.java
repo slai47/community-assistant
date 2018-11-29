@@ -2,7 +2,7 @@ package com.clanassist.backend.Tasks;
 
 import android.content.Context;
 import android.os.AsyncTask;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.clanassist.CAApp;
 import com.clanassist.model.enums.Server;

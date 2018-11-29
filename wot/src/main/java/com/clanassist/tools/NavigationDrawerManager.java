@@ -2,8 +2,8 @@ package com.clanassist.tools;
 
 import android.content.Context;
 import android.content.res.Configuration;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import com.clanassist.CAApp;
 import com.clanassist.SVault;

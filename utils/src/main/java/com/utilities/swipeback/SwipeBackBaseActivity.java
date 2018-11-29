@@ -4,7 +4,7 @@ package com.utilities.swipeback;
  * Created by slai4 on 4/17/2016.
  */
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 
 import com.utilities.R;

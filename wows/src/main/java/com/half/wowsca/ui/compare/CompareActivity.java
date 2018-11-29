@@ -1,8 +1,8 @@
 package com.half.wowsca.ui.compare;
 
 import android.os.Bundle;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.widget.Toolbar;
+import androidx.core.content.ContextCompat;
+import androidx.appcompat.widget.Toolbar;
 import android.text.TextUtils;
 import android.util.SparseArray;
 import android.view.LayoutInflater;

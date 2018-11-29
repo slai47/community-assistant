@@ -1,9 +1,9 @@
 package com.half.wowsca.ui.adapter.pager;
 
 import android.os.Parcelable;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentStatePagerAdapter;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentStatePagerAdapter;
 
 import com.half.wowsca.ui.viewcaptain.tabs.CaptainAchievementsFragment;
 import com.half.wowsca.ui.viewcaptain.tabs.CaptainFragment;

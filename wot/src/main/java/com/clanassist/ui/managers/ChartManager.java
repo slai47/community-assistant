@@ -2,7 +2,7 @@ package com.clanassist.ui.managers;
 
 import android.content.res.Resources;
 import android.graphics.Color;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.widget.LinearLayout;
 
 import com.clanassist.SVault;

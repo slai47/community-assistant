@@ -1,6 +1,6 @@
 package com.half.wowsca.listener;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Created by slai4 on 10/14/2015.
