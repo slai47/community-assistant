@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.GridLayout xmlns:grid="http://schemas.android.com/apk/res-auto"
+<androidx.gridlayout.widget.GridLayout xmlns:grid="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -13,7 +13,7 @@
     tools:showIn="@layout/fragment_captain_top_ship_info">
 
     <!-- top kills-->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/captain_details_top_kills_area"
         android:layout_width="0dip"
         android:layout_height="wrap_content"
@@ -62,10 +62,10 @@
                 android:layout_alignParentStart="true" />
 
         </RelativeLayout>
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <!-- top damage-->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/captain_details_top_damage_area"
         android:layout_width="0dip"
         android:layout_height="wrap_content"
@@ -114,10 +114,10 @@
                 android:layout_alignParentStart="true" />
 
         </RelativeLayout>
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <!-- top exp-->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/captain_details_top_exp_area"
         android:layout_width="0dip"
         android:layout_height="wrap_content"
@@ -167,10 +167,10 @@
 
         </RelativeLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <!-- top planes-->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/captain_details_top_planes_area"
         android:layout_width="0dip"
         android:layout_height="wrap_content"
@@ -219,10 +219,10 @@
                 android:layout_alignParentStart="true" />
 
         </RelativeLayout>
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <!-- top total kills-->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/captain_details_top_total_kill_area"
         android:layout_width="0dip"
         android:layout_height="wrap_content"
@@ -272,10 +272,10 @@
 
         </RelativeLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <!-- top total exp-->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/captain_details_top_total_exp_area"
         android:layout_width="0dip"
         android:layout_height="wrap_content"
@@ -325,10 +325,10 @@
 
         </RelativeLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <!-- top total damage-->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/captain_details_top_total_damage_area"
         android:layout_width="0dip"
         android:layout_height="wrap_content"
@@ -378,10 +378,10 @@
 
         </RelativeLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <!-- top total planes-->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/captain_details_top_total_planes_area"
         android:layout_width="0dip"
         android:layout_height="wrap_content"
@@ -431,10 +431,10 @@
 
         </RelativeLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <!-- top average damage-->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/captain_details_top_average_dmg_area"
         android:layout_width="0dip"
         android:layout_height="wrap_content"
@@ -483,10 +483,10 @@
                 android:layout_alignParentStart="true" />
 
         </RelativeLayout>
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <!-- top win rate-->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/captain_details_top_win_rate_area"
         android:layout_width="0dip"
         android:layout_height="wrap_content"
@@ -536,10 +536,10 @@
 
         </RelativeLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <!-- top survival rate-->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/captain_details_top_survival_rate_area"
         android:layout_width="0dip"
         android:layout_height="wrap_content"
@@ -589,10 +589,10 @@
 
         </RelativeLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <!-- Max Spotted-->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/captain_details_top_spotted_area"
         android:layout_width="0dip"
         android:layout_height="wrap_content"
@@ -642,11 +642,11 @@
 
         </RelativeLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
 
     <!-- Max Spotting damage-->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/captain_details_top_spotting_damage_area"
         android:layout_width="0dip"
         android:layout_height="wrap_content"
@@ -696,10 +696,10 @@
 
         </RelativeLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <!-- Max Tanking-->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/captain_details_top_tanking_area"
         android:layout_width="0dip"
         android:layout_height="wrap_content"
@@ -749,10 +749,10 @@
 
         </RelativeLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <!-- Max Torp Tanking-->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/captain_details_top_torp_tanking_area"
         android:layout_width="0dip"
         android:layout_height="wrap_content"
@@ -802,10 +802,10 @@
 
         </RelativeLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <!-- top survived Wins-->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/captain_details_top_survived_wins_area"
         android:layout_width="0dip"
         android:layout_height="wrap_content"
@@ -855,10 +855,10 @@
 
         </RelativeLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <!-- top played-->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/captain_details_top_played_area"
         android:layout_width="0dip"
         android:layout_height="wrap_content"
@@ -908,10 +908,10 @@
 
         </RelativeLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <!-- top distance-->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/captain_details_top_distance_traveled_area"
         android:layout_width="0dip"
         android:layout_height="wrap_content"
@@ -961,10 +961,10 @@
 
         </RelativeLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <!-- top distance-->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/captain_details_top_ca_rating_area"
         android:layout_width="0dip"
         android:layout_height="wrap_content"
@@ -1014,10 +1014,10 @@
 
         </RelativeLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <!-- MB acc-->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/captain_details_top_mb_acc_area"
         android:layout_width="0dip"
         android:layout_height="wrap_content"
@@ -1067,10 +1067,10 @@
 
         </RelativeLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <!-- TB acc-->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/captain_details_top_tb_acc_area"
         android:layout_width="0dip"
         android:layout_height="wrap_content"
@@ -1120,6 +1120,6 @@
 
         </RelativeLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
-</android.support.v7.widget.GridLayout>
+</androidx.gridlayout.widget.GridLayout>

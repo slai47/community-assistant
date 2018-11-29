@@ -21,7 +21,7 @@
             android:id="@+id/list_season_title"
             android:layout_marginLeft="10dp" />
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:id="@+id/list_season_info_card"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -379,7 +379,7 @@
                             android:textColor="@color/white"
                             android:layout_gravity="center" />
 
-                        <android.support.v7.widget.GridLayout
+                        <androidx.gridlayout.widget.GridLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             grid:alignmentMode="alignBounds"
@@ -476,7 +476,7 @@
                                     android:layout_marginLeft="3dp" />
                             </LinearLayout>
 
-                        </android.support.v7.widget.GridLayout>
+                        </androidx.gridlayout.widget.GridLayout>
 
 
                     </LinearLayout>
@@ -537,7 +537,7 @@
 
 
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
     </RelativeLayout>
 
 
@@ -548,7 +548,7 @@
         android:id="@+id/list_season_no_info"
         android:visibility="gone">
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:id="@+id/list_season_no_info_card"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -562,7 +562,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp" />
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
     </RelativeLayout>
 
 </LinearLayout>

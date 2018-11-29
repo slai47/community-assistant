@@ -1,6 +1,6 @@
 package com.half.wowsca.model.encyclopedia.items;
 
-import android.support.v4.util.Pair;
+import androidx.core.util.Pair;
 
 import com.half.wowsca.model.encyclopedia.CAItem;
 

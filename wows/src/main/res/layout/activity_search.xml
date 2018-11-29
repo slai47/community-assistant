@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context="com.half.wowsca.ui.SearchActivity">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/toolbar"
@@ -57,7 +57,7 @@
             </RelativeLayout>
 
         </LinearLayout>
-    </android.support.v7.widget.Toolbar>
+    </androidx.appcompat.widget.Toolbar>
 
     <RelativeLayout
         android:layout_width="match_parent"

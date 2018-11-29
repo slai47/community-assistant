@@ -1,8 +1,8 @@
 package com.half.wowsca.ui.views;
 
 import android.content.Context;
-import android.support.v7.widget.GridLayout;
-import android.support.v7.widget.PopupMenu;
+import androidx.gridlayout.widget.GridLayout;
+import androidx.appcompat.widget.PopupMenu;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;

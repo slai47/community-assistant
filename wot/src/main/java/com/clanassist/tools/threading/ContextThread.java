@@ -2,7 +2,7 @@ package com.clanassist.tools.threading;
 
 import android.app.Activity;
 import android.os.Handler;
-import android.support.v4.app.FragmentActivity;
+import androidx.fragment.app.FragmentActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.LinearLayout;

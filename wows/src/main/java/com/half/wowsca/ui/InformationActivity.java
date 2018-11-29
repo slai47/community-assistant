@@ -1,7 +1,7 @@
 package com.half.wowsca.ui;
 
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.widget.Toolbar;
 import android.widget.TextView;
 
 import com.half.wowsca.R;

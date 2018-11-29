@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:id="@+id/toolbar"
         android:minHeight="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
         android:elevation="6dp"
-        app:popupTheme="@style/WoWSCAThemeToolbarLightOverflow"></android.support.v7.widget.Toolbar>
+        app:popupTheme="@style/WoWSCAThemeToolbarLightOverflow"></androidx.appcompat.widget.Toolbar>
 
 
     <!-- donation area-->
@@ -96,12 +96,12 @@
         android:id="@+id/resources_twitch_area"
         android:visibility="gone">
 
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/resources_twitch_list">
 
-        </android.support.v7.widget.RecyclerView>
+        </androidx.recyclerview.widget.RecyclerView>
 
         <ProgressBar
             style="?android:attr/progressBarStyle"

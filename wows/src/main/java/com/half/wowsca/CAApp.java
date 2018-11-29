@@ -4,13 +4,11 @@ import android.app.Activity;
 import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.content.ContextCompat;
+import androidx.fragment.app.FragmentActivity;
+import androidx.core.content.ContextCompat;
 
-import com.half.wowsca.managers.CaptainManager;
 import com.half.wowsca.managers.CompareManager;
 import com.half.wowsca.managers.InfoManager;
-import com.half.wowsca.model.Captain;
 import com.half.wowsca.model.enums.Server;
 import com.half.wowsca.model.enums.ShortcutRoutes;
 import com.half.wowsca.ui.SettingActivity;
@@ -18,8 +16,6 @@ import com.utilities.logging.Dlog;
 import com.utilities.preferences.Prefs;
 
 import org.greenrobot.eventbus.EventBus;
-
-import java.util.Map;
 
 /**
  * Created by slai4 on 9/15/2015.

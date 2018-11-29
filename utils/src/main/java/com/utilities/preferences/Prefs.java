@@ -26,7 +26,7 @@ public class Prefs {
 	public void setBoolean(String prefsName, boolean value){
 		Editor edit = settings.edit();
 		edit.putBoolean(prefsName, value);
-		edit.commit();
+		edit.apply();
 	}
 
 	public String getString(String prefsName, String defaultValue){
@@ -36,7 +36,7 @@ public class Prefs {
 	public void setString(String prefsName, String value){
 		Editor edit = settings.edit();
 		edit.putString(prefsName, value);
-		edit.commit();
+		edit.apply();
 	}
 	
 	public int getInt(String prefsName, int defaultValue){
@@ -46,7 +46,7 @@ public class Prefs {
 	public void setInt(String prefsName, int defaultValue){
 		Editor edit = settings.edit();
 		edit.putInt(prefsName, defaultValue);
-		edit.commit();
+		edit.apply();
 	}
 
     public long getLong(String prefName, long defaultValue){
@@ -56,6 +56,6 @@ public class Prefs {
     public void setLong(String prefName, long value){
         Editor edit = settings.edit();
         edit.putLong(prefName, value);
-        edit.commit();
+        edit.apply();
     }
 }

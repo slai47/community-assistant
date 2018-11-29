@@ -6,7 +6,7 @@
     android:orientation="vertical"
     tools:context="com.half.wowsca.ui.SettingActivity">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/toolbar"
@@ -14,7 +14,7 @@
         android:elevation="6dp"
         android:minHeight="?attr/actionBarSize">
 
-    </android.support.v7.widget.Toolbar>
+    </androidx.appcompat.widget.Toolbar>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -498,7 +498,7 @@
                         android:layout_marginTop="5dp"></View>
 
 
-                    <android.support.v7.widget.GridLayout
+                    <androidx.gridlayout.widget.GridLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         grid:alignmentMode="alignBounds"
@@ -663,7 +663,7 @@
                                 android:padding="10dp" />
                         </LinearLayout>
 
-                    </android.support.v7.widget.GridLayout>
+                    </androidx.gridlayout.widget.GridLayout>
 
                     <!-- glossary-->
                     <TextView

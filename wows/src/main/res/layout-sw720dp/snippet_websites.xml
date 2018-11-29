@@ -23,7 +23,7 @@
             android:orientation="vertical"
             android:layout_weight="0.48"
             >
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/resources_website_ship_comrade"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -36,9 +36,9 @@
                     android:id="@+id/resources_website_ship_comrade_icon"
                     android:scaleType="fitCenter"
                     android:layout_margin="10dp" />
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/resources_website_wowsreplays"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -52,7 +52,7 @@
                     android:id="@+id/resources_website_wowsreplays_icon"
                     android:scaleType="fitCenter"
                     android:layout_margin="10dp" />
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -63,7 +63,7 @@
                 android:paddingBottom="10dp"
                 >
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:layout_width="0dip"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.49"
@@ -76,14 +76,14 @@
                         android:id="@+id/resources_website_website_icon"
                         android:scaleType="fitCenter"
                         android:padding="5dp" />
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
                 <View
                     android:layout_width="0dip"
                     android:layout_height="1dp"
                     android:layout_weight="0.02" />
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:layout_width="0dip"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.49"
@@ -96,11 +96,11 @@
                         android:id="@+id/resources_website_reddit_icon"
                         android:scaleType="fitCenter"
                         android:padding="5dp" />
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
             </LinearLayout>
         </LinearLayout>
 
-        <android.support.v4.widget.Space
+        <androidx.legacy.widget.Space
             android:layout_width="0dip"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -113,7 +113,7 @@
             android:orientation="vertical"
             android:layout_weight="0.48"
             >
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/resources_website_ap"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -127,9 +127,9 @@
                     android:id="@+id/resources_website_ap_icon"
                     android:scaleType="fitCenter"
                     android:layout_margin="10dp" />
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/resources_website_drmb"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -144,7 +144,7 @@
                     android:id="@+id/resources_website_drmb_icon"
                     android:scaleType="fitCenter"
                     android:layout_margin="10dp" />
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

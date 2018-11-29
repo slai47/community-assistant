@@ -2,11 +2,9 @@ package com.half.wowsca.managers;
 
 import android.content.Context;
 import android.content.res.Configuration;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.util.Log;
-import android.widget.ImageView;
+import androidx.core.content.ContextCompat;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import com.half.wowsca.CAApp;
 import com.half.wowsca.R;
@@ -22,7 +20,6 @@ import com.mikepenz.materialdrawer.model.DividerDrawerItem;
 import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.SecondaryDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
-import com.utilities.logging.Dlog;
 
 import java.util.ArrayList;
 import java.util.Collection;
