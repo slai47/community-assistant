@@ -7,9 +7,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.widget.Toolbar;
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
 
 import android.text.Editable;
 import android.text.TextUtils;
@@ -32,18 +29,13 @@ import android.widget.Toast;
 import com.half.wowsca.CAApp;
 import com.half.wowsca.R;
 import com.half.wowsca.alerts.Alert;
-import com.half.wowsca.backend.SearchTask;
-import com.half.wowsca.backend.services.CaptainService;
 import com.half.wowsca.interfaces.SearchInterface;
 import com.half.wowsca.managers.CaptainManager;
 import com.half.wowsca.managers.CompareManager;
 import com.half.wowsca.model.Captain;
 import com.half.wowsca.model.enums.Server;
 import com.half.wowsca.model.events.AddRemoveEvent;
-import com.half.wowsca.model.queries.SearchQuery;
 import com.half.wowsca.model.result.SearchResults;
-import com.half.wowsca.model.retrofit.ApiResponse;
-import com.half.wowsca.model.retrofit.SearchCaptain;
 import com.half.wowsca.ui.adapter.CompareAdapter;
 import com.half.wowsca.ui.adapter.SearchAdapter;
 import com.half.wowsca.ui.compare.CompareActivity;
@@ -81,7 +73,7 @@ public class SearchActivity extends CABaseActivity implements SearchInterface {
 
     private String savedSearch;
 
-    private SearchController controller;
+    private SearchPresenter controller;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -110,7 +102,7 @@ public class SearchActivity extends CABaseActivity implements SearchInterface {
         tvCompare = (TextView) findViewById(R.id.search_compare_text);
         getSwipeBackLayout().setEdgeTrackingEnabled(SwipeBackLayout.EDGE_LEFT);
 
-        controller = new SearchController(getApplicationContext());
+        controller = new SearchPresenter(getApplicationContext());
         controller.view = this;
     }
 
@@ -448,7 +440,6 @@ public class SearchActivity extends CABaseActivity implements SearchInterface {
         }
     }
 
-    @Subscribe
     public void onReceive(final SearchResults result) {
         listView.post(new Runnable() {
             @Override
