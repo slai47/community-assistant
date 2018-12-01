@@ -102,8 +102,7 @@ public class SearchActivity extends CABaseActivity implements SearchInterface {
         tvCompare = (TextView) findViewById(R.id.search_compare_text);
         getSwipeBackLayout().setEdgeTrackingEnabled(SwipeBackLayout.EDGE_LEFT);
 
-        controller = new SearchPresenter(getApplicationContext());
-        controller.view = this;
+        controller = new SearchPresenter(getApplicationContext(), this);
     }
 
     @Override

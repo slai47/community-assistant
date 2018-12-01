@@ -14,9 +14,7 @@ import retrofit2.Callback
 import retrofit2.Response
 import java.util.ArrayList
 
-class SearchPresenter(val context : Context) {
-
-    private lateinit var view : SearchInterface
+class SearchPresenter(val context : Context, val view : SearchInterface) {
 
     private lateinit var responseCall : Call<ApiResponse<List<SearchCaptain>>>
 
