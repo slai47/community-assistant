@@ -126,6 +126,12 @@ public class SearchActivity extends CABaseActivity implements SearchInterface {
         CAApp.getEventBus().unregister(this);
     }
 
+    @Override
+    protected void onStop() {
+        super.onStop();
+        controller.dispose();
+    }
+
     private void initView() {
         initCompare();
 

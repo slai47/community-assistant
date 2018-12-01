@@ -9,12 +9,15 @@ import com.half.wowsca.model.ranked.RankedInfo
 import com.half.wowsca.model.retrofit.ApiResponse
 import com.half.wowsca.model.retrofit.SearchCaptain
 import com.utilities.search.Search
+import io.reactivex.Observable
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.Retrofit
+import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.moshi.MoshiConverterFactory
 import retrofit2.http.Query
+import java.util.*
 
 
 interface CaptainService {
@@ -24,23 +27,23 @@ interface CaptainService {
     @GET("account/list/")
     fun getCaptains(@Query("search") searchKey : String, @Query("application_id") appID : String) : Call<ApiResponse<List<SearchCaptain>>>
 
-//    @GET("account/info/?application_id={appId}&account_id={id}")
-//    fun getCaptain(@Path("id") id : Long, @Path("appId") appId : String) : Call<ApiResponse<Map<String,Captain>>>
+//    @GET("account/info/")
+//    fun getCaptain(@Query("account_id") id : Long, @Query("application_id") appId : String) : Call<ApiResponse<Map<String,Captain>>>
 //
-//    @GET("ships/stats/?application_id={appId}&account_id={id}&extra=club,pve,pvp_div2,pvp_div3,pvp_solo")
-//    fun getCaptainShips(@Path("id") id : Long, @Path("appId") appId : String) : Call<ApiResponse<List<Ship>>>
+//    @GET("ships/stats/?extra=club,pve,pvp_div2,pvp_div3,pvp_solo")
+//    fun getCaptainShips(@Query("account_id") id : Long, @Query("application_id") appId : String) : Call<ApiResponse<List<Ship>>>
 //
-//    @GET("account/achievements/?application_id={appId}&account_id={id}")
-//    fun getCaptainAchievements(@Path("id") id : Long, @Path("appId") appId : String) : Call<List<Achievement>>
+//    @GET("account/achievements/")
+//    fun getCaptainAchievements(@Query("account_id") id : Long, @Query("application_id") Query : String) : Call<List<Achievement>>
 //
-//    @GET("seasons/accountinfo/?application_id={appId}&account_id={id}")
-//    fun getCaptainRankedInfo(@Path("id") id : Long, @Path("appId") appId : String) : Call<List<RankedInfo>>
+//    @GET("seasons/accountinfo/")
+//    fun getCaptainRankedInfo(@Query("account_id") id : Long, @Query("application_id") appId : String) : Call<List<RankedInfo>>
 //
-//    @GET("seasons/shipstats/?application_id={appId}&account_id={id}")
-//    fun getCaptainRankedShipStats(@Path("id") id : Long, @Path("appId") appId : String) : Call<List<Ship>>
+//    @GET("seasons/shipstats/")
+//    fun getCaptainRankedShipStats(@Query("account_id") id : Long, @Query("application_id") appId : String) : Call<List<Ship>>
 //
-//    @GET("clans/accountinfo/?application_id={appId}&account_id={id}")
-//    fun getCaptainClanInfo(@Path("id") id : Long, @Path("appId") appId : String) : Call<Clan>
+//    @GET("clans/accountinfo/")
+//    fun getCaptainClanInfo(@Query("account_id") id : Long, @Query("application_id") appId : String) : Call<Clan>
 
     companion object {
 
@@ -48,6 +51,7 @@ interface CaptainService {
             val retrofit = Retrofit.Builder()
                     .baseUrl("$WOWS_API_SITE_ADDRESS$suffix/wows/")
                     .addConverterFactory(MoshiConverterFactory.create())
+                    .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                     .build()
             return retrofit.create(CaptainService::class.java!!)
         }

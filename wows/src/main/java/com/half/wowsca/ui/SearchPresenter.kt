@@ -16,34 +16,42 @@ import java.util.ArrayList
 
 class SearchPresenter(val context : Context) {
 
-    lateinit var view : SearchInterface
+    private lateinit var view : SearchInterface
+
+    private lateinit var responseCall : Call<ApiResponse<List<SearchCaptain>>>
 
     fun search(search : String) {
         val s = CAApp.getServerType(context)
         val service = CaptainService.build(s.suffix)
 
-        val responseCall = service.getCaptains(search, s.appId)
+        responseCall = service.getCaptains(search, s.appId)
 
         responseCall.enqueue(object : Callback<ApiResponse<List<SearchCaptain>>> {
             override fun onResponse(call: Call<ApiResponse<List<SearchCaptain>>>, response: Response<ApiResponse<List<SearchCaptain>>>) {
-                val apiResponse = response.body()
-                val results = SearchResults()
-                if (apiResponse != null && apiResponse.data != null) {
-                    val data = apiResponse.data
-                    val captains = ArrayList<Captain>()
-                    for (sc in data) {
-                        val c = sc.toCaptain()
-                        c.server = CAApp.getServerType(context)
-                        captains.add(c)
+                if(!call.isCanceled) {
+                    val apiResponse = response.body()
+                    val results = SearchResults()
+                    if (apiResponse != null && apiResponse.data != null) {
+                        val data = apiResponse.data
+                        val captains = ArrayList<Captain>()
+                        for (sc in data) {
+                            val c = sc.toCaptain()
+                            c.server = CAApp.getServerType(context)
+                            captains.add(c)
+                        }
+                        results.captains = captains
                     }
-                    results.captains = captains
+                    view.onReceive(results)
                 }
-                view.onReceive(results)
             }
 
             override fun onFailure(call: Call<ApiResponse<List<SearchCaptain>>>, t: Throwable) {
                 EventBus.getDefault().post(SearchResults())
             }
         })
+    }
+
+    fun dispose() {
+        responseCall?.cancel()
     }
 }
