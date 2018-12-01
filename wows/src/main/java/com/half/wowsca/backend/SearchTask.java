@@ -5,9 +5,12 @@ import android.text.TextUtils;
 
 
 import com.half.wowsca.CAApp;
+import com.half.wowsca.backend.services.CaptainService;
 import com.half.wowsca.model.Captain;
 import com.half.wowsca.model.queries.SearchQuery;
 import com.half.wowsca.model.result.SearchResults;
+import com.half.wowsca.model.retrofit.ApiResponse;
+import com.half.wowsca.model.retrofit.SearchCaptain;
 import com.utilities.Utils;
 import com.utilities.logging.Dlog;
 
@@ -16,6 +19,11 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.net.URL;
+import java.util.List;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 /**
  * Created by slai4 on 9/19/2015.
@@ -25,6 +33,7 @@ public class SearchTask extends AsyncTask<SearchQuery, Void, SearchResults> {
     @Override
     protected SearchResults doInBackground(SearchQuery... params) {
         SearchQuery query = params[0];
+
         SearchResults results = new SearchResults();
         String url = CAApp.WOWS_API_SITE_ADDRESS + query.getServer().getSuffix() + "/wows/account/list/?application_id=" + query.getServer().getAppId() + "&search=" + query.getSearch();
         Dlog.wtf("Search URL", url);

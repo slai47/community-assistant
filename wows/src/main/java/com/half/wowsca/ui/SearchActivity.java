@@ -7,6 +7,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.widget.Toolbar;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+
 import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
@@ -29,6 +33,8 @@ import com.half.wowsca.CAApp;
 import com.half.wowsca.R;
 import com.half.wowsca.alerts.Alert;
 import com.half.wowsca.backend.SearchTask;
+import com.half.wowsca.backend.services.CaptainService;
+import com.half.wowsca.interfaces.SearchInterface;
 import com.half.wowsca.managers.CaptainManager;
 import com.half.wowsca.managers.CompareManager;
 import com.half.wowsca.model.Captain;
@@ -36,6 +42,8 @@ import com.half.wowsca.model.enums.Server;
 import com.half.wowsca.model.events.AddRemoveEvent;
 import com.half.wowsca.model.queries.SearchQuery;
 import com.half.wowsca.model.result.SearchResults;
+import com.half.wowsca.model.retrofit.ApiResponse;
+import com.half.wowsca.model.retrofit.SearchCaptain;
 import com.half.wowsca.ui.adapter.CompareAdapter;
 import com.half.wowsca.ui.adapter.SearchAdapter;
 import com.half.wowsca.ui.compare.CompareActivity;
@@ -49,7 +57,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class SearchActivity extends CABaseActivity {
+public class SearchActivity extends CABaseActivity implements SearchInterface {
 
     private Toolbar mToolbar;
 
@@ -72,6 +80,8 @@ public class SearchActivity extends CABaseActivity {
     private CompareAdapter compareAdapter;
 
     private String savedSearch;
+
+    private SearchController controller;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -99,6 +109,9 @@ public class SearchActivity extends CABaseActivity {
         bCompare = (Button) findViewById(R.id.search_compare_button);
         tvCompare = (TextView) findViewById(R.id.search_compare_text);
         getSwipeBackLayout().setEdgeTrackingEnabled(SwipeBackLayout.EDGE_LEFT);
+
+        controller = new SearchController(getApplicationContext());
+        controller.view = this;
     }
 
     @Override
@@ -426,11 +439,7 @@ public class SearchActivity extends CABaseActivity {
                 progress.setVisibility(View.VISIBLE);
                 listView.setAdapter(null);
                 tvError.setVisibility(View.GONE);
-                SearchQuery query = new SearchQuery();
-                query.setServer(CAApp.getServerType(getApplicationContext()));
-                query.setSearch(searchTerm);
-                SearchTask task = new SearchTask();
-                task.execute(query);
+                controller.search(searchTerm);
             } else {
                 Toast.makeText(getApplicationContext(), R.string.no_text_error, Toast.LENGTH_SHORT).show();
             }
@@ -440,7 +449,7 @@ public class SearchActivity extends CABaseActivity {
     }
 
     @Subscribe
-    public void onSearchRecieved(final SearchResults result) {
+    public void onReceive(final SearchResults result) {
         listView.post(new Runnable() {
             @Override
             public void run() {
@@ -459,7 +468,6 @@ public class SearchActivity extends CABaseActivity {
                         tvError.setVisibility(View.VISIBLE);
                     }
                 } else {
-                    tvError.setVisibility(View.VISIBLE);
                 }
             }
         });
