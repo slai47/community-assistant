@@ -16,6 +16,7 @@ import android.webkit.WebViewClient;
 import com.half.wowsca.CAApp;
 import com.half.wowsca.R;
 import com.half.wowsca.model.AuthInfo;
+import com.half.wowsca.model.enums.Server;
 import com.utilities.logging.Dlog;
 import com.utilities.preferences.Prefs;
 import com.utilities.views.SwipeBackLayout;
@@ -58,10 +59,12 @@ public class AuthenticationActivity extends CABaseActivity {
         webview.getSettings().setJavaScriptEnabled(true);
         webview.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
 
+
+        Server server = CAApp.getServerType(getApplicationContext());
         String url = webview.getUrl();
         Dlog.d("AUTH", "url = " + url);
         if(TextUtils.isEmpty(url)){
-           webview.loadUrl("https://api.worldoftanks.com/wot/auth/login/?application_id=" + CAApp.getServerType(getApplicationContext()).getAppId() + "&redirect_uri=https%3A%2F%2Fna.wargaming.net%2Fdevelopers%2Fapi_explorer%2Fwot%2Fauth%2Flogin%2Fcomplete%2F");
+           webview.loadUrl("https://api.worldoftanks" + server.getSuffix() + "/wot/auth/login/?application_id=" + server.getAppId() + "&redirect_uri=https%3A%2F%2Fna.wargaming.net%2Fdevelopers%2Fapi_explorer%2Fwot%2Fauth%2Flogin%2Fcomplete%2F");
         }
     }
 
